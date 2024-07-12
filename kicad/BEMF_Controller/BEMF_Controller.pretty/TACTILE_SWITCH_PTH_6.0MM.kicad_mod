@@ -1,0 +1,308 @@
+(footprint "TACTILE_SWITCH_PTH_6.0MM"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Momentary Switch (Pushbutton) - SPST - PTH, 6.0mm Square\n\nNormally-open (NO) SPST momentary switches (buttons, pushbuttons).\n\nhttps://www.omron.com/ecb/products/pdf/en-b3f.pdf Datasheet (B3F-1000)")
+	(property "Reference" "REF**"
+		(at 0 -3.302 0)
+		(layer "F.SilkS")
+		(uuid "a0e8e05e-1cea-4813-8f25-e351d9c6a569")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "TACTILE_SWITCH_PTH_6.0MM"
+		(at 0 3.175 0)
+		(layer "F.Fab")
+		(uuid "0713a938-b862-4d82-b34d-179b71fb72a1")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify top)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e3ba0f3-1da8-44d6-80c2-60bfaabbebca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f093eaf-ebfd-4526-978d-3a3dc2985b13")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "858d616e-d578-4b32-b78f-3a4d1382a584")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -3.048 -1.028)
+		(end -3.048 1.016)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1fb934d-8d50-4b4f-af26-1451f03cd354")
+	)
+	(fp_line
+		(start -2.159 3.048)
+		(end 2.159 3.048)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59bf48e6-002f-4c54-8d16-ad3f73d99b12")
+	)
+	(fp_line
+		(start 2.159 -3.048)
+		(end -2.159 -3.048)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04c90cc7-dc2d-442e-89ed-abc342478937")
+	)
+	(fp_line
+		(start 3.048 -0.998)
+		(end 3.048 1.016)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d84a3c87-de01-45ec-88e0-77748c9789cc")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.778 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a6f58b30-e0ba-4d00-8a6c-f73c0193c794")
+	)
+	(fp_line
+		(start -3.048 -2.54)
+		(end -3.048 -1.016)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e6949fc-0779-481e-97a3-03cc478f720c")
+	)
+	(fp_line
+		(start -3.048 2.54)
+		(end -3.048 1.016)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d7622ba1-43b4-474f-aebf-cd263938ecd2")
+	)
+	(fp_line
+		(start -2.54 -3.048)
+		(end -3.048 -2.54)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "abbf2997-05bf-42c2-8930-976da8f37895")
+	)
+	(fp_line
+		(start -2.54 -3.048)
+		(end -2.159 -3.048)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8ddc63e6-0426-4f9f-952c-f320536aa94a")
+	)
+	(fp_line
+		(start -2.54 -1.27)
+		(end -2.54 -0.508)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "52977fba-8076-4de4-866a-8c665453f454")
+	)
+	(fp_line
+		(start -2.54 -0.508)
+		(end -2.159 0.381)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "461f970f-13b9-409a-bc0f-dfffcd491464")
+	)
+	(fp_line
+		(start -2.54 0.508)
+		(end -2.54 1.27)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8a3c8974-714e-4a26-864c-1c16e48ad225")
+	)
+	(fp_line
+		(start -2.54 3.048)
+		(end -3.048 2.54)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a59203a3-e2a6-438e-a203-2c233051a66a")
+	)
+	(fp_line
+		(start -2.54 3.048)
+		(end -2.159 3.048)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f3996470-656c-488f-b0dc-f975a6e52deb")
+	)
+	(fp_line
+		(start 2.54 -3.048)
+		(end 2.159 -3.048)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e935844-9ba3-494f-b282-1f5eb65d179f")
+	)
+	(fp_line
+		(start 2.54 3.048)
+		(end 2.159 3.048)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "908d0323-7948-4b74-865e-deba5a083ad7")
+	)
+	(fp_line
+		(start 2.54 3.048)
+		(end 3.048 2.54)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe8cc3c0-1324-4beb-b8e7-37c74a86ebff")
+	)
+	(fp_line
+		(start 3.048 -2.54)
+		(end 2.54 -3.048)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d39f1e85-d565-4c53-a626-8b1f7af2f181")
+	)
+	(fp_line
+		(start 3.048 -1.016)
+		(end 3.048 -2.54)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "622d2e2b-3d33-4140-b6ef-75ff8d428bfc")
+	)
+	(fp_line
+		(start 3.048 2.54)
+		(end 3.048 1.016)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1e04584e-7a3b-4e8f-8516-d8f3f43daeea")
+	)
+	(pad "1" thru_hole circle
+		(at -3.2512 -2.2606)
+		(size 1.8796 1.8796)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0635)
+		(thermal_bridge_angle 0)
+		(uuid "259677ce-49ce-4bd0-aac1-0edadaa0ede1")
+	)
+	(pad "2" thru_hole circle
+		(at 3.2512 -2.2606)
+		(size 1.8796 1.8796)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0635)
+		(thermal_bridge_angle 0)
+		(uuid "6021e297-c43c-4a36-b190-4aa26d1d16af")
+	)
+	(pad "3" thru_hole circle
+		(at -3.2512 2.2606)
+		(size 1.8796 1.8796)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0635)
+		(thermal_bridge_angle 0)
+		(uuid "7936ff78-aa7e-4727-8b3e-f4c49b7741c3")
+	)
+	(pad "4" thru_hole circle
+		(at 3.2512 2.2606)
+		(size 1.8796 1.8796)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0635)
+		(thermal_bridge_angle 0)
+		(uuid "b746be8f-e1b4-4915-9a43-b03e70f57ec3")
+	)
+)

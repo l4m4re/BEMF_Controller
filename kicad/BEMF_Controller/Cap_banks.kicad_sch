@@ -1,0 +1,7965 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1de7c6a7-a5ed-4f87-a3ca-5028f94302b7")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Jumper:Jumper_2_Small_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Small_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, small symbol, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_0_0"
+				(circle
+					(center -1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_0_1"
+				(arc
+					(start 0.762 1.0196)
+					(mid 0 1.2729)
+					(end -0.762 1.0196)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "main-eagle-import:1.0UF-1206-50V-10%"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 2.921 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -2.159 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "main:1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1µF ceramic capacitors\n\nA capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1.0UF-1206-50V-10%_1_0"
+				(rectangle
+					(start -2.032 0.508)
+					(end 2.032 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 1.524)
+					(end 2.032 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "main-eagle-import:1000UF-RADIAL-5MM-25V-20%"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.016 0.635 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.016 -4.191 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "main:CPOL-RADIAL-5MM-10MM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1,000µF/1mF ceramic capacitors\n\nA capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.\n\nCAP-08070"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1000UF-RADIAL-5MM-25V-20%_1_0"
+				(rectangle
+					(start -2.253 0.668)
+					(end -1.364 0.795)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.872 0.287)
+					(end -1.745 1.176)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0 -1.0161)
+					(mid -1.3021 -1.2303)
+					(end -2.4669 -1.8504)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.4892 -1.8541)
+					(mid 1.3158 -1.2194)
+					(end 0 -1)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 21.59 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01093123-8fab-4ac0-b339-2d6237cc909f")
+	)
+	(junction
+		(at 44.45 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09371474-c07c-46ff-8b91-446e3184fc80")
+	)
+	(junction
+		(at 67.31 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cf8bd21-4b6e-4078-82d9-7cb01a76fccc")
+	)
+	(junction
+		(at 219.71 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f05ddc8-e31e-45db-8731-4b9149211ebf")
+	)
+	(junction
+		(at 132.08 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fddf9e8-7458-47bb-b1cf-ffa137620de0")
+	)
+	(junction
+		(at 21.59 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1173b7f7-6906-4fa2-8dcd-f96ec5b71d58")
+	)
+	(junction
+		(at 196.85 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12438a0b-a06e-4629-bc40-c8abc084b978")
+	)
+	(junction
+		(at 44.45 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14a5ac20-267c-4933-bfcb-30bf6998548a")
+	)
+	(junction
+		(at 196.85 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e26154b-a66c-43e3-bcce-ee4cd691b09c")
+	)
+	(junction
+		(at 120.65 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e866fed-7e63-436a-b21d-30dde198fa45")
+	)
+	(junction
+		(at 44.45 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fff6533-50ce-48e1-9066-a83db49204a1")
+	)
+	(junction
+		(at 124.46 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24c4cb09-d6f5-4b11-ac7d-27fc8767f47b")
+	)
+	(junction
+		(at 44.45 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27f3ef5a-632a-42c0-8ba2-59c26a90caae")
+	)
+	(junction
+		(at 44.45 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28a46b95-b630-4f6b-85f3-0d3f7995c01b")
+	)
+	(junction
+		(at 120.65 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a397572-acd2-45b5-9d8b-3772819a9af9")
+	)
+	(junction
+		(at 196.85 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d4aba2a-ee98-4ab2-b28f-1607230c4bdc")
+	)
+	(junction
+		(at 143.51 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36d3eb1a-3df9-4254-8932-5f7ee7eb26d0")
+	)
+	(junction
+		(at 120.65 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e31ba27-e8d2-42cc-a89e-a24eff7ffabb")
+	)
+	(junction
+		(at 196.85 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f0f3f21-443f-42dd-83cc-061147e80f55")
+	)
+	(junction
+		(at 219.71 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "415dd275-5559-426c-8c09-8a781fe07d0c")
+	)
+	(junction
+		(at 48.26 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c84f0fb-403d-49c2-916a-6b0bd6b5b66a")
+	)
+	(junction
+		(at 120.65 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "513158c3-1f76-4fa5-87b6-6b2e52e607f5")
+	)
+	(junction
+		(at 196.85 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "545abc9e-b972-44e8-af4b-c70332e4129e")
+	)
+	(junction
+		(at 120.65 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "556487d2-8251-48df-b9b1-89012d534821")
+	)
+	(junction
+		(at 196.85 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5654e0f6-2c64-4d66-a639-00c25d1f91d3")
+	)
+	(junction
+		(at 196.85 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56a8abea-3a00-4b3d-a016-0012faeede65")
+	)
+	(junction
+		(at 191.77 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57a5313b-d28f-407f-9052-4805f88ce005")
+	)
+	(junction
+		(at 55.88 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "594ab374-69c9-4ad0-b080-fd57fb200f6a")
+	)
+	(junction
+		(at 120.65 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5987ba9c-bf64-4347-8d63-a69aae59377f")
+	)
+	(junction
+		(at 44.45 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a95f9e4-90e7-4ba0-bbfd-0cfaa70f2116")
+	)
+	(junction
+		(at 130.81 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b2a73af-2e32-435e-9784-5913bd9c7631")
+	)
+	(junction
+		(at 54.61 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b15e6c6-037c-41ab-b4a3-f97cb7171f78")
+	)
+	(junction
+		(at 196.85 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "792dfe51-d829-4936-bd86-1da6a6b8fe78")
+	)
+	(junction
+		(at 67.31 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e691e28-f11a-46e0-945b-410715b16a17")
+	)
+	(junction
+		(at 44.45 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "816bf018-8cd1-4d69-b9ce-a4c7b9399be2")
+	)
+	(junction
+		(at 120.65 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a407509-d9c6-4d31-b0c8-09d608cadbd2")
+	)
+	(junction
+		(at 143.51 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b68a24b-6dff-44fc-8faa-ce22a5775c80")
+	)
+	(junction
+		(at 200.66 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f87c1a6-ee55-428e-bf90-d348b0759342")
+	)
+	(junction
+		(at 207.01 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fea1672-df61-4ef1-8d83-bdae3ffb584b")
+	)
+	(junction
+		(at 196.85 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97131730-9870-42ca-8abf-3d224b436dfa")
+	)
+	(junction
+		(at 124.46 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a43e4fe-7c09-4411-8b5b-cfc5d58a7b13")
+	)
+	(junction
+		(at 143.51 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dd18a21-091e-4570-8dba-2cf7af68f687")
+	)
+	(junction
+		(at 39.37 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a09540fa-154b-4481-af76-df3f038b99fe")
+	)
+	(junction
+		(at 196.85 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4f49195-2040-4b43-a250-a3ea889e0447")
+	)
+	(junction
+		(at 44.45 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab55593e-8765-4a1a-9d8b-f59d52a99cbf")
+	)
+	(junction
+		(at 125.73 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae357ea8-fbc3-4fff-b7ff-bc512442f379")
+	)
+	(junction
+		(at 173.99 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b34a8470-da4d-465a-aaab-5fce94d0cdcd")
+	)
+	(junction
+		(at 97.79 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b37e4fcc-a960-416d-b3ed-109628ec4bb8")
+	)
+	(junction
+		(at 120.65 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4012c7a-9cc6-4f86-ba02-bc165805ef22")
+	)
+	(junction
+		(at 44.45 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b70e67fa-9884-4761-b819-3654e84edbb6")
+	)
+	(junction
+		(at 115.57 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b74d7102-649b-4e1f-a7a6-8fde2622d4ca")
+	)
+	(junction
+		(at 219.71 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c152d2b1-5d70-49ee-bcbc-c4891f010fca")
+	)
+	(junction
+		(at 173.99 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c30887c7-5951-4909-88a7-76f6325a388c")
+	)
+	(junction
+		(at 173.99 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c48cf946-5860-417f-98ef-ea1b2baed4ff")
+	)
+	(junction
+		(at 200.66 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca1e32be-eac0-434e-93e2-4c1151db4b46")
+	)
+	(junction
+		(at 44.45 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4dd9723-98d5-4ec0-ae96-1808f337acbf")
+	)
+	(junction
+		(at 44.45 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4e60c59-bc0d-455b-8dc6-d2b6524a35ac")
+	)
+	(junction
+		(at 21.59 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d72b9a44-e0f0-4a1a-ac32-be151bb0fe0f")
+	)
+	(junction
+		(at 120.65 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d814a119-7a8a-4eb9-b4dc-06085123d63d")
+	)
+	(junction
+		(at 120.65 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da39e523-ba04-4f8c-90eb-22bbeade0d7e")
+	)
+	(junction
+		(at 97.79 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "daca2454-0fd1-4352-8d5a-ad6b0068c631")
+	)
+	(junction
+		(at 196.85 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddd45a8f-9088-4ca7-b21a-c5709c213b3c")
+	)
+	(junction
+		(at 67.31 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de5845d0-b2e3-433e-93ad-ac1038a22990")
+	)
+	(junction
+		(at 120.65 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0c10291-247e-4f1e-968e-1ab4996103c8")
+	)
+	(junction
+		(at 201.93 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e96dc64a-d8cc-4739-9b2b-e6191a22ed4e")
+	)
+	(junction
+		(at 49.53 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea1eeb2d-d3d8-4f8e-b36b-91fc16cd6a16")
+	)
+	(junction
+		(at 48.26 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3f9deed-3aa9-49c8-8df2-d77f9ea38518")
+	)
+	(junction
+		(at 97.79 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6e10cbb-0064-42ce-920f-25430cb7defb")
+	)
+	(junction
+		(at 208.28 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7656896-bdd9-4696-b570-181105d19d75")
+	)
+	(wire
+		(pts
+			(xy 133.35 137.16) (xy 146.05 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007c0989-5771-43cb-9b86-95ba8898dadb")
+	)
+	(wire
+		(pts
+			(xy 143.51 147.32) (xy 143.51 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "030a9c71-ffa5-406f-95dd-7a39f77981e2")
+	)
+	(wire
+		(pts
+			(xy 67.31 115.57) (xy 67.31 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c0beec-1090-4e16-94ae-cf16f3115f29")
+	)
+	(wire
+		(pts
+			(xy 130.81 147.32) (xy 130.81 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0557ee2c-c06d-4bf2-8486-00d67afd8508")
+	)
+	(wire
+		(pts
+			(xy 120.65 115.57) (xy 124.46 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0583ee48-c2c0-4b41-906c-15788f4f507e")
+	)
+	(wire
+		(pts
+			(xy 40.64 41.91) (xy 40.64 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0739d952-9d56-420e-be6a-bc6e474876e3")
+	)
+	(wire
+		(pts
+			(xy 120.65 36.83) (xy 120.65 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07509186-72f4-4e61-ac52-ee0b8b174491")
+	)
+	(wire
+		(pts
+			(xy 143.51 36.83) (xy 132.08 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07aa0057-9efd-4613-a45c-c0ac7c7bf4db")
+	)
+	(wire
+		(pts
+			(xy 208.28 31.75) (xy 208.28 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07ae570e-783e-4c9b-9811-3ac44b5e6b62")
+	)
+	(wire
+		(pts
+			(xy 196.85 137.16) (xy 204.47 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0849f240-18eb-4764-aa6a-76d75cef0026")
+	)
+	(wire
+		(pts
+			(xy 201.93 77.47) (xy 201.93 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e6dae0-5060-463f-9197-83812178c464")
+	)
+	(wire
+		(pts
+			(xy 21.59 99.06) (xy 21.59 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a50086b-65fb-400c-932c-087d13ff6019")
+	)
+	(wire
+		(pts
+			(xy 39.37 168.91) (xy 39.37 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ac9d664-2079-4b98-b368-aa7aed6846b3")
+	)
+	(wire
+		(pts
+			(xy 49.53 91.44) (xy 44.45 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b4f391b-cacd-4216-9001-ad568e8cbe80")
+	)
+	(wire
+		(pts
+			(xy 21.59 36.83) (xy 24.13 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1138951d-946c-47b2-b26c-3866ecd96661")
+	)
+	(wire
+		(pts
+			(xy 120.65 60.96) (xy 120.65 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1177832a-1517-44a2-8d49-1881cc3c073b")
+	)
+	(wire
+		(pts
+			(xy 39.37 77.47) (xy 44.45 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1343b103-f5c0-41f2-b0c6-985577810a00")
+	)
+	(wire
+		(pts
+			(xy 139.7 147.32) (xy 143.51 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "135787fe-f766-422a-becf-f824acc7b81d")
+	)
+	(wire
+		(pts
+			(xy 39.37 115.57) (xy 39.37 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1580e28f-db9e-4fb6-bc9a-517c20d385f8")
+	)
+	(wire
+		(pts
+			(xy 191.77 91.44) (xy 196.85 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c0d889-b9d1-4700-9c73-ae7b5a99f132")
+	)
+	(wire
+		(pts
+			(xy 57.15 137.16) (xy 69.85 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15df5d70-f177-4983-adf0-609b7b738757")
+	)
+	(wire
+		(pts
+			(xy 173.99 26.67) (xy 173.99 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "165558f8-14aa-4d7e-a113-7ec8c7fd21e9")
+	)
+	(wire
+		(pts
+			(xy 143.51 77.47) (xy 143.51 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "183c37c4-cd0a-4af8-a026-4e7a38ffecdc")
+	)
+	(wire
+		(pts
+			(xy 115.57 168.91) (xy 115.57 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19bfc772-2f3b-4544-b865-72169895b5e1")
+	)
+	(wire
+		(pts
+			(xy 124.46 175.26) (xy 115.57 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ce9946-bf56-4c2c-93ba-417838d0435d")
+	)
+	(wire
+		(pts
+			(xy 196.85 127) (xy 200.66 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a008936-29d4-4321-a229-12209c03c01d")
+	)
+	(wire
+		(pts
+			(xy 39.37 77.47) (xy 39.37 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b7f586e-a9e6-464b-a9b4-0567f0742898")
+	)
+	(wire
+		(pts
+			(xy 115.57 91.44) (xy 120.65 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d3a9c85-20bc-481c-8d5f-fafaa353814f")
+	)
+	(wire
+		(pts
+			(xy 207.01 147.32) (xy 207.01 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d6f225c-62f7-4cb3-9e67-49e4193d7fbd")
+	)
+	(wire
+		(pts
+			(xy 21.59 99.06) (xy 29.21 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f68b076-3428-422f-8ad9-75d8a0514d35")
+	)
+	(wire
+		(pts
+			(xy 143.51 115.57) (xy 143.51 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2089456f-0bb3-4736-bfae-39de5a2df525")
+	)
+	(wire
+		(pts
+			(xy 217.17 115.57) (xy 219.71 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20dd5a37-b179-40b3-bb07-503beae3bd79")
+	)
+	(wire
+		(pts
+			(xy 21.59 60.96) (xy 21.59 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20e4371e-a679-4db3-8df5-e8cb97a741a6")
+	)
+	(wire
+		(pts
+			(xy 201.93 41.91) (xy 201.93 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2336ef04-e35c-4e15-815b-21e903a7e9ab")
+	)
+	(wire
+		(pts
+			(xy 115.57 77.47) (xy 120.65 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237c099c-7e0d-448b-aa29-3689f2cef7c9")
+	)
+	(wire
+		(pts
+			(xy 120.65 137.16) (xy 120.65 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24017f5e-02fc-4ed1-90ac-fe21b343de9b")
+	)
+	(wire
+		(pts
+			(xy 190.5 137.16) (xy 196.85 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24233bb3-6736-4a6b-91e6-cd1bdd287a9c")
+	)
+	(wire
+		(pts
+			(xy 196.85 137.16) (xy 196.85 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24486106-133c-49c5-910a-210900fca8a3")
+	)
+	(wire
+		(pts
+			(xy 120.65 157.48) (xy 124.46 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24f03cd4-ecc2-4e07-84f0-a0c26ca64882")
+	)
+	(wire
+		(pts
+			(xy 21.59 60.96) (xy 24.13 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b8cf50-fc14-4352-aeae-693fedddcce2")
+	)
+	(wire
+		(pts
+			(xy 12.7 175.26) (xy 21.59 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29e0e9a2-b8dc-40cb-b375-bddb1964ca21")
+	)
+	(wire
+		(pts
+			(xy 193.04 41.91) (xy 196.85 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29ee03d0-5016-4c10-a313-4e07a5fa6762")
+	)
+	(wire
+		(pts
+			(xy 173.99 26.67) (xy 186.69 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a8e97b4-e449-4be9-9c98-67b03fab9aba")
+	)
+	(wire
+		(pts
+			(xy 143.51 157.48) (xy 140.97 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b80907a-8f4f-489b-8204-fe7abf75a6e3")
+	)
+	(wire
+		(pts
+			(xy 124.46 115.57) (xy 133.35 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d782363-1517-4215-96b4-bc8b4006dad0")
+	)
+	(wire
+		(pts
+			(xy 219.71 157.48) (xy 217.17 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d7a6ec6-5461-49a1-9bcc-17ee3dd75075")
+	)
+	(wire
+		(pts
+			(xy 48.26 157.48) (xy 54.61 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df95c0e-5dd4-435c-b77f-33cfa87e3a0a")
+	)
+	(wire
+		(pts
+			(xy 21.59 175.26) (xy 39.37 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321bcfb9-c086-471c-9aae-a28c2f10be06")
+	)
+	(wire
+		(pts
+			(xy 200.66 175.26) (xy 191.77 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36d5bed2-65eb-409c-8060-d06119a52d5e")
+	)
+	(wire
+		(pts
+			(xy 67.31 157.48) (xy 64.77 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "386ae8e0-6564-41e7-8bbd-feea50faff06")
+	)
+	(wire
+		(pts
+			(xy 173.99 36.83) (xy 176.53 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39696d10-e872-46e5-95b0-8707800bc41e")
+	)
+	(wire
+		(pts
+			(xy 36.83 99.06) (xy 44.45 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c0eb32e-22ea-4f29-9519-497f39e7199e")
+	)
+	(wire
+		(pts
+			(xy 49.53 77.47) (xy 49.53 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c6cb78e-bb9e-4085-8624-835d2dff0b8f")
+	)
+	(wire
+		(pts
+			(xy 38.1 137.16) (xy 44.45 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d03b95f-73bd-41fe-aab2-2713c527f0a5")
+	)
+	(wire
+		(pts
+			(xy 173.99 137.16) (xy 182.88 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f1681f4-346d-4903-adf7-ad6a95dd5816")
+	)
+	(wire
+		(pts
+			(xy 97.79 60.96) (xy 97.79 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f52d91b-f49b-4483-b1e7-e3264654a1cf")
+	)
+	(wire
+		(pts
+			(xy 39.37 157.48) (xy 44.45 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f6e748c-fe34-4e45-8c44-0b94d3ccccb0")
+	)
+	(wire
+		(pts
+			(xy 21.59 137.16) (xy 21.59 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f94da8e-86af-44fd-8cbc-27aca4b01371")
+	)
+	(wire
+		(pts
+			(xy 97.79 137.16) (xy 106.68 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fca27d4-2624-42d7-b571-5d6f427750ea")
+	)
+	(wire
+		(pts
+			(xy 49.53 77.47) (xy 57.15 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "408685df-87a9-455e-be23-d2cc111ffce3")
+	)
+	(wire
+		(pts
+			(xy 196.85 55.88) (xy 196.85 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42e91738-a2f6-411f-a908-35469f90f32f")
+	)
+	(wire
+		(pts
+			(xy 116.84 41.91) (xy 120.65 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "445daa6d-4d20-4805-8fed-efec9322ba2e")
+	)
+	(wire
+		(pts
+			(xy 200.66 115.57) (xy 200.66 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "478f3856-950a-4cc7-af76-e2839a23d989")
+	)
+	(wire
+		(pts
+			(xy 146.05 137.16) (xy 146.05 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47b61dc3-2cb2-44bb-987e-c4f8ef213d49")
+	)
+	(wire
+		(pts
+			(xy 97.79 26.67) (xy 110.49 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48e3ef7f-6af7-4e1f-a901-372c6c3b9184")
+	)
+	(wire
+		(pts
+			(xy 196.85 60.96) (xy 196.85 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49cbfd15-2ec0-48a4-9fdd-f37529fc4c7c")
+	)
+	(wire
+		(pts
+			(xy 31.75 36.83) (xy 44.45 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a41540a-898e-4fe0-9888-b29ba090912e")
+	)
+	(wire
+		(pts
+			(xy 196.85 115.57) (xy 200.66 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c50d024-5884-4260-87b2-ed69e4823765")
+	)
+	(wire
+		(pts
+			(xy 48.26 157.48) (xy 48.26 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e800fc-2d6a-4d01-afe8-21b6c95c8536")
+	)
+	(wire
+		(pts
+			(xy 125.73 77.47) (xy 125.73 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f340ad-7bc9-480b-86a7-869a65bac021")
+	)
+	(wire
+		(pts
+			(xy 44.45 137.16) (xy 44.45 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57924c70-cd7f-4ecf-9a5b-2940f74bd3c8")
+	)
+	(wire
+		(pts
+			(xy 124.46 168.91) (xy 124.46 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58abd1f5-58db-4b4c-ac75-f5d0d07c7c62")
+	)
+	(wire
+		(pts
+			(xy 54.61 157.48) (xy 57.15 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "590a3c5b-16f3-43c0-822e-bd4529825e58")
+	)
+	(wire
+		(pts
+			(xy 219.71 77.47) (xy 219.71 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c136c0-d309-4540-b4ec-f722941bad45")
+	)
+	(wire
+		(pts
+			(xy 97.79 99.06) (xy 97.79 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a7e0120-c7df-41ca-bc30-13ecc3f9d0d5")
+	)
+	(wire
+		(pts
+			(xy 63.5 147.32) (xy 67.31 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c27e1a6-e27b-45dd-bbfb-dd4f234b4df4")
+	)
+	(wire
+		(pts
+			(xy 97.79 99.06) (xy 105.41 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c445b8f-116b-4d5e-9a33-bd8a1612ef95")
+	)
+	(wire
+		(pts
+			(xy 115.57 115.57) (xy 120.65 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d27d829-dbcd-486d-bd38-6ac73fb0cace")
+	)
+	(wire
+		(pts
+			(xy 173.99 60.96) (xy 173.99 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60530873-4f31-4c98-950f-2bc0171ce6ce")
+	)
+	(wire
+		(pts
+			(xy 209.55 137.16) (xy 222.25 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6151fb9a-a63b-4ad2-93e6-6095729773fb")
+	)
+	(wire
+		(pts
+			(xy 115.57 157.48) (xy 115.57 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61f52b3f-43e0-4a28-a9fc-2ac6e4997a7b")
+	)
+	(wire
+		(pts
+			(xy 196.85 99.06) (xy 196.85 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6277f54c-f613-4e2c-b040-2fb86449232f")
+	)
+	(wire
+		(pts
+			(xy 88.9 175.26) (xy 97.79 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6338c159-5501-4c5b-b787-e995a24b2258")
+	)
+	(wire
+		(pts
+			(xy 173.99 60.96) (xy 176.53 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a63fc7-94a0-4edc-b974-febf621e107e")
+	)
+	(wire
+		(pts
+			(xy 140.97 77.47) (xy 143.51 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "672793b6-b997-4a55-baf4-85e70c368927")
+	)
+	(wire
+		(pts
+			(xy 49.53 41.91) (xy 49.53 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69fa76bf-b43f-478a-8f6c-84dbc51c5de3")
+	)
+	(wire
+		(pts
+			(xy 173.99 99.06) (xy 181.61 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a7e6890-4e73-4182-b0ff-2b851d230b20")
+	)
+	(wire
+		(pts
+			(xy 67.31 36.83) (xy 55.88 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aabc7ac-e667-4d35-aaa1-3b60ea6a2c39")
+	)
+	(wire
+		(pts
+			(xy 191.77 115.57) (xy 196.85 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6addd916-2424-4bf7-86dc-10c2c8e4ec7d")
+	)
+	(wire
+		(pts
+			(xy 44.45 127) (xy 48.26 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6beac037-6113-424e-a8e8-93583a5c70f0")
+	)
+	(wire
+		(pts
+			(xy 44.45 157.48) (xy 48.26 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c59fa05-98e2-416f-ae66-11946b2b0752")
+	)
+	(wire
+		(pts
+			(xy 44.45 41.91) (xy 49.53 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ef0dac6-999d-436b-b2d2-f64e6f0d2160")
+	)
+	(wire
+		(pts
+			(xy 196.85 55.88) (xy 201.93 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc9ef18-171a-4bb4-b904-edaead3d6147")
+	)
+	(wire
+		(pts
+			(xy 191.77 168.91) (xy 191.77 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7013cc2b-41b8-4784-b6db-e1ce49df24b2")
+	)
+	(wire
+		(pts
+			(xy 201.93 88.9) (xy 201.93 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "716456c2-8fc0-47c4-af67-a6eb5e4a0b8b")
+	)
+	(wire
+		(pts
+			(xy 116.84 41.91) (xy 116.84 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d152e4-3fdc-4f35-a578-f9069e085290")
+	)
+	(wire
+		(pts
+			(xy 125.73 91.44) (xy 120.65 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7baa7291-10da-49bd-a922-5a17cb2e3dbf")
+	)
+	(wire
+		(pts
+			(xy 120.65 77.47) (xy 125.73 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d11f7c6-a9e2-4e02-ac4e-cc2b487b7ec7")
+	)
+	(wire
+		(pts
+			(xy 215.9 147.32) (xy 219.71 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e0918eb-4084-4619-b462-e8f8410755a0")
+	)
+	(wire
+		(pts
+			(xy 40.64 41.91) (xy 44.45 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eebae6d-b517-4659-a6b9-e6e739fb8cbc")
+	)
+	(wire
+		(pts
+			(xy 115.57 127) (xy 120.65 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7efef6d6-94c0-4129-b77d-cff1655f2e21")
+	)
+	(wire
+		(pts
+			(xy 173.99 175.26) (xy 191.77 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fdf3ca8-d32a-4cbf-a294-e5e474222d02")
+	)
+	(wire
+		(pts
+			(xy 44.45 137.16) (xy 52.07 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80eb1d3e-ba19-461e-b3bc-05edd12d31a9")
+	)
+	(wire
+		(pts
+			(xy 48.26 175.26) (xy 39.37 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8189b02b-6561-41b8-aa41-21be6e6b5230")
+	)
+	(wire
+		(pts
+			(xy 44.45 72.39) (xy 44.45 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84440c93-3a6b-4063-918e-a4a910f646d3")
+	)
+	(wire
+		(pts
+			(xy 191.77 115.57) (xy 191.77 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "847ded12-0809-4e0e-91ad-c51bf0a9211a")
+	)
+	(wire
+		(pts
+			(xy 44.45 55.88) (xy 44.45 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a12225-fe0d-4e49-9e0e-6d1c3f0bbf44")
+	)
+	(wire
+		(pts
+			(xy 31.75 60.96) (xy 44.45 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84abcf40-f8be-4d79-8279-c1be94d35915")
+	)
+	(wire
+		(pts
+			(xy 222.25 60.96) (xy 196.85 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85b4dd98-3420-44a0-854b-226bec57f131")
+	)
+	(wire
+		(pts
+			(xy 132.08 36.83) (xy 120.65 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "866b2f6d-1b3d-4ccb-995a-d06335b0eea5")
+	)
+	(wire
+		(pts
+			(xy 120.65 72.39) (xy 120.65 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8682af64-23a3-40e6-95e5-5ecd023b4a50")
+	)
+	(wire
+		(pts
+			(xy 124.46 157.48) (xy 124.46 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88315ef8-9b99-4e7b-8622-c15deea4cad5")
+	)
+	(wire
+		(pts
+			(xy 67.31 36.83) (xy 67.31 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bfffc56-21a4-4840-84e5-a33aa4cfb55e")
+	)
+	(wire
+		(pts
+			(xy 64.77 77.47) (xy 67.31 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb9bdc5-6161-4664-88f6-6d99036ab439")
+	)
+	(wire
+		(pts
+			(xy 219.71 147.32) (xy 219.71 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d17acf0-8aa6-4a4c-be42-05c8eb4f1dc3")
+	)
+	(wire
+		(pts
+			(xy 191.77 157.48) (xy 196.85 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8de82901-92ee-44bf-a25c-b859c4dbcd2a")
+	)
+	(wire
+		(pts
+			(xy 200.66 115.57) (xy 209.55 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f3d89c5-c1d6-4306-a258-4682090a9403")
+	)
+	(wire
+		(pts
+			(xy 200.66 157.48) (xy 200.66 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f58ed48-b84d-4196-9910-c56e5fe7d409")
+	)
+	(wire
+		(pts
+			(xy 193.04 55.88) (xy 196.85 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fd09335-bd9e-4479-94db-b9c3b29044c2")
+	)
+	(wire
+		(pts
+			(xy 196.85 109.22) (xy 196.85 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90191967-05fe-4756-ac0b-6dd5d4840b91")
+	)
+	(wire
+		(pts
+			(xy 140.97 115.57) (xy 143.51 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "939163f7-e0bc-4142-8968-f1c957d58b2a")
+	)
+	(wire
+		(pts
+			(xy 107.95 60.96) (xy 120.65 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93968987-74ca-4776-8687-3682636e2b99")
+	)
+	(wire
+		(pts
+			(xy 124.46 157.48) (xy 130.81 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "942fb343-7e27-4b05-bd89-f8c0c5486b5b")
+	)
+	(wire
+		(pts
+			(xy 196.85 157.48) (xy 200.66 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94cc26f1-9c78-4244-aa5e-e0760c26302c")
+	)
+	(wire
+		(pts
+			(xy 113.03 99.06) (xy 120.65 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ccb5cb-e5cc-4abd-be8c-2d7c6ed7cc82")
+	)
+	(wire
+		(pts
+			(xy 21.59 137.16) (xy 30.48 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a8340d-3d4e-4340-8997-00e9f9a24222")
+	)
+	(wire
+		(pts
+			(xy 200.66 168.91) (xy 200.66 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a86b023-ddf4-4678-8d99-7b54840aaa29")
+	)
+	(wire
+		(pts
+			(xy 44.45 91.44) (xy 44.45 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ab28715-5cfa-44b7-a65b-348805d2446c")
+	)
+	(wire
+		(pts
+			(xy 217.17 77.47) (xy 219.71 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ad39f95-3107-4f3e-8a0b-a0cb3018f792")
+	)
+	(wire
+		(pts
+			(xy 191.77 157.48) (xy 191.77 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b95a6a1-232b-449e-b82a-3ed8f5fcf815")
+	)
+	(wire
+		(pts
+			(xy 210.82 147.32) (xy 207.01 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dcac535-293f-4a81-b25c-8f8e5f018602")
+	)
+	(wire
+		(pts
+			(xy 39.37 127) (xy 44.45 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e7dd9aa-2195-4823-b6a7-488100fc5dfe")
+	)
+	(wire
+		(pts
+			(xy 97.79 36.83) (xy 100.33 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f7763f7-f5f3-474a-b176-97d1f7148fc1")
+	)
+	(wire
+		(pts
+			(xy 130.81 157.48) (xy 133.35 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fa63824-a011-43aa-ba2e-034783db263b")
+	)
+	(wire
+		(pts
+			(xy 196.85 77.47) (xy 201.93 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a002151c-78a7-43ec-919d-441f53919c78")
+	)
+	(wire
+		(pts
+			(xy 196.85 41.91) (xy 201.93 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0530574-c892-4bc1-8414-94a931445796")
+	)
+	(wire
+		(pts
+			(xy 44.45 55.88) (xy 49.53 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a16aafb6-7247-4ac5-bb0b-0b05d8f81298")
+	)
+	(wire
+		(pts
+			(xy 146.05 60.96) (xy 120.65 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ea4998-f955-4c5d-83f1-e079361ca5a6")
+	)
+	(wire
+		(pts
+			(xy 125.73 77.47) (xy 133.35 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a20ff959-74fb-4553-a410-71258cf824f1")
+	)
+	(wire
+		(pts
+			(xy 120.65 109.22) (xy 120.65 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d5bfb5-b133-48fc-9de3-47c28b67c690")
+	)
+	(wire
+		(pts
+			(xy 193.04 41.91) (xy 193.04 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7b5faf8-ad18-478c-9982-712f479e5872")
+	)
+	(wire
+		(pts
+			(xy 44.45 36.83) (xy 44.45 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ac0612-4032-49d9-8dc5-0763576c06ac")
+	)
+	(wire
+		(pts
+			(xy 64.77 115.57) (xy 67.31 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9533278-d917-4b7e-a187-09a4a3ef12af")
+	)
+	(wire
+		(pts
+			(xy 191.77 77.47) (xy 191.77 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa638f3-b6d3-4429-bfc6-090fa88183ba")
+	)
+	(wire
+		(pts
+			(xy 39.37 115.57) (xy 44.45 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac6fcaaf-3da9-486b-8fbd-47f13cd65d23")
+	)
+	(wire
+		(pts
+			(xy 39.37 91.44) (xy 44.45 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aced4d0d-3f16-47a2-a7d9-5af119891ef2")
+	)
+	(wire
+		(pts
+			(xy 55.88 36.83) (xy 44.45 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adc42fc8-86c8-4d67-aaa7-100b227b8a3d")
+	)
+	(wire
+		(pts
+			(xy 44.45 115.57) (xy 48.26 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adcb6ac4-b483-46bc-b20b-946550f8afe4")
+	)
+	(wire
+		(pts
+			(xy 115.57 77.47) (xy 115.57 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff58bba-c373-4771-9969-45fd03c1307a")
+	)
+	(wire
+		(pts
+			(xy 44.45 109.22) (xy 44.45 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2bcf542-6f72-44b9-bda8-047aaf1c878c")
+	)
+	(wire
+		(pts
+			(xy 200.66 157.48) (xy 207.01 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2f50c4f-e942-4f37-8ff9-193778244d22")
+	)
+	(wire
+		(pts
+			(xy 219.71 36.83) (xy 208.28 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3258383-63d7-4c0e-aea4-e128355ce8e6")
+	)
+	(wire
+		(pts
+			(xy 40.64 55.88) (xy 44.45 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3651bde-712e-429a-8b2c-10058b57312d")
+	)
+	(wire
+		(pts
+			(xy 173.99 137.16) (xy 173.99 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b42f69de-08de-40c5-9a33-4c9385da4854")
+	)
+	(wire
+		(pts
+			(xy 184.15 36.83) (xy 196.85 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b43028e3-2f6f-46f7-95f5-2515eab5cbb5")
+	)
+	(wire
+		(pts
+			(xy 58.42 147.32) (xy 54.61 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba5cab1b-e1f2-41eb-8b24-a2d7bdea4b30")
+	)
+	(wire
+		(pts
+			(xy 21.59 26.67) (xy 34.29 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9238b3-1493-4af8-a909-120e6c99d6e3")
+	)
+	(wire
+		(pts
+			(xy 120.65 127) (xy 120.65 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb8f58e7-d554-4907-82c8-4410fb4cf8f3")
+	)
+	(wire
+		(pts
+			(xy 44.45 99.06) (xy 44.45 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd45fe1-705b-460e-aa2f-3a055f32dd71")
+	)
+	(wire
+		(pts
+			(xy 97.79 26.67) (xy 97.79 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe56ca0-3593-421d-a1ea-0bb156907bc6")
+	)
+	(wire
+		(pts
+			(xy 97.79 175.26) (xy 115.57 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbf4caa6-e3f0-40e7-bce7-0e1e11a9c7be")
+	)
+	(wire
+		(pts
+			(xy 196.85 151.13) (xy 196.85 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd253c1f-8e5d-4e39-abbb-06247b174b7b")
+	)
+	(wire
+		(pts
+			(xy 201.93 77.47) (xy 209.55 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be0c41cc-1ed2-4999-8a3e-9dcf8dca9491")
+	)
+	(wire
+		(pts
+			(xy 208.28 36.83) (xy 196.85 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c01b9e14-1817-40d4-9eba-b3e388f1e1c4")
+	)
+	(wire
+		(pts
+			(xy 49.53 88.9) (xy 49.53 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0200b88-6ea5-4b31-b3d8-e86facad6321")
+	)
+	(wire
+		(pts
+			(xy 67.31 147.32) (xy 67.31 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0a3d1fc-e7c7-48b6-bdfe-4405bc9809d2")
+	)
+	(wire
+		(pts
+			(xy 67.31 77.47) (xy 67.31 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0a5d6c2-1961-475f-96cb-8eb298795c76")
+	)
+	(wire
+		(pts
+			(xy 120.65 55.88) (xy 125.73 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2fe5eda-1d2e-4c2e-8af5-1c031201520b")
+	)
+	(wire
+		(pts
+			(xy 196.85 127) (xy 196.85 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5904122-cdda-476e-bf52-abfd2c430c77")
+	)
+	(wire
+		(pts
+			(xy 97.79 60.96) (xy 100.33 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c83a590d-bd74-4b72-b00e-ab72b442cdbd")
+	)
+	(wire
+		(pts
+			(xy 124.46 115.57) (xy 124.46 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c89c545c-25df-489d-8c8a-a7859d5cc8a3")
+	)
+	(wire
+		(pts
+			(xy 120.65 91.44) (xy 120.65 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc940753-847c-43ad-a0eb-4acba41a8e35")
+	)
+	(wire
+		(pts
+			(xy 48.26 168.91) (xy 48.26 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd215b10-e09c-4813-8c3c-16facd213ec7")
+	)
+	(wire
+		(pts
+			(xy 125.73 41.91) (xy 125.73 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce7567c9-0db1-4bbe-83a4-0858fe7e23c0")
+	)
+	(wire
+		(pts
+			(xy 125.73 88.9) (xy 125.73 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0892540-44aa-47d9-8c2c-9729697c446b")
+	)
+	(wire
+		(pts
+			(xy 107.95 36.83) (xy 120.65 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d09e3d01-c7a4-47c1-9e5e-4f58e66becc9")
+	)
+	(wire
+		(pts
+			(xy 44.45 77.47) (xy 49.53 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0c0d0eb-ca4e-4b39-988c-5de23ec1c252")
+	)
+	(wire
+		(pts
+			(xy 134.62 147.32) (xy 130.81 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d146060c-89bc-4d02-a21c-79002c021046")
+	)
+	(wire
+		(pts
+			(xy 115.57 157.48) (xy 120.65 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d33911a8-e3bd-400d-97dd-a06b71a598c7")
+	)
+	(wire
+		(pts
+			(xy 69.85 60.96) (xy 44.45 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d40cec3e-d63d-47be-8510-215314f33a04")
+	)
+	(wire
+		(pts
+			(xy 196.85 36.83) (xy 196.85 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d67820a2-796f-4b23-bea5-b2e2c387f663")
+	)
+	(wire
+		(pts
+			(xy 44.45 151.13) (xy 44.45 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7759f5b-58ae-4c5f-870b-da35a836ee64")
+	)
+	(wire
+		(pts
+			(xy 191.77 77.47) (xy 196.85 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d78fdbcf-d872-48d9-8fb6-cc0927d03fd0")
+	)
+	(wire
+		(pts
+			(xy 54.61 147.32) (xy 54.61 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d88f3a78-efcd-4cbf-b8b3-7012d0734936")
+	)
+	(wire
+		(pts
+			(xy 196.85 72.39) (xy 196.85 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b62bde-b641-4b1c-adb8-c221ae9c3f08")
+	)
+	(wire
+		(pts
+			(xy 219.71 115.57) (xy 219.71 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db285790-14d7-4d05-b818-bf519bdc392c")
+	)
+	(wire
+		(pts
+			(xy 120.65 41.91) (xy 125.73 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbf2219d-1ecc-4a13-9ea7-092b8e5afb18")
+	)
+	(wire
+		(pts
+			(xy 165.1 175.26) (xy 173.99 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcce2336-5a3f-45d4-99fd-36bd5ebb7066")
+	)
+	(wire
+		(pts
+			(xy 116.84 55.88) (xy 120.65 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de8d5368-2982-47d3-966f-928ba783c521")
+	)
+	(wire
+		(pts
+			(xy 219.71 36.83) (xy 219.71 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded056e5-a435-4a84-a713-46e84301d079")
+	)
+	(wire
+		(pts
+			(xy 191.77 127) (xy 196.85 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df575b54-4702-468e-b6e0-13e1613cef59")
+	)
+	(wire
+		(pts
+			(xy 132.08 31.75) (xy 132.08 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e08d4f78-f010-4e32-9735-bc64f23f893e")
+	)
+	(wire
+		(pts
+			(xy 69.85 137.16) (xy 69.85 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e139a48c-d973-4f30-9013-f856b9a68159")
+	)
+	(wire
+		(pts
+			(xy 120.65 151.13) (xy 120.65 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e76698-742a-4c1f-8e0e-432f3294e8bb")
+	)
+	(wire
+		(pts
+			(xy 55.88 31.75) (xy 55.88 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e34e8d88-3f65-4b61-aabd-5c11dc104be0")
+	)
+	(wire
+		(pts
+			(xy 143.51 36.83) (xy 143.51 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e35bfb7f-33d3-476b-a80c-457fabb55a6e")
+	)
+	(wire
+		(pts
+			(xy 39.37 157.48) (xy 39.37 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3bcdb86-6cd8-4855-9a8e-9b2aab5f112c")
+	)
+	(wire
+		(pts
+			(xy 115.57 115.57) (xy 115.57 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5622f75-daa0-4095-bd12-b8706893c8f4")
+	)
+	(wire
+		(pts
+			(xy 120.65 99.06) (xy 120.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6012080-c55d-4e53-ac48-801021be8e3c")
+	)
+	(wire
+		(pts
+			(xy 196.85 91.44) (xy 196.85 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7615bf7-1dc9-4fbd-a048-637b3b9532df")
+	)
+	(wire
+		(pts
+			(xy 201.93 91.44) (xy 196.85 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8556dfa-d045-4678-b908-70781cf7b564")
+	)
+	(wire
+		(pts
+			(xy 189.23 99.06) (xy 196.85 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b29357-9be3-4788-a4c9-335790a17467")
+	)
+	(wire
+		(pts
+			(xy 173.99 99.06) (xy 173.99 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8da5f5f-b681-45c0-ba99-8f2a15fdca89")
+	)
+	(wire
+		(pts
+			(xy 44.45 60.96) (xy 44.45 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f93571-8279-4e0c-88b7-afb2a35366d1")
+	)
+	(wire
+		(pts
+			(xy 48.26 115.57) (xy 57.15 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec0281e3-8a97-45f7-bb72-c3303cce6edd")
+	)
+	(wire
+		(pts
+			(xy 120.65 137.16) (xy 128.27 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef596984-f5d5-4559-94fe-1bc51c36057c")
+	)
+	(wire
+		(pts
+			(xy 184.15 60.96) (xy 196.85 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f05d2e7b-cf87-4c91-a3a5-6cb776e76e44")
+	)
+	(wire
+		(pts
+			(xy 21.59 26.67) (xy 21.59 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2842941-babc-4614-a7a8-192227add730")
+	)
+	(wire
+		(pts
+			(xy 207.01 157.48) (xy 209.55 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2dbdbfd-3dbe-4e61-a092-c2fe7bf277f0")
+	)
+	(wire
+		(pts
+			(xy 222.25 137.16) (xy 222.25 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f604cd32-15b8-4b49-84dc-3ec9fa7cdb15")
+	)
+	(wire
+		(pts
+			(xy 97.79 137.16) (xy 97.79 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f60ffbf8-5080-4ad1-aab3-8c0a1a3ec281")
+	)
+	(wire
+		(pts
+			(xy 120.65 127) (xy 124.46 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6ad7961-b10b-4cb5-bcbf-b2276939ca1a")
+	)
+	(wire
+		(pts
+			(xy 120.65 55.88) (xy 120.65 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6c19702-283f-4be2-ac08-a224a9e89902")
+	)
+	(wire
+		(pts
+			(xy 114.3 137.16) (xy 120.65 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbdb0c1f-d3bb-4d1c-857e-d40c96f3c48e")
+	)
+	(wire
+		(pts
+			(xy 48.26 115.57) (xy 48.26 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcea8de1-5bbf-46af-80a0-4c324bde9945")
+	)
+	(wire
+		(pts
+			(xy 44.45 127) (xy 44.45 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff0d6d57-2edf-457d-af96-868677da3715")
+	)
+	(rectangle
+		(start 8.89 5.08)
+		(end 236.22 182.88)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8b2a052a-5200-4c00-a9fc-488e25032414)
+	)
+	(text "Cap Banks"
+		(exclude_from_sim no)
+		(at 21.844 14.986 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "5455b350-0b90-409b-8ffd-1dd5b00056d5")
+	)
+	(label "SHUNT+"
+		(at 88.9 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25511cc9-882c-43fb-bdb2-a18967f013b7")
+	)
+	(label "V_RAW"
+		(at 186.69 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3cca55f1-e65a-4631-a4f6-5883d55ebf0b")
+	)
+	(label "SHUNT+"
+		(at 165.1 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78d252f7-d756-450e-a3b2-f57fccf98b3b")
+	)
+	(label "CAP_BANK_B"
+		(at 132.08 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a77da30-bf4f-4a94-8747-4ad797c180c9")
+	)
+	(label "CAP_BANK_A"
+		(at 55.88 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d97ed5f-7cf9-4a1d-a5cc-14f8c6c94013")
+	)
+	(label "V_RAW"
+		(at 110.49 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87567751-6a26-466a-95c0-adebf6418ad4")
+	)
+	(label "CAP_BANK_C"
+		(at 208.28 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88d69c6c-656d-460d-bed8-97950b3cb731")
+	)
+	(label "V_RAW"
+		(at 34.29 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6efaaaa-60db-4661-b557-cf65736f5685")
+	)
+	(label "SHUNT+"
+		(at 12.7 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e27304d9-b387-40f6-88c4-c39d8e899237")
+	)
+	(symbol
+		(lib_id "main-eagle-import:1.0UF-1206-50V-10%")
+		(at 125.73 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02797c7a-5794-4494-9638-5c3d0a3adb78")
+		(property "Reference" "C30"
+			(at 127.254 50.419 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 127.254 55.499 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "main:1206"
+			(at 125.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afbf5231-c375-4444-aa08-63a17c70883d")
+		)
+		(pin "2"
+			(uuid "e3c2fdbc-6eff-43fd-a5ec-6f7f05ef3c80")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 120.65 105.41 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a5bd17f-b5b2-4107-9976-b364ef3a7be6")
+		(property "Reference" "D24"
+			(at 123.444 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 125.984 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 120.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 120.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 120.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4384e43-9889-4c75-a453-7841a3cb9349")
+		)
+		(pin "2"
+			(uuid "ce21ea25-3c14-4d51-9bcb-b56490d5e2af")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 60.96 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ce14345-1b87-41ff-8e6a-a8d0f003deb3")
+		(property "Reference" "D16"
+			(at 60.706 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 59.69 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 60.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 60.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 60.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 60.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a69e1c1-668e-4576-a69a-081b6174ced7")
+		)
+		(pin "2"
+			(uuid "36e6ef94-466a-473f-bbe4-69b70d14eb29")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 213.36 147.32 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f18a04f-d382-4571-9893-431749d5d999")
+		(property "Reference" "JP6"
+			(at 213.36 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 213.36 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 213.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 213.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebab0b5b-e80d-4063-a9ea-a9061e1084df")
+		)
+		(pin "2"
+			(uuid "3e5340f2-2d32-4c2d-a85c-4c0b7f8c6ba4")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 44.45 68.58 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "139fce72-24a3-41e8-9f75-2802550db5e3")
+		(property "Reference" "D13"
+			(at 40.894 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 49.276 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 44.45 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 44.45 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 44.45 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 44.45 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88ba0ce0-b2bb-44fb-a3c7-1c11c4f03ddb")
+		)
+		(pin "2"
+			(uuid "d7ab4e0c-4b1c-4cc0-90b3-ed321109fbc4")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:1000UF-RADIAL-5MM-25V-20%")
+		(at 39.37 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1df448bf-cc4e-474f-a181-7be99bb950e9")
+		(property "Reference" "C8"
+			(at 40.386 163.195 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "470uF"
+			(at 40.386 168.021 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 39.37 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "07d0fc2d-8ed9-41fa-8c6f-df07b4b1f548")
+		)
+		(pin "-"
+			(uuid "88cd4672-9514-423a-9f05-c70c36deec7b")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 120.65 147.32 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f3f4408-78cf-418a-91ed-f854998c6b91")
+		(property "Reference" "D25"
+			(at 117.602 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 124.968 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 120.65 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 120.65 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 120.65 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff1070d9-b34c-4c77-b4cc-77d9647b886a")
+		)
+		(pin "2"
+			(uuid "6c3aebad-ad28-4406-92a6-e9eb93b89bba")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:1.0UF-1206-50V-10%")
+		(at 200.66 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fa01fc0-eef6-42dc-bd3f-f2edb5339ace")
+		(property "Reference" "C36"
+			(at 202.184 121.539 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 202.184 125.349 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "main:1206"
+			(at 200.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d62777e-d880-4748-9e3f-9d9803a517ea")
+		)
+		(pin "2"
+			(uuid "231ded7a-2cb5-405a-836d-ae51bd9c7baf")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:1000UF-RADIAL-5MM-25V-20%")
+		(at 116.84 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c099f2c-262f-40a6-890b-267d4d03af09")
+		(property "Reference" "C27"
+			(at 117.856 50.165 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "470uF"
+			(at 117.856 54.991 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 116.84 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "1443b4ef-44aa-4bc6-8dc1-cc72c0afbceb")
+		)
+		(pin "-"
+			(uuid "8e1cb493-65aa-4989-b6ad-ffe60c8d986b")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:1000UF-RADIAL-5MM-25V-20%")
+		(at 191.77 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d9b25d1-2f3e-45cf-b94e-b7780cb98078")
+		(property "Reference" "C34"
+			(at 192.786 163.195 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "470uF"
+			(at 192.786 168.021 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 191.77 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "7420f7e0-2738-4032-9ecd-56ce6646732c")
+		)
+		(pin "-"
+			(uuid "6e3b84cb-65c8-4631-8485-834cdacb885d")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 44.45 147.32 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f01812c-7600-474b-826d-82cdcb2c3e6b")
+		(property "Reference" "D15"
+			(at 41.402 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 48.768 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 44.45 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 44.45 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 44.45 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 44.45 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33bbd4e2-890e-4b51-91c7-27ad33431e60")
+		)
+		(pin "2"
+			(uuid "bce2d3eb-20f3-4b81-a377-d9fe88dd11be")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:1000UF-RADIAL-5MM-25V-20%")
+		(at 191.77 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "368af51d-d8c7-42e8-a9b4-137980e0e9fe")
+		(property "Reference" "C33"
+			(at 192.786 121.285 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "470uF"
+			(at 192.786 126.111 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 191.77 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "f3e15fbc-94e5-477a-9a6a-2bd638047067")
+		)
+		(pin "-"
+			(uuid "b761fb9c-9bbf-483e-b0f4-c257f59ec0a2")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:1.0UF-1206-50V-10%")
+		(at 201.93 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c007102-b2f0-40a7-9c2e-365510dd59d9")
+		(property "Reference" "C38"
+			(at 203.454 50.419 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 203.454 55.499 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "main:1206"
+			(at 201.93 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e837bc06-e22c-4aa9-88da-8f5b6f0bfdd8")
+		)
+		(pin "2"
+			(uuid "f400b518-68e1-4d8d-b40e-3a11f02a970a")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 104.14 36.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3cf0c118-2220-4a61-acf3-972be6da82d4")
+		(property "Reference" "D19"
+			(at 104.394 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 104.394 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 104.14 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 104.14 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 104.14 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 104.14 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c0e6da1-aafb-4f2b-95de-44573563df1e")
+		)
+		(pin "2"
+			(uuid "a486cc28-87d5-4ac1-9989-75a1821ce13f")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 213.36 157.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d30ce5a-89e4-4cf7-8c7a-52463abd9173")
+		(property "Reference" "D38"
+			(at 213.868 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 219.456 160.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 213.36 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 213.36 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 213.36 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 213.36 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8475164-b6ab-48e1-adf8-ed46882f1df5")
+		)
+		(pin "2"
+			(uuid "c4f4bff0-e88e-4baf-9a45-7218030ab074")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 33.02 99.06 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ffada77-a01e-44af-9b7f-b4334f803492")
+		(property "Reference" "D10"
+			(at 30.48 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 38.608 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 33.02 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 33.02 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 33.02 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 33.02 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d87c357b-d5f5-4547-9313-95b980179f9d")
+		)
+		(pin "2"
+			(uuid "5bcd42ad-b75a-4fab-beca-7354ee44e17f")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 130.81 137.16 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46880559-2204-410c-ae21-80b15176d9f9")
+		(property "Reference" "JP3"
+			(at 130.81 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 130.81 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 130.81 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 130.81 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8dbee70-2a83-448e-948c-e26fdb7a5db1")
+		)
+		(pin "2"
+			(uuid "1c8aee19-426a-4e18-8394-3271c09ce46b")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:1000UF-RADIAL-5MM-25V-20%")
+		(at 39.37 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ad92d23-e3fd-40d4-be4d-5bc8288a9225")
+		(property "Reference" "C6"
+			(at 40.386 85.725 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "470uF"
+			(at 40.386 90.551 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 39.37 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "71e93cba-3e69-4db7-be7a-5107708ddf8f")
+		)
+		(pin "-"
+			(uuid "1f83986c-bd32-4222-8161-0d2451f1e7b6")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:1000UF-RADIAL-5MM-25V-20%")
+		(at 115.57 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fc3d51c-4f37-4c82-9372-19f9e2daeb5a")
+		(property "Reference" "C24"
+			(at 116.586 85.725 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "470uF"
+			(at 116.586 90.551 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 115.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "80b20bb9-295b-49b2-8cd2-54029bc02a38")
+		)
+		(pin "-"
+			(uuid "61968798-ad2f-44d5-bbac-39b37a3506c7")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:1000UF-RADIAL-5MM-25V-20%")
+		(at 115.57 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50cff11f-a396-421c-84d1-bc7224ec57f9")
+		(property "Reference" "C26"
+			(at 116.586 163.195 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "470uF"
+			(at 116.586 168.021 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 115.57 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "f89d9e96-0adc-4707-8282-1f2532903f97")
+		)
+		(pin "-"
+			(uuid "5e295df9-2b40-4276-8889-c693d69527ce")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 110.49 137.16 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52810f80-4b80-4629-b563-2656d2fce257")
+		(property "Reference" "D22"
+			(at 110.49 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 110.49 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4171c277-837b-4252-a2b0-f380ae37b57d")
+		)
+		(pin "2"
+			(uuid "54b6abd8-09ad-4e4e-867b-abe786d3dbf3")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:1.0UF-1206-50V-10%")
+		(at 49.53 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57a447d2-8e40-4475-b3cc-772c857f270c")
+		(property "Reference" "C23"
+			(at 51.054 50.419 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 51.054 55.499 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "main:1206"
+			(at 49.53 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8680cf7-0f39-4b38-a0a9-e07aab8512f7")
+		)
+		(pin "2"
+			(uuid "8569a776-8917-4d8d-9142-67249b362768")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 196.85 68.58 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ea99026-5acd-460a-83ea-1760f494a25c")
+		(property "Reference" "D33"
+			(at 193.294 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 201.676 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 196.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 196.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 196.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 196.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "423d2e80-7ac8-4daf-936a-c96db8a22165")
+		)
+		(pin "2"
+			(uuid "5369902c-573b-45cd-82cd-e70951a87d0d")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:1.0UF-1206-50V-10%")
+		(at 124.46 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "652a2d71-a110-46ce-ad03-db32e702d8a8")
+		(property "Reference" "C28"
+			(at 125.984 121.539 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 125.984 125.349 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "main:1206"
+			(at 124.46 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9de6d7d1-94f0-4d80-9d23-63a64f9b1d29")
+		)
+		(pin "2"
+			(uuid "ea21b79e-7a40-46d5-8f77-fe87081283a6")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 120.65 68.58 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69ebe786-44c8-4463-ab47-060769761947")
+		(property "Reference" "D23"
+			(at 117.094 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 125.476 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de442459-a8b1-4c2b-94df-9e470f68e52e")
+		)
+		(pin "2"
+			(uuid "b71e3c7c-0cb0-420f-bb58-d83985d44d83")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:1000UF-RADIAL-5MM-25V-20%")
+		(at 193.04 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69f9609d-539f-4963-9144-856be8feb7ad")
+		(property "Reference" "C35"
+			(at 194.056 50.165 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "470uF"
+			(at 194.056 54.991 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 193.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "fb2e5204-9199-4cbf-ae35-b5272a684072")
+		)
+		(pin "-"
+			(uuid "587058c5-34fc-4482-8b7a-9618c8b0c98d")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:1000UF-RADIAL-5MM-25V-20%")
+		(at 115.57 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ebfa4f8-995a-4d9b-b239-9164f175b755")
+		(property "Reference" "C25"
+			(at 116.586 121.285 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "470uF"
+			(at 116.586 126.111 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 115.57 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "43d0c9a9-5c7e-4d06-ba05-b5f5891cac66")
+		)
+		(pin "-"
+			(uuid "28b28223-b24f-44d7-a6ee-5bd153fa55ee")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 44.45 105.41 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7aa393e4-ce2e-462d-93c4-ae9fcde409e1")
+		(property "Reference" "D14"
+			(at 47.244 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 49.784 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d1dcced-8bb5-4d1e-9ddf-70c46d2a539d")
+		)
+		(pin "2"
+			(uuid "529b9aaf-8612-482e-b668-ee014e1d5244")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 137.16 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "844afb2c-7565-49f0-97c7-e99b84fde324")
+		(property "Reference" "D26"
+			(at 136.906 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 135.89 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 137.16 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 137.16 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 137.16 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 137.16 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef75a0af-55c7-4bd1-986e-63f6eb75a6d5")
+		)
+		(pin "2"
+			(uuid "fa75b085-4f3f-4b58-95d9-3af440703e9a")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:1.0UF-1206-50V-10%")
+		(at 48.26 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84b8bc8b-91cc-49e1-a5e3-286de46654e8")
+		(property "Reference" "C22"
+			(at 49.784 163.449 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 49.784 168.529 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "main:1206"
+			(at 48.26 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f6a5593-6ea8-4cb8-a402-98e925bf3df4")
+		)
+		(pin "2"
+			(uuid "19e90dd2-f1db-40a6-af76-6499fc6fe3b6")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 180.34 60.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d5c1222-8fc6-49c1-bc9d-01006bed9e27")
+		(property "Reference" "D30"
+			(at 180.594 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 181.61 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c120f3b0-3e0c-4ba9-9917-2496db8df99d")
+		)
+		(pin "2"
+			(uuid "6845c3f8-1a38-4b08-bb76-00e6ca98c0ce")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 137.16 115.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ebd588f-8bfd-49bc-8821-ad80a3bd158b")
+		(property "Reference" "D27"
+			(at 136.906 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 136.652 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 137.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 137.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 137.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 137.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06a2be36-6343-4515-a22f-7391d86ef908")
+		)
+		(pin "2"
+			(uuid "15882ff0-80f4-410a-b389-2f41b98d922c")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 60.96 115.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "965ab477-1354-443c-ab6e-a05e9fb4be48")
+		(property "Reference" "D17"
+			(at 60.706 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 60.452 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 60.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 60.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 60.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 60.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "128c7880-4e00-42b0-b73e-35a82838097e")
+		)
+		(pin "2"
+			(uuid "18a686f6-8acc-46dc-be0a-4fe142a636d9")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 137.16 147.32 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a042c5ee-80ac-498d-88ed-2dfdd66276f8")
+		(property "Reference" "JP4"
+			(at 137.16 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 137.16 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 137.16 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 137.16 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7e68479-f089-4093-bf94-36bc504321de")
+		)
+		(pin "2"
+			(uuid "662d91e5-b5dc-4382-8b8b-3c9294eaf704")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:1.0UF-1206-50V-10%")
+		(at 48.26 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1a2ee4c-846e-42b6-bcd4-abbef8e92c5c")
+		(property "Reference" "C21"
+			(at 49.784 121.539 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 49.784 125.349 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "main:1206"
+			(at 48.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e92d862-f66f-4d14-aa28-e13d010aa2fb")
+		)
+		(pin "2"
+			(uuid "db07595f-bce2-40e5-8a24-d17d3941550c")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 196.85 105.41 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a392ab40-2761-4a9d-820d-bd75c17f9490")
+		(property "Reference" "D34"
+			(at 199.644 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 202.184 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 196.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 196.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 196.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 196.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a80c209-2976-4333-ad55-d8425d548343")
+		)
+		(pin "2"
+			(uuid "52d5dcea-2b31-4139-8e31-4afffbc80282")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 60.96 157.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5acb5d9-ed3f-4d9a-af2f-bc46355c9c17")
+		(property "Reference" "D18"
+			(at 61.468 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 67.056 160.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 60.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 60.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 60.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 60.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72bded76-0e03-4e48-ae3b-4aecd80bb405")
+		)
+		(pin "2"
+			(uuid "fd3542dc-c8e2-47ec-ba07-78c7cdf4dc3c")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 186.69 137.16 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9592b2a-2f9a-4486-9a2a-d44d13e1e7ff")
+		(property "Reference" "D32"
+			(at 186.69 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 186.69 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12e8c7d3-713c-48e5-95d2-cacd55a01083")
+		)
+		(pin "2"
+			(uuid "59a2352c-a222-4459-9314-116ecf391356")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:1.0UF-1206-50V-10%")
+		(at 201.93 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7b030ef-ac3a-4f0f-a9c1-fcc20af378b6")
+		(property "Reference" "C39"
+			(at 204.216 84.074 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 203.454 88.519 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "main:1206"
+			(at 201.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0477339d-6861-4e3d-b706-5907afc9ec36")
+		)
+		(pin "2"
+			(uuid "882a8787-fa8b-4bc3-bc4e-d357b53b065f")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 60.96 147.32 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd037240-8277-4064-b713-35e54917e9da")
+		(property "Reference" "JP2"
+			(at 60.96 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 60.96 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 60.96 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 60.96 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4117fd80-b169-4dec-91f8-8fdfd3a4b5ba")
+		)
+		(pin "2"
+			(uuid "e4fb1b7e-4a54-4c27-ad6b-ce805778a90a")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:1000UF-RADIAL-5MM-25V-20%")
+		(at 40.64 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdb2d142-d684-4ae5-bf32-0c0a1f94251c")
+		(property "Reference" "C10"
+			(at 41.656 50.165 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "470uF"
+			(at 41.656 54.991 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 40.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "5201ca91-4f3f-46cf-95c9-5f9374da865a")
+		)
+		(pin "-"
+			(uuid "e9fa6930-7f4a-454b-8d7d-0ae30e6fbd62")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 185.42 99.06 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf53991e-b2c8-4ea6-bdc2-755efd19336a")
+		(property "Reference" "D31"
+			(at 182.88 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 191.008 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 185.42 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 185.42 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 185.42 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 185.42 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e23a7e1c-a480-435a-a7dc-ce309b93ead3")
+		)
+		(pin "2"
+			(uuid "90deddda-b5b1-4628-bf6e-9454bef3c911")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 54.61 137.16 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb4d01b1-6483-400a-9ac5-be073999e3a8")
+		(property "Reference" "JP1"
+			(at 54.61 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 54.61 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 54.61 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 54.61 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a5db6b9-6b7b-44ec-9d26-523220c883b2")
+		)
+		(pin "2"
+			(uuid "9f9a1217-c0c7-4d27-b9c4-6366187d50a5")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 27.94 36.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb81405a-62d4-4f28-a619-76aaa653a81c")
+		(property "Reference" "D6"
+			(at 28.194 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 28.194 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 27.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 27.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 27.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 27.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3ae9010-be93-4059-a1fb-470a724e6557")
+		)
+		(pin "2"
+			(uuid "28843d28-e26b-453a-905f-a6e2aa3531c0")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 104.14 60.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce5d6a69-a0d8-4531-8ee3-e04df5dd208a")
+		(property "Reference" "D20"
+			(at 104.394 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 105.41 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 104.14 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 104.14 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 104.14 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 104.14 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6573b5fd-af57-4cfc-bcbd-9b86bad427c2")
+		)
+		(pin "2"
+			(uuid "e600e370-47f8-4d19-b162-1bce246336e5")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 180.34 36.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0a2f225-c09e-477b-84b9-a8ce9b076885")
+		(property "Reference" "D29"
+			(at 180.594 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 180.594 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 180.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 180.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 180.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 180.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5194afe3-53ce-4f5e-ad4a-ac8cd6143434")
+		)
+		(pin "2"
+			(uuid "5b98ec15-62a9-48ba-a86e-27ca81824116")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 213.36 115.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2dd37e5-a85c-4dbc-aced-17db4e53f65a")
+		(property "Reference" "D37"
+			(at 213.106 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 212.852 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 213.36 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 213.36 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 213.36 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 213.36 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fc5d6b0-0245-4215-9dd7-3580cfb9beea")
+		)
+		(pin "2"
+			(uuid "c28782c8-33f8-4dc5-a512-86eed9fe0094")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:1.0UF-1206-50V-10%")
+		(at 200.66 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7fdc4c1-b292-4f3f-8674-23969fbd2ab0")
+		(property "Reference" "C37"
+			(at 202.184 163.449 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 202.184 168.529 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "main:1206"
+			(at 200.66 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18976fc3-7dd6-4b13-9262-5d7b3aa62b12")
+		)
+		(pin "2"
+			(uuid "fed65e82-9d72-45fe-a63f-c62f3916d427")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:1000UF-RADIAL-5MM-25V-20%")
+		(at 191.77 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8cb4bfd-645f-4640-86bf-806934352fab")
+		(property "Reference" "C32"
+			(at 192.786 85.725 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "470uF"
+			(at 192.786 90.551 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 191.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "e8aa9b19-9e1a-4096-8311-44b2f503d6aa")
+		)
+		(pin "-"
+			(uuid "971890d0-bd08-4970-ad06-72603e7313c5")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 34.29 137.16 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d92a5e9e-f953-4074-a324-884626c6a6c8")
+		(property "Reference" "D12"
+			(at 34.29 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 34.29 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 34.29 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 34.29 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 34.29 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 34.29 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78c6e352-d547-46f1-b314-75400570f59b")
+		)
+		(pin "2"
+			(uuid "fec5d4ba-ed72-4edc-9d3c-d92f67bb4822")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 27.94 60.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db077464-e7b3-4ca7-9422-46612bc62fb3")
+		(property "Reference" "D8"
+			(at 28.194 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 29.21 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 27.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 27.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 27.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 27.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de0147fc-6a54-448d-97a3-b01de9020b15")
+		)
+		(pin "2"
+			(uuid "288df74d-3808-4193-8495-fb6d897530df")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 213.36 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ddc5e2c3-aa6d-46dc-a6d6-05c90c3d56b0")
+		(property "Reference" "D36"
+			(at 213.106 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 212.09 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 213.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 213.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 213.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 213.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bebb4a6c-d04d-4a27-965a-c18f2d9eba80")
+		)
+		(pin "2"
+			(uuid "3af8449d-46ea-4209-aee9-daadbcdc5892")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:1.0UF-1206-50V-10%")
+		(at 49.53 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "deaa39ee-43e3-49eb-a8d6-770e0fff3e6c")
+		(property "Reference" "C13"
+			(at 51.816 84.074 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 51.054 88.519 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "main:1206"
+			(at 49.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2db3ab6c-b3e0-4a4e-bf22-0e15290a20c8")
+		)
+		(pin "2"
+			(uuid "b491d3b4-47cb-44b6-a972-c3d3d13b1108")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 109.22 99.06 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7acfc47-765d-43b3-a82d-22e441ab53db")
+		(property "Reference" "D21"
+			(at 106.68 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 114.808 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 109.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 109.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 109.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 109.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4c52a79-f47b-4701-b58d-85ddb7dce180")
+		)
+		(pin "2"
+			(uuid "3eb25c32-c130-4508-967a-ea97ad12197f")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 207.01 137.16 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eaeb5495-0164-4338-8537-3cf5c6ddc284")
+		(property "Reference" "JP5"
+			(at 207.01 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 207.01 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 207.01 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 207.01 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53e4da7c-e3e4-4d14-bc9d-abfc9edb838b")
+		)
+		(pin "2"
+			(uuid "c64cddf9-fdf5-442d-931f-a4ae0340862e")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:1000UF-RADIAL-5MM-25V-20%")
+		(at 39.37 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ede6baca-d65e-436d-8eaa-ab1774f10317")
+		(property "Reference" "C7"
+			(at 40.386 121.285 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "470uF"
+			(at 40.386 126.111 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 39.37 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "a5f72e99-87a2-4692-bbac-4470a3e679c9")
+		)
+		(pin "-"
+			(uuid "42b5286e-ca37-42b1-916d-5b65eb97c310")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:1.0UF-1206-50V-10%")
+		(at 125.73 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4ed8db3-53ee-4d68-8499-14ba73bc5131")
+		(property "Reference" "C31"
+			(at 128.016 84.074 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 127.254 88.519 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "main:1206"
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "747529b6-3b6a-42fd-883c-750f9ff47f37")
+		)
+		(pin "2"
+			(uuid "c471677d-ae76-4962-904f-32f6f4f2870f")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 196.85 147.32 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa619b2d-a477-4ea5-a6fd-3f858356685b")
+		(property "Reference" "D35"
+			(at 193.802 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 201.168 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 196.85 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 196.85 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 196.85 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 196.85 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "108a7971-132f-40e4-8345-083a3d427f66")
+		)
+		(pin "2"
+			(uuid "53038777-9b03-4ae1-b5ed-2e3377208081")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:1.0UF-1206-50V-10%")
+		(at 124.46 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fcc10978-e347-42f2-861b-7e41084e486f")
+		(property "Reference" "C29"
+			(at 125.984 163.449 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 125.984 168.529 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "main:1206"
+			(at 124.46 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a174840e-2d92-4cf8-b50f-84f86e290ee0")
+		)
+		(pin "2"
+			(uuid "fa0e47e0-cf78-4e6e-8007-bd544d6e409a")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 137.16 157.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdb98ab4-29e8-4310-bc1a-352e4e1a8829")
+		(property "Reference" "D28"
+			(at 137.668 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRB20300S"
+			(at 143.256 160.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 137.16 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 137.16 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 137.16 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 137.16 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "985a6883-f25f-4885-88de-33505d423bb0")
+		)
+		(pin "2"
+			(uuid "dac064ce-27e4-4231-98ba-8b56660be266")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
