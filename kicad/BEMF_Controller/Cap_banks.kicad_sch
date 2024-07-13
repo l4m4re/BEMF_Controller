@@ -3740,7 +3740,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "main:CPOL-RADIAL-5MM-10MM"
 			(at 39.37 163.83 0)
 			(effects
 				(font
@@ -3964,7 +3964,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "main:CPOL-RADIAL-5MM-10MM"
 			(at 116.84 50.8 0)
 			(effects
 				(font
@@ -4033,7 +4033,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "main:CPOL-RADIAL-5MM-10MM"
 			(at 191.77 163.83 0)
 			(effects
 				(font
@@ -4188,7 +4188,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "main:CPOL-RADIAL-5MM-10MM"
 			(at 191.77 121.92 0)
 			(effects
 				(font
@@ -4652,7 +4652,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "main:CPOL-RADIAL-5MM-10MM"
 			(at 39.37 86.36 0)
 			(effects
 				(font
@@ -4721,7 +4721,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "main:CPOL-RADIAL-5MM-10MM"
 			(at 115.57 86.36 0)
 			(effects
 				(font
@@ -4790,7 +4790,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "main:CPOL-RADIAL-5MM-10MM"
 			(at 115.57 163.83 0)
 			(effects
 				(font
@@ -5255,7 +5255,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "main:CPOL-RADIAL-5MM-10MM"
 			(at 193.04 50.8 0)
 			(effects
 				(font
@@ -5324,7 +5324,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "main:CPOL-RADIAL-5MM-10MM"
 			(at 115.57 121.92 0)
 			(effects
 				(font
@@ -6424,7 +6424,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "main:CPOL-RADIAL-5MM-10MM"
 			(at 40.64 50.8 0)
 			(effects
 				(font
@@ -7060,7 +7060,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "main:CPOL-RADIAL-5MM-10MM"
 			(at 191.77 86.36 0)
 			(effects
 				(font
@@ -7610,7 +7610,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "main:CPOL-RADIAL-5MM-10MM"
 			(at 39.37 121.92 0)
 			(effects
 				(font
