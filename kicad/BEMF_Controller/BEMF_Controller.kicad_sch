@@ -10677,7 +10677,7 @@
 		)
 		(uuid "42885869-bc43-496e-bb14-e5f2f968d2b2")
 	)
-	(label "CAP_BANK_A"
+	(label "CAP_BANK_C"
 		(at 360.68 113.03 0)
 		(fields_autoplaced yes)
 		(effects
