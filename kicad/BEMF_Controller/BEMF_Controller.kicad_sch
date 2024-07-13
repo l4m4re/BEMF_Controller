@@ -10971,7 +10971,7 @@
 				)
 			)
 		)
-		(property "Value" "MBRB20300S"
+		(property "Value" "FSV20150V"
 			(at 229.87 121.412 0)
 			(effects
 				(font
@@ -10979,7 +10979,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
 			(at 226.06 127 0)
 			(effects
 				(font
@@ -11330,7 +11330,7 @@
 				)
 			)
 		)
-		(property "Value" "MBRB20300S"
+		(property "Value" "FSV20150V"
 			(at 241.3 159.512 0)
 			(effects
 				(font
@@ -11338,7 +11338,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
 			(at 237.49 165.1 0)
 			(effects
 				(font
@@ -12609,7 +12609,7 @@
 				)
 			)
 		)
-		(property "Value" "MBRB20300S"
+		(property "Value" "FSV20150V"
 			(at 317.5 141.732 0)
 			(effects
 				(font
@@ -12617,7 +12617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
 			(at 313.69 147.32 0)
 			(effects
 				(font
@@ -14948,7 +14948,7 @@
 				)
 			)
 		)
-		(property "Value" "MBRB20300S"
+		(property "Value" "FSV20150V"
 			(at 382.27 121.412 0)
 			(effects
 				(font
@@ -14956,7 +14956,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
 			(at 378.46 127 0)
 			(effects
 				(font
@@ -16210,7 +16210,7 @@
 				)
 			)
 		)
-		(property "Value" "MBRB20300S"
+		(property "Value" "FSV20150V"
 			(at 382.27 141.732 0)
 			(effects
 				(font
@@ -16218,7 +16218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
 			(at 378.46 147.32 0)
 			(effects
 				(font
@@ -16931,7 +16931,7 @@
 				)
 			)
 		)
-		(property "Value" "MBRB20300S"
+		(property "Value" "FSV20150V"
 			(at 393.7 141.732 0)
 			(effects
 				(font
@@ -16939,7 +16939,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
 			(at 389.89 147.32 0)
 			(effects
 				(font
@@ -17868,7 +17868,7 @@
 				)
 			)
 		)
-		(property "Value" "MBRB20300S"
+		(property "Value" "FSV20150V"
 			(at 317.5 159.512 0)
 			(effects
 				(font
@@ -17876,7 +17876,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
 			(at 313.69 165.1 0)
 			(effects
 				(font
@@ -18110,7 +18110,7 @@
 				)
 			)
 		)
-		(property "Value" "MBRB20300S"
+		(property "Value" "FSV20150V"
 			(at 393.7 159.512 0)
 			(effects
 				(font
@@ -18118,7 +18118,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
 			(at 389.89 165.1 0)
 			(effects
 				(font
@@ -18264,7 +18264,7 @@
 				)
 			)
 		)
-		(property "Value" "MBRB20300S"
+		(property "Value" "FSV20150V"
 			(at 241.3 141.732 0)
 			(effects
 				(font
@@ -18272,7 +18272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
 			(at 237.49 147.32 0)
 			(effects
 				(font
@@ -18715,7 +18715,7 @@
 				)
 			)
 		)
-		(property "Value" "MBRB20300S"
+		(property "Value" "FSV20150V"
 			(at 229.87 141.732 0)
 			(effects
 				(font
@@ -18723,7 +18723,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
 			(at 226.06 147.32 0)
 			(effects
 				(font
@@ -19013,7 +19013,7 @@
 				)
 			)
 		)
-		(property "Value" "MBRB20300S"
+		(property "Value" "FSV20150V"
 			(at 306.07 121.412 0)
 			(effects
 				(font
@@ -19021,7 +19021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
 			(at 302.26 127 0)
 			(effects
 				(font
@@ -19176,7 +19176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
 			(at 302.26 147.32 0)
 			(effects
 				(font
