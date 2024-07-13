@@ -875,9 +875,8 @@
 				)
 			)
 		)
-		(symbol "Transistor_IGBT:IRG4PF50W"
-			(pin_names
-				(offset 0) hide)
+		(symbol "Transistor_FET:C3M0280090D"
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -890,7 +889,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "IRG4PF50W"
+			(property "Value" "C3M0280090D"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -910,8 +909,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.wolfspeed.com/media/downloads/825/C3M0280090D.pdf"
+				(at 5.08 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -920,7 +919,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "28A, 900V, N-Channel IGBT"
+			(property "Description" "11.5A Id, 900V Vds, 280mOhm, N-Channel SiC MOSFET, TO-247"
 				(at 0 0 0)
 				(effects
 					(font
@@ -929,7 +928,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "N-Channel IGBT Power Transistor"
+			(property "ki_keywords" "N-Channel SiC MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -947,10 +946,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "IRG4PF50W_0_1"
+			(symbol "C3M0280090D_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0.254 0)
+						(xy 0.254 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -962,7 +961,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.016) (xy 0.762 -2.032)
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
 					)
 					(stroke
 						(width 0.254)
@@ -986,7 +997,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.032) (xy 0.762 1.016)
+						(xy 0.762 2.286) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -998,7 +1009,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.413) (xy 0.762 -1.524)
+						(xy 2.54 2.54) (xy 2.54 1.778)
 					)
 					(stroke
 						(width 0)
@@ -1010,7 +1021,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -0.889) (xy 0.762 0)
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
 					)
 					(stroke
 						(width 0)
@@ -1022,7 +1033,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.413) (xy 0.762 1.524)
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
 					)
 					(stroke
 						(width 0)
@@ -1034,19 +1045,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 -2.159) (xy 1.651 -1.651) (xy 2.54 -2.413) (xy 1.397 -2.159)
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
 					)
 					(stroke
 						(width 0)
@@ -1058,8 +1057,42 @@
 				)
 				(polyline
 					(pts
-						(xy 2.159 1.905) (xy 1.905 2.413) (xy 1.016 1.651) (xy 2.159 1.905)
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
 					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
 					(stroke
 						(width 0)
 						(type default)
@@ -1069,21 +1102,21 @@
 					)
 				)
 				(circle
-					(center 1.27 0)
-					(radius 2.8194)
+					(center 2.54 1.778)
+					(radius 0.254)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 			)
-			(symbol "IRG4PF50W_1_1"
+			(symbol "C3M0280090D_1_1"
 				(pin input line
 					(at -5.08 0 0)
-					(length 5.08)
+					(length 2.54)
 					(name "G"
 						(effects
 							(font
@@ -1102,7 +1135,7 @@
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "C"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1120,7 +1153,7 @@
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "E"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11440,81 +11473,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_IGBT:IRG4PF50W")
-		(at 275.59 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "072e606d-b915-4354-bc34-7a12abca9b2d")
-		(property "Reference" "Q3"
-			(at 278.13 123.19 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "IGBT-TO-247"
-			(at 280.67 125.73 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
-			(at 280.67 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf"
-			(at 275.59 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "28A, 900V, N-Channel IGBT"
-			(at 275.59 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94529f5d-3230-428e-a28a-8fd6efa41ccc")
-		)
-		(pin "2"
-			(uuid "55daf289-5bce-45a3-a3c3-cafa6e6005cb")
-		)
-		(pin "3"
-			(uuid "b1f21619-0a16-4f0c-8394-4c62321b084c")
-		)
-		(instances
-			(project "BEMF_Controller"
-				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "main-eagle-import:SCREW")
 		(at 76.2 132.08 0)
 		(unit 1)
@@ -12035,6 +11993,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:C3M0280090D")
+		(at 199.39 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1201e69c-d44c-416e-9435-5602bd211cec")
+		(property "Reference" "Q1"
+			(at 205.74 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C3M0280090D"
+			(at 205.74 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Horizontal_TabDown"
+			(at 204.47 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.wolfspeed.com/uploads/2024/01/Wolfspeed_C3M0280090D_data_sheet.pdf"
+			(at 204.47 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "11.5A Id, 900V Vds, 280mOhm, N-Channel SiC MOSFET, TO-247"
+			(at 199.39 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4b8044f0-7821-4c07-bd6c-7119e0e0b6ce")
+		)
+		(pin "1"
+			(uuid "66c47fe7-2e47-4000-8d34-31c516ea5d70")
+		)
+		(pin "2"
+			(uuid "07940771-f575-4951-b67d-fbb085f9196b")
+		)
+		(instances
+			(project ""
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "main-eagle-import:1.0UF-1206-50V-10%")
 		(at 44.45 113.03 0)
 		(unit 1)
@@ -12167,6 +12201,82 @@
 			(project ""
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:C3M0280090D")
+		(at 275.59 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c7c65e9-6e92-476a-8013-76e204ebc47c")
+		(property "Reference" "Q3"
+			(at 281.94 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C3M0280090D"
+			(at 281.94 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Horizontal_TabDown"
+			(at 280.67 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.wolfspeed.com/uploads/2024/01/Wolfspeed_C3M0280090D_data_sheet.pdf"
+			(at 280.67 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "11.5A Id, 900V Vds, 280mOhm, N-Channel SiC MOSFET, TO-247"
+			(at 275.59 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1b06b98d-67c4-4fbb-af21-e2ab22fbea34")
+		)
+		(pin "1"
+			(uuid "3a4627f5-340a-42fc-bf5c-46f18de8eb81")
+		)
+		(pin "2"
+			(uuid "69075f17-a5f3-4934-aa0c-0dcc8f5a5b57")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -13833,81 +13943,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_IGBT:IRG4PF50W")
-		(at 354.33 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3deb4ede-bd7d-4fe2-bd3f-9f578190bd54")
-		(property "Reference" "Q5"
-			(at 356.87 123.19 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "IGBT-TO-247"
-			(at 359.41 125.73 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
-			(at 359.41 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf"
-			(at 354.33 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "28A, 900V, N-Channel IGBT"
-			(at 354.33 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0bb14644-67c1-4f08-9c7d-97ceba5bde55")
-		)
-		(pin "2"
-			(uuid "c0bcef51-bd99-4a80-8ec6-56257e8f13c2")
-		)
-		(pin "3"
-			(uuid "39a414d9-b28c-4950-9b4f-2fd7c3d25a71")
-		)
-		(instances
-			(project "BEMF_Controller"
-				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "main-eagle-import:INA181")
 		(at 124.46 167.64 0)
 		(unit 1)
@@ -14144,6 +14179,158 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:C3M0280090D")
+		(at 275.59 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58d82d6e-0b2a-47c6-9358-759c377722f2")
+		(property "Reference" "Q4"
+			(at 281.94 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C3M0280090D"
+			(at 281.94 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Horizontal_TabDown"
+			(at 280.67 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.wolfspeed.com/uploads/2024/01/Wolfspeed_C3M0280090D_data_sheet.pdf"
+			(at 280.67 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "11.5A Id, 900V Vds, 280mOhm, N-Channel SiC MOSFET, TO-247"
+			(at 275.59 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "33b241d1-a290-461f-bde5-c3e5bcd68053")
+		)
+		(pin "1"
+			(uuid "7fd6a328-33be-4f46-9aa4-57e76213a86f")
+		)
+		(pin "2"
+			(uuid "a32d8ae2-ed9e-43b1-9454-92ae18b3dbc4")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:C3M0280090D")
+		(at 354.33 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59d59dbc-200f-41a3-a98d-293925fb0fb3")
+		(property "Reference" "Q5"
+			(at 360.68 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C3M0280090D"
+			(at 360.68 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Horizontal_TabDown"
+			(at 359.41 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.wolfspeed.com/uploads/2024/01/Wolfspeed_C3M0280090D_data_sheet.pdf"
+			(at 359.41 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "11.5A Id, 900V Vds, 280mOhm, N-Channel SiC MOSFET, TO-247"
+			(at 354.33 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "967a044a-f728-4001-bd4b-da716d8e2e53")
+		)
+		(pin "1"
+			(uuid "b66404f7-6554-4597-b3de-f55ca5085a34")
+		)
+		(pin "2"
+			(uuid "2edd65ee-f05d-4f1b-a228-bd78d1382fe1")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "main-eagle-import:RESISTOR1206")
 		(at 138.43 105.41 0)
 		(unit 1)
@@ -14276,81 +14463,6 @@
 			(project ""
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_IGBT:IRG4PF50W")
-		(at 199.39 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "633173f4-47eb-4a33-a180-187c9e5dcb00")
-		(property "Reference" "Q1"
-			(at 201.93 123.19 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "IGBT-TO-247"
-			(at 204.47 125.73 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
-			(at 204.47 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf"
-			(at 199.39 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "28A, 900V, N-Channel IGBT"
-			(at 199.39 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45fed680-8f11-4474-9a1c-6b68a4064c24")
-		)
-		(pin "2"
-			(uuid "aa6600fc-258e-4155-aeb7-2d26cd6f97c5")
-		)
-		(pin "3"
-			(uuid "51285c87-ca77-4d83-9364-730181271dc4")
-		)
-		(instances
-			(project ""
-				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -14846,6 +14958,82 @@
 			(project ""
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
 					(reference "#GND09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:C3M0280090D")
+		(at 354.33 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "720d5863-8ffd-484d-a84f-97e48a7683bb")
+		(property "Reference" "Q6"
+			(at 360.68 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C3M0280090D"
+			(at 360.68 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Horizontal_TabDown"
+			(at 359.41 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.wolfspeed.com/uploads/2024/01/Wolfspeed_C3M0280090D_data_sheet.pdf"
+			(at 359.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "11.5A Id, 900V Vds, 280mOhm, N-Channel SiC MOSFET, TO-247"
+			(at 354.33 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3f68e2e4-2ac6-4af4-9fd8-4bdc1935b38d")
+		)
+		(pin "1"
+			(uuid "53cb74e6-b0fb-49d0-9e32-7ff1604ac38e")
+		)
+		(pin "2"
+			(uuid "8b55b82a-1062-42c4-95bd-a9777d9e4ddd")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -16543,6 +16731,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:C3M0280090D")
+		(at 199.39 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98455a71-8218-443b-beac-f238127c1434")
+		(property "Reference" "Q2"
+			(at 205.74 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C3M0280090D"
+			(at 205.74 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Horizontal_TabDown"
+			(at 204.47 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.wolfspeed.com/uploads/2024/01/Wolfspeed_C3M0280090D_data_sheet.pdf"
+			(at 204.47 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "11.5A Id, 900V Vds, 280mOhm, N-Channel SiC MOSFET, TO-247"
+			(at 199.39 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3354a153-6cd9-41f2-95a3-923e8e323cbe")
+		)
+		(pin "1"
+			(uuid "e4eadd62-69e4-41e7-9121-c6475b01fdce")
+		)
+		(pin "2"
+			(uuid "857f15a1-5907-4bc7-b09c-c85a4b369598")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "main-eagle-import:1.0UF-1206-50V-10%")
 		(at 143.51 11.43 90)
 		(unit 1)
@@ -17116,81 +17380,6 @@
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
 					(reference "D62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_IGBT:IRG4PF50W")
-		(at 275.59 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a31b7af5-8da3-4845-a876-8bbfd0d8b07e")
-		(property "Reference" "Q4"
-			(at 278.13 158.75 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "IGBT-TO-247"
-			(at 280.67 161.29 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
-			(at 280.67 163.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf"
-			(at 275.59 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "28A, 900V, N-Channel IGBT"
-			(at 275.59 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c314282-49ce-41ca-b6e2-811f0274836c")
-		)
-		(pin "2"
-			(uuid "df05cfc7-43e3-47be-9c11-9905d99004d3")
-		)
-		(pin "3"
-			(uuid "cc81ea8a-8275-4b4a-ab27-110f4632b3f6")
-		)
-		(instances
-			(project "BEMF_Controller"
-				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -17993,81 +18182,6 @@
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
 					(reference "D53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_IGBT:IRG4PF50W")
-		(at 199.39 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b40d71a1-1cfd-443c-9816-4040602b3ddb")
-		(property "Reference" "Q2"
-			(at 201.93 158.75 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "IGBT-TO-247"
-			(at 204.47 161.29 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
-			(at 204.47 163.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf"
-			(at 199.39 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "28A, 900V, N-Channel IGBT"
-			(at 199.39 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94b74c2d-943b-43c6-ae57-fdab2071aff1")
-		)
-		(pin "2"
-			(uuid "c41a8262-c9bd-4cfe-af8f-95c596b82df2")
-		)
-		(pin "3"
-			(uuid "bfb7a942-0017-472f-82cc-c5972405cb43")
-		)
-		(instances
-			(project ""
-				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -18882,7 +18996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 12.7 104.14 0)
 			(effects
 				(font
@@ -19878,81 +19992,6 @@
 			(project ""
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_IGBT:IRG4PF50W")
-		(at 354.33 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e25eea4b-ac18-4e8b-944e-a8b25c888ba8")
-		(property "Reference" "Q6"
-			(at 356.87 158.75 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "IGBT-TO-247"
-			(at 359.41 161.29 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
-			(at 359.41 163.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf"
-			(at 354.33 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "28A, 900V, N-Channel IGBT"
-			(at 354.33 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "281cfd73-88eb-42e7-ad32-d955e88b8151")
-		)
-		(pin "2"
-			(uuid "52bb6df4-968c-4eaf-86a9-7398f996a840")
-		)
-		(pin "3"
-			(uuid "2f3494a4-cac4-471b-9f1e-9add9bc18c7d")
-		)
-		(instances
-			(project "BEMF_Controller"
-				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
-					(reference "Q6")
 					(unit 1)
 				)
 			)
