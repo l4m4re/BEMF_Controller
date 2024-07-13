@@ -5,10 +5,145 @@
 	(uuid "1de7c6a7-a5ed-4f87-a3ca-5028f94302b7")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:D"
+		(symbol "Component_Library:CHV1812N250105MXT"
 			(pin_numbers hide)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CHV1812N250105MXT"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://88ce57.p3cdn1.secureserver.net/wp-content/uploads/2023/01/chv_series-1.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "HVCAP1812 X7R 1UF 20% 250V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CHV1812N250105MXT_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CHV1812N250105MXT_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Component_Library:FSV20150V"
+			(pin_numbers hide)
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -20,7 +155,7 @@
 					)
 				)
 			)
-			(property "Value" "D"
+			(property "Value" "FSV20150V"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -28,7 +163,16 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -37,7 +181,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -46,7 +190,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Diode"
+			(property "ki_keywords" "forward voltage diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -55,49 +199,13 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
+			(symbol "FSV20150V_0_1"
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -121,7 +229,7 @@
 						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -129,11 +237,31 @@
 					)
 				)
 			)
-			(symbol "D_1_1"
+			(symbol "FSV20150V_1_0"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "FSV20150V_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
-					(name "K"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -149,7 +277,7 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at -3.81 0 0)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -307,148 +435,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "main-eagle-import:1.0UF-1206-50V-10%"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 1.524 2.921 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 1.524 -2.159 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "main:1206"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1µF ceramic capacitors\n\nA capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "1.0UF-1206-50V-10%_1_0"
-				(rectangle
-					(start -2.032 0.508)
-					(end 2.032 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.032 1.524)
-					(end 2.032 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
 							)
 						)
 					)
@@ -2208,16 +2194,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 157.48) (xy 200.66 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f58ed48-b84d-4196-9910-c56e5fe7d409")
-	)
-	(wire
-		(pts
 			(xy 193.04 55.88) (xy 196.85 55.88)
 		)
 		(stroke
@@ -2515,6 +2491,16 @@
 			(type default)
 		)
 		(uuid "adcb6ac4-b483-46bc-b20b-946550f8afe4")
+	)
+	(wire
+		(pts
+			(xy 200.66 157.48) (xy 200.66 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae8e8e15-bd5e-4e2a-a2ba-57de4da86966")
 	)
 	(wire
 		(pts
@@ -3319,8 +3305,8 @@
 		(uuid "e27304d9-b387-40f6-88c4-c39d8e899237")
 	)
 	(symbol
-		(lib_id "main-eagle-import:1.0UF-1206-50V-10%")
-		(at 125.73 53.34 0)
+		(lib_id "Component_Library:CHV1812N250105MXT")
+		(at 125.73 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3328,7 +3314,7 @@
 		(dnp no)
 		(uuid "02797c7a-5794-4494-9638-5c3d0a3adb78")
 		(property "Reference" "C30"
-			(at 127.254 50.419 0)
+			(at 127.254 49.149 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -3337,7 +3323,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 127.254 55.499 0)
+			(at 127.254 54.229 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -3345,8 +3331,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:1206"
-			(at 125.73 53.34 0)
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+			(at 126.6952 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3354,8 +3340,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 125.73 53.34 0)
+		(property "Datasheet" "https://88ce57.p3cdn1.secureserver.net/wp-content/uploads/2023/01/chv_series-1.pdf"
+			(at 125.73 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3363,8 +3349,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 125.73 53.34 0)
+		(property "Description" "HVCAP1812 X7R 1UF 20% 250V"
+			(at 125.73 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3388,7 +3374,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 120.65 105.41 270)
 		(mirror x)
 		(unit 1)
@@ -3414,6 +3400,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 116.205 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 120.65 105.41 0)
 			(effects
 				(font
@@ -3422,16 +3417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 120.65 105.41 0)
 			(effects
 				(font
@@ -3464,6 +3450,9 @@
 		(pin "2"
 			(uuid "ce21ea25-3c14-4d51-9bcb-b56490d5e2af")
 		)
+		(pin "3"
+			(uuid "3b38fe75-25c0-4931-9130-7a93a1a4440f")
+		)
 		(instances
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
@@ -3474,7 +3463,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 60.96 77.47 0)
 		(mirror y)
 		(unit 1)
@@ -3500,6 +3489,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 60.96 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 60.96 77.47 0)
 			(effects
 				(font
@@ -3508,16 +3506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 60.96 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 60.96 77.47 0)
 			(effects
 				(font
@@ -3549,6 +3538,9 @@
 		)
 		(pin "2"
 			(uuid "36e6ef94-466a-473f-bbe4-69b70d14eb29")
+		)
+		(pin "3"
+			(uuid "c3c8ff49-dd23-4de8-9d92-e830ef3c5d49")
 		)
 		(instances
 			(project "BEMF_Controller"
@@ -3628,7 +3620,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 44.45 68.58 270)
 		(mirror x)
 		(unit 1)
@@ -3654,6 +3646,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 40.005 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 44.45 68.58 0)
 			(effects
 				(font
@@ -3662,16 +3663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 44.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 44.45 68.58 0)
 			(effects
 				(font
@@ -3703,6 +3695,9 @@
 		)
 		(pin "2"
 			(uuid "d7ab4e0c-4b1c-4cc0-90b3-ed321109fbc4")
+		)
+		(pin "3"
+			(uuid "15128bde-9a8d-4506-8312-c5354329ce7e")
 		)
 		(instances
 			(project "BEMF_Controller"
@@ -3783,7 +3778,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 120.65 147.32 270)
 		(mirror x)
 		(unit 1)
@@ -3809,6 +3804,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 116.205 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 120.65 147.32 0)
 			(effects
 				(font
@@ -3817,16 +3821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 120.65 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 120.65 147.32 0)
 			(effects
 				(font
@@ -3859,6 +3854,9 @@
 		(pin "2"
 			(uuid "6c3aebad-ad28-4406-92a6-e9eb93b89bba")
 		)
+		(pin "3"
+			(uuid "c1e9abef-79df-4ed3-ae16-6651ff6f3844")
+		)
 		(instances
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
@@ -3869,8 +3867,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:1.0UF-1206-50V-10%")
-		(at 200.66 124.46 0)
+		(lib_id "Component_Library:CHV1812N250105MXT")
+		(at 200.66 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3878,7 +3876,7 @@
 		(dnp no)
 		(uuid "1fa01fc0-eef6-42dc-bd3f-f2edb5339ace")
 		(property "Reference" "C36"
-			(at 202.184 121.539 0)
+			(at 202.184 120.269 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -3887,7 +3885,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 202.184 125.349 0)
+			(at 202.184 124.079 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -3895,8 +3893,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:1206"
-			(at 200.66 124.46 0)
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+			(at 201.6252 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3904,8 +3902,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 200.66 124.46 0)
+		(property "Datasheet" "https://88ce57.p3cdn1.secureserver.net/wp-content/uploads/2023/01/chv_series-1.pdf"
+			(at 200.66 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3913,8 +3911,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 200.66 124.46 0)
+		(property "Description" "HVCAP1812 X7R 1UF 20% 250V"
+			(at 200.66 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,7 +4074,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 44.45 147.32 270)
 		(mirror x)
 		(unit 1)
@@ -4102,6 +4100,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 40.005 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 44.45 147.32 0)
 			(effects
 				(font
@@ -4110,16 +4117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 44.45 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 44.45 147.32 0)
 			(effects
 				(font
@@ -4151,6 +4149,9 @@
 		)
 		(pin "2"
 			(uuid "bce2d3eb-20f3-4b81-a377-d9fe88dd11be")
+		)
+		(pin "3"
+			(uuid "32fe6566-c6bc-434f-8425-a09fb0a5a569")
 		)
 		(instances
 			(project "BEMF_Controller"
@@ -4231,8 +4232,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:1.0UF-1206-50V-10%")
-		(at 201.93 53.34 0)
+		(lib_id "Component_Library:CHV1812N250105MXT")
+		(at 201.93 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4240,7 +4241,7 @@
 		(dnp no)
 		(uuid "3c007102-b2f0-40a7-9c2e-365510dd59d9")
 		(property "Reference" "C38"
-			(at 203.454 50.419 0)
+			(at 203.454 49.149 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -4249,7 +4250,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 203.454 55.499 0)
+			(at 203.454 54.229 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -4257,8 +4258,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:1206"
-			(at 201.93 53.34 0)
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+			(at 202.8952 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4266,8 +4267,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 201.93 53.34 0)
+		(property "Datasheet" "https://88ce57.p3cdn1.secureserver.net/wp-content/uploads/2023/01/chv_series-1.pdf"
+			(at 201.93 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4275,8 +4276,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 201.93 53.34 0)
+		(property "Description" "HVCAP1812 X7R 1UF 20% 250V"
+			(at 201.93 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4300,7 +4301,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 104.14 36.83 0)
 		(mirror y)
 		(unit 1)
@@ -4326,6 +4327,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 104.14 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 104.14 36.83 0)
 			(effects
 				(font
@@ -4334,16 +4344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 104.14 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 104.14 36.83 0)
 			(effects
 				(font
@@ -4376,6 +4377,9 @@
 		(pin "2"
 			(uuid "a486cc28-87d5-4ac1-9989-75a1821ce13f")
 		)
+		(pin "3"
+			(uuid "860db3a7-d9be-4e5c-880d-d80d6c3fd265")
+		)
 		(instances
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
@@ -4386,7 +4390,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 213.36 157.48 0)
 		(mirror y)
 		(unit 1)
@@ -4412,6 +4416,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 213.36 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 213.36 157.48 0)
 			(effects
 				(font
@@ -4420,16 +4433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 213.36 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 213.36 157.48 0)
 			(effects
 				(font
@@ -4462,6 +4466,9 @@
 		(pin "2"
 			(uuid "c4f4bff0-e88e-4baf-9a45-7218030ab074")
 		)
+		(pin "3"
+			(uuid "25afa7c5-8fad-402e-8236-4c9b419840e2")
+		)
 		(instances
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
@@ -4472,7 +4479,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 33.02 99.06 0)
 		(mirror y)
 		(unit 1)
@@ -4498,6 +4505,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 33.02 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 33.02 99.06 0)
 			(effects
 				(font
@@ -4506,16 +4522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 33.02 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 33.02 99.06 0)
 			(effects
 				(font
@@ -4547,6 +4554,9 @@
 		)
 		(pin "2"
 			(uuid "5bcd42ad-b75a-4fab-beca-7354ee44e17f")
+		)
+		(pin "3"
+			(uuid "f368b510-e1ae-43c3-8e27-ee2fa421aca2")
 		)
 		(instances
 			(project "BEMF_Controller"
@@ -4833,7 +4843,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 110.49 137.16 0)
 		(mirror y)
 		(unit 1)
@@ -4859,6 +4869,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 110.49 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 110.49 137.16 0)
 			(effects
 				(font
@@ -4867,16 +4886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 110.49 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 110.49 137.16 0)
 			(effects
 				(font
@@ -4909,6 +4919,9 @@
 		(pin "2"
 			(uuid "54b6abd8-09ad-4e4e-867b-abe786d3dbf3")
 		)
+		(pin "3"
+			(uuid "8a930b5b-0382-4900-8708-f7d89348c1dd")
+		)
 		(instances
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
@@ -4919,8 +4932,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:1.0UF-1206-50V-10%")
-		(at 49.53 53.34 0)
+		(lib_id "Component_Library:CHV1812N250105MXT")
+		(at 49.53 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4928,7 +4941,7 @@
 		(dnp no)
 		(uuid "57a447d2-8e40-4475-b3cc-772c857f270c")
 		(property "Reference" "C23"
-			(at 51.054 50.419 0)
+			(at 51.054 49.149 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -4937,7 +4950,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 51.054 55.499 0)
+			(at 51.054 54.229 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -4945,8 +4958,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:1206"
-			(at 49.53 53.34 0)
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+			(at 50.4952 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4954,8 +4967,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 49.53 53.34 0)
+		(property "Datasheet" "https://88ce57.p3cdn1.secureserver.net/wp-content/uploads/2023/01/chv_series-1.pdf"
+			(at 49.53 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4963,8 +4976,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 49.53 53.34 0)
+		(property "Description" "HVCAP1812 X7R 1UF 20% 250V"
+			(at 49.53 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,7 +5001,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 196.85 68.58 270)
 		(mirror x)
 		(unit 1)
@@ -5014,6 +5027,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 192.405 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 196.85 68.58 0)
 			(effects
 				(font
@@ -5022,16 +5044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 196.85 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 196.85 68.58 0)
 			(effects
 				(font
@@ -5064,6 +5077,9 @@
 		(pin "2"
 			(uuid "5369902c-573b-45cd-82cd-e70951a87d0d")
 		)
+		(pin "3"
+			(uuid "5f89f8a8-3074-45d3-b58d-f3a90547e997")
+		)
 		(instances
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
@@ -5074,8 +5090,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:1.0UF-1206-50V-10%")
-		(at 124.46 124.46 0)
+		(lib_id "Component_Library:CHV1812N250105MXT")
+		(at 124.46 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5083,7 +5099,7 @@
 		(dnp no)
 		(uuid "652a2d71-a110-46ce-ad03-db32e702d8a8")
 		(property "Reference" "C28"
-			(at 125.984 121.539 0)
+			(at 125.984 120.269 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -5092,7 +5108,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 125.984 125.349 0)
+			(at 125.984 124.079 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -5100,8 +5116,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:1206"
-			(at 124.46 124.46 0)
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+			(at 125.4252 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5109,8 +5125,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 124.46 124.46 0)
+		(property "Datasheet" "https://88ce57.p3cdn1.secureserver.net/wp-content/uploads/2023/01/chv_series-1.pdf"
+			(at 124.46 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,8 +5134,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 124.46 124.46 0)
+		(property "Description" "HVCAP1812 X7R 1UF 20% 250V"
+			(at 124.46 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5143,7 +5159,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 120.65 68.58 270)
 		(mirror x)
 		(unit 1)
@@ -5169,6 +5185,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 116.205 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 120.65 68.58 0)
 			(effects
 				(font
@@ -5177,16 +5202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 120.65 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 120.65 68.58 0)
 			(effects
 				(font
@@ -5219,6 +5235,9 @@
 		(pin "2"
 			(uuid "b71e3c7c-0cb0-420f-bb58-d83985d44d83")
 		)
+		(pin "3"
+			(uuid "2f66d282-a4ae-483e-a542-d947699665d0")
+		)
 		(instances
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
@@ -5247,7 +5266,7 @@
 			)
 		)
 		(property "Value" "470uF"
-			(at 194.056 54.991 0)
+			(at 194.056 53.721 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -5367,7 +5386,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 44.45 105.41 270)
 		(mirror x)
 		(unit 1)
@@ -5393,6 +5412,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 40.005 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 44.45 105.41 0)
 			(effects
 				(font
@@ -5401,16 +5429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 44.45 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 44.45 105.41 0)
 			(effects
 				(font
@@ -5443,6 +5462,9 @@
 		(pin "2"
 			(uuid "529b9aaf-8612-482e-b668-ee014e1d5244")
 		)
+		(pin "3"
+			(uuid "af16a84d-c6e2-4df8-b5ac-f5409e716374")
+		)
 		(instances
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
@@ -5453,7 +5475,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 137.16 77.47 0)
 		(mirror y)
 		(unit 1)
@@ -5479,6 +5501,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 137.16 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 137.16 77.47 0)
 			(effects
 				(font
@@ -5487,16 +5518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 137.16 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 137.16 77.47 0)
 			(effects
 				(font
@@ -5529,6 +5551,9 @@
 		(pin "2"
 			(uuid "fa75b085-4f3f-4b58-95d9-3af440703e9a")
 		)
+		(pin "3"
+			(uuid "aed23405-b861-4088-876a-e187675e000e")
+		)
 		(instances
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
@@ -5539,8 +5564,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:1.0UF-1206-50V-10%")
-		(at 48.26 166.37 0)
+		(lib_id "Component_Library:CHV1812N250105MXT")
+		(at 48.26 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5548,7 +5573,7 @@
 		(dnp no)
 		(uuid "84b8bc8b-91cc-49e1-a5e3-286de46654e8")
 		(property "Reference" "C22"
-			(at 49.784 163.449 0)
+			(at 49.784 162.179 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -5557,7 +5582,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 49.784 168.529 0)
+			(at 49.784 167.259 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -5565,8 +5590,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:1206"
-			(at 48.26 166.37 0)
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+			(at 49.2252 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5574,8 +5599,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 48.26 166.37 0)
+		(property "Datasheet" "https://88ce57.p3cdn1.secureserver.net/wp-content/uploads/2023/01/chv_series-1.pdf"
+			(at 48.26 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5583,8 +5608,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 48.26 166.37 0)
+		(property "Description" "HVCAP1812 X7R 1UF 20% 250V"
+			(at 48.26 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5608,7 +5633,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 180.34 60.96 0)
 		(mirror y)
 		(unit 1)
@@ -5634,6 +5659,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 180.34 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 180.34 60.96 0)
 			(effects
 				(font
@@ -5642,16 +5676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 180.34 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 180.34 60.96 0)
 			(effects
 				(font
@@ -5684,6 +5709,9 @@
 		(pin "2"
 			(uuid "6845c3f8-1a38-4b08-bb76-00e6ca98c0ce")
 		)
+		(pin "3"
+			(uuid "0b7090fb-3f58-4a72-866d-e7e7d050d03e")
+		)
 		(instances
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
@@ -5694,7 +5722,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 137.16 115.57 0)
 		(mirror y)
 		(unit 1)
@@ -5720,6 +5748,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 137.16 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 137.16 115.57 0)
 			(effects
 				(font
@@ -5728,16 +5765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 137.16 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 137.16 115.57 0)
 			(effects
 				(font
@@ -5770,6 +5798,9 @@
 		(pin "2"
 			(uuid "15882ff0-80f4-410a-b389-2f41b98d922c")
 		)
+		(pin "3"
+			(uuid "fde88615-fa57-4ba4-b24f-2628a9aba024")
+		)
 		(instances
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
@@ -5780,7 +5811,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 60.96 115.57 0)
 		(mirror y)
 		(unit 1)
@@ -5806,6 +5837,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 60.96 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 60.96 115.57 0)
 			(effects
 				(font
@@ -5814,16 +5854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 60.96 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 60.96 115.57 0)
 			(effects
 				(font
@@ -5855,6 +5886,9 @@
 		)
 		(pin "2"
 			(uuid "18a686f6-8acc-46dc-be0a-4fe142a636d9")
+		)
+		(pin "3"
+			(uuid "c3045d71-91d6-48b3-9bbf-7c7145716178")
 		)
 		(instances
 			(project "BEMF_Controller"
@@ -5934,8 +5968,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:1.0UF-1206-50V-10%")
-		(at 48.26 124.46 0)
+		(lib_id "Component_Library:CHV1812N250105MXT")
+		(at 48.26 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5943,7 +5977,7 @@
 		(dnp no)
 		(uuid "a1a2ee4c-846e-42b6-bcd4-abbef8e92c5c")
 		(property "Reference" "C21"
-			(at 49.784 121.539 0)
+			(at 49.784 120.269 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -5952,7 +5986,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 49.784 125.349 0)
+			(at 49.784 124.079 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -5960,8 +5994,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:1206"
-			(at 48.26 124.46 0)
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+			(at 49.2252 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5969,8 +6003,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 48.26 124.46 0)
+		(property "Datasheet" "https://88ce57.p3cdn1.secureserver.net/wp-content/uploads/2023/01/chv_series-1.pdf"
+			(at 48.26 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5978,8 +6012,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 48.26 124.46 0)
+		(property "Description" "HVCAP1812 X7R 1UF 20% 250V"
+			(at 48.26 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6003,7 +6037,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 196.85 105.41 270)
 		(mirror x)
 		(unit 1)
@@ -6029,6 +6063,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 192.405 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 196.85 105.41 0)
 			(effects
 				(font
@@ -6037,16 +6080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 196.85 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 196.85 105.41 0)
 			(effects
 				(font
@@ -6079,6 +6113,9 @@
 		(pin "2"
 			(uuid "52d5dcea-2b31-4139-8e31-4afffbc80282")
 		)
+		(pin "3"
+			(uuid "57746b2c-2f8c-4da1-9ec7-8f77b212363b")
+		)
 		(instances
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
@@ -6089,7 +6126,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 60.96 157.48 0)
 		(mirror y)
 		(unit 1)
@@ -6115,6 +6152,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 60.96 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 60.96 157.48 0)
 			(effects
 				(font
@@ -6123,16 +6169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 60.96 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 60.96 157.48 0)
 			(effects
 				(font
@@ -6165,6 +6202,9 @@
 		(pin "2"
 			(uuid "fd3542dc-c8e2-47ec-ba07-78c7cdf4dc3c")
 		)
+		(pin "3"
+			(uuid "eaa18183-ad85-484e-97bc-bf703a171d65")
+		)
 		(instances
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
@@ -6175,7 +6215,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 186.69 137.16 0)
 		(mirror y)
 		(unit 1)
@@ -6201,6 +6241,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 186.69 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 186.69 137.16 0)
 			(effects
 				(font
@@ -6209,16 +6258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 186.69 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 186.69 137.16 0)
 			(effects
 				(font
@@ -6251,6 +6291,9 @@
 		(pin "2"
 			(uuid "59a2352c-a222-4459-9314-116ecf391356")
 		)
+		(pin "3"
+			(uuid "63eec471-f73c-4459-9524-a45fe4367199")
+		)
 		(instances
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
@@ -6261,8 +6304,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:1.0UF-1206-50V-10%")
-		(at 201.93 86.36 0)
+		(lib_id "Component_Library:CHV1812N250105MXT")
+		(at 201.93 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6270,7 +6313,7 @@
 		(dnp no)
 		(uuid "b7b030ef-ac3a-4f0f-a9c1-fcc20af378b6")
 		(property "Reference" "C39"
-			(at 204.216 84.074 0)
+			(at 204.216 82.804 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6279,7 +6322,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 203.454 88.519 0)
+			(at 203.454 87.249 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6287,8 +6330,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:1206"
-			(at 201.93 86.36 0)
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+			(at 202.8952 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6296,8 +6339,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 201.93 86.36 0)
+		(property "Datasheet" "https://88ce57.p3cdn1.secureserver.net/wp-content/uploads/2023/01/chv_series-1.pdf"
+			(at 201.93 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6305,8 +6348,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 201.93 86.36 0)
+		(property "Description" "HVCAP1812 X7R 1UF 20% 250V"
+			(at 201.93 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6467,7 +6510,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 185.42 99.06 0)
 		(mirror y)
 		(unit 1)
@@ -6493,6 +6536,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 185.42 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 185.42 99.06 0)
 			(effects
 				(font
@@ -6501,16 +6553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 185.42 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 185.42 99.06 0)
 			(effects
 				(font
@@ -6542,6 +6585,9 @@
 		)
 		(pin "2"
 			(uuid "90deddda-b5b1-4628-bf6e-9454bef3c911")
+		)
+		(pin "3"
+			(uuid "523b91d1-ade2-4979-a4ea-3586abdae176")
 		)
 		(instances
 			(project "BEMF_Controller"
@@ -6621,7 +6667,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 27.94 36.83 0)
 		(mirror y)
 		(unit 1)
@@ -6647,6 +6693,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 27.94 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 27.94 36.83 0)
 			(effects
 				(font
@@ -6655,16 +6710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 27.94 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 27.94 36.83 0)
 			(effects
 				(font
@@ -6697,6 +6743,9 @@
 		(pin "2"
 			(uuid "28843d28-e26b-453a-905f-a6e2aa3531c0")
 		)
+		(pin "3"
+			(uuid "40d11700-67b4-4994-8282-4161a7bc5801")
+		)
 		(instances
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
@@ -6707,7 +6756,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 104.14 60.96 0)
 		(mirror y)
 		(unit 1)
@@ -6733,6 +6782,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 104.14 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 104.14 60.96 0)
 			(effects
 				(font
@@ -6741,16 +6799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 104.14 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 104.14 60.96 0)
 			(effects
 				(font
@@ -6783,6 +6832,9 @@
 		(pin "2"
 			(uuid "e600e370-47f8-4d19-b162-1bce246336e5")
 		)
+		(pin "3"
+			(uuid "f4f4d923-4780-4183-8868-822dace4865c")
+		)
 		(instances
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
@@ -6793,7 +6845,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 180.34 36.83 0)
 		(mirror y)
 		(unit 1)
@@ -6819,6 +6871,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 180.34 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 180.34 36.83 0)
 			(effects
 				(font
@@ -6827,16 +6888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 180.34 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 180.34 36.83 0)
 			(effects
 				(font
@@ -6869,6 +6921,9 @@
 		(pin "2"
 			(uuid "5b98ec15-62a9-48ba-a86e-27ca81824116")
 		)
+		(pin "3"
+			(uuid "d7391352-67a8-4750-8ba9-4ae6142de509")
+		)
 		(instances
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
@@ -6879,7 +6934,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 213.36 115.57 0)
 		(mirror y)
 		(unit 1)
@@ -6905,6 +6960,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 213.36 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 213.36 115.57 0)
 			(effects
 				(font
@@ -6913,16 +6977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 213.36 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 213.36 115.57 0)
 			(effects
 				(font
@@ -6955,6 +7010,9 @@
 		(pin "2"
 			(uuid "c28782c8-33f8-4dc5-a512-86eed9fe0094")
 		)
+		(pin "3"
+			(uuid "3b2fc702-1f03-4c4e-adde-ba95c82946be")
+		)
 		(instances
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
@@ -6965,8 +7023,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:1.0UF-1206-50V-10%")
-		(at 200.66 166.37 0)
+		(lib_id "Component_Library:CHV1812N250105MXT")
+		(at 200.66 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6974,7 +7032,7 @@
 		(dnp no)
 		(uuid "d7fdc4c1-b292-4f3f-8674-23969fbd2ab0")
 		(property "Reference" "C37"
-			(at 202.184 163.449 0)
+			(at 202.184 162.179 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6983,7 +7041,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 202.184 168.529 0)
+			(at 202.184 167.259 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6991,8 +7049,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:1206"
-			(at 200.66 166.37 0)
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+			(at 201.6252 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7000,8 +7058,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 200.66 166.37 0)
+		(property "Datasheet" "https://88ce57.p3cdn1.secureserver.net/wp-content/uploads/2023/01/chv_series-1.pdf"
+			(at 200.66 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7009,8 +7067,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 200.66 166.37 0)
+		(property "Description" "HVCAP1812 X7R 1UF 20% 250V"
+			(at 200.66 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7103,7 +7161,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 34.29 137.16 0)
 		(mirror y)
 		(unit 1)
@@ -7129,6 +7187,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 34.29 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 34.29 137.16 0)
 			(effects
 				(font
@@ -7137,16 +7204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 34.29 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 34.29 137.16 0)
 			(effects
 				(font
@@ -7179,6 +7237,9 @@
 		(pin "2"
 			(uuid "fec5d4ba-ed72-4edc-9d3c-d92f67bb4822")
 		)
+		(pin "3"
+			(uuid "45555d9e-5cc8-4871-a843-1fa0bf7de595")
+		)
 		(instances
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
@@ -7189,7 +7250,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 27.94 60.96 0)
 		(mirror y)
 		(unit 1)
@@ -7215,6 +7276,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 27.94 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 27.94 60.96 0)
 			(effects
 				(font
@@ -7223,16 +7293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 27.94 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 27.94 60.96 0)
 			(effects
 				(font
@@ -7265,6 +7326,9 @@
 		(pin "2"
 			(uuid "288df74d-3808-4193-8495-fb6d897530df")
 		)
+		(pin "3"
+			(uuid "d294e4b7-969d-4918-b982-8e9e0a36b47b")
+		)
 		(instances
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
@@ -7275,7 +7339,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 213.36 77.47 0)
 		(mirror y)
 		(unit 1)
@@ -7301,6 +7365,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 213.36 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 213.36 77.47 0)
 			(effects
 				(font
@@ -7309,16 +7382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 213.36 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 213.36 77.47 0)
 			(effects
 				(font
@@ -7351,6 +7415,9 @@
 		(pin "2"
 			(uuid "3af8449d-46ea-4209-aee9-daadbcdc5892")
 		)
+		(pin "3"
+			(uuid "6674064a-b97c-4b94-8555-00c429bc4eff")
+		)
 		(instances
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
@@ -7361,8 +7428,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:1.0UF-1206-50V-10%")
-		(at 49.53 86.36 0)
+		(lib_id "Component_Library:CHV1812N250105MXT")
+		(at 49.53 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7370,7 +7437,7 @@
 		(dnp no)
 		(uuid "deaa39ee-43e3-49eb-a8d6-770e0fff3e6c")
 		(property "Reference" "C13"
-			(at 51.816 84.074 0)
+			(at 51.816 82.804 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7379,7 +7446,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 51.054 88.519 0)
+			(at 51.054 87.249 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7387,8 +7454,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:1206"
-			(at 49.53 86.36 0)
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+			(at 50.4952 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7396,8 +7463,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 49.53 86.36 0)
+		(property "Datasheet" "https://88ce57.p3cdn1.secureserver.net/wp-content/uploads/2023/01/chv_series-1.pdf"
+			(at 49.53 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7405,8 +7472,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 49.53 86.36 0)
+		(property "Description" "HVCAP1812 X7R 1UF 20% 250V"
+			(at 49.53 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7430,7 +7497,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 109.22 99.06 0)
 		(mirror y)
 		(unit 1)
@@ -7456,6 +7523,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 109.22 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 109.22 99.06 0)
 			(effects
 				(font
@@ -7464,16 +7540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 109.22 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 109.22 99.06 0)
 			(effects
 				(font
@@ -7505,6 +7572,9 @@
 		)
 		(pin "2"
 			(uuid "3eb25c32-c130-4508-967a-ea97ad12197f")
+		)
+		(pin "3"
+			(uuid "0352d3ea-9da9-4246-a675-224a5250ac88")
 		)
 		(instances
 			(project "BEMF_Controller"
@@ -7653,8 +7723,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:1.0UF-1206-50V-10%")
-		(at 125.73 86.36 0)
+		(lib_id "Component_Library:CHV1812N250105MXT")
+		(at 125.73 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7662,7 +7732,7 @@
 		(dnp no)
 		(uuid "f4ed8db3-53ee-4d68-8499-14ba73bc5131")
 		(property "Reference" "C31"
-			(at 128.016 84.074 0)
+			(at 128.016 82.804 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7671,7 +7741,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 127.254 88.519 0)
+			(at 127.254 87.249 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7679,8 +7749,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:1206"
-			(at 125.73 86.36 0)
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+			(at 126.6952 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7688,8 +7758,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 125.73 86.36 0)
+		(property "Datasheet" "https://88ce57.p3cdn1.secureserver.net/wp-content/uploads/2023/01/chv_series-1.pdf"
+			(at 125.73 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7697,8 +7767,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 125.73 86.36 0)
+		(property "Description" "HVCAP1812 X7R 1UF 20% 250V"
+			(at 125.73 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7722,7 +7792,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 196.85 147.32 270)
 		(mirror x)
 		(unit 1)
@@ -7748,6 +7818,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 192.405 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 196.85 147.32 0)
 			(effects
 				(font
@@ -7756,16 +7835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 196.85 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 196.85 147.32 0)
 			(effects
 				(font
@@ -7798,6 +7868,9 @@
 		(pin "2"
 			(uuid "53038777-9b03-4ae1-b5ed-2e3377208081")
 		)
+		(pin "3"
+			(uuid "de56c900-258b-425b-aac5-0007b4df7342")
+		)
 		(instances
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
@@ -7808,8 +7881,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:1.0UF-1206-50V-10%")
-		(at 124.46 166.37 0)
+		(lib_id "Component_Library:CHV1812N250105MXT")
+		(at 124.46 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7817,7 +7890,7 @@
 		(dnp no)
 		(uuid "fcc10978-e347-42f2-861b-7e41084e486f")
 		(property "Reference" "C29"
-			(at 125.984 163.449 0)
+			(at 125.984 162.179 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7826,7 +7899,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 125.984 168.529 0)
+			(at 125.984 167.259 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7834,8 +7907,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:1206"
-			(at 124.46 166.37 0)
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+			(at 125.4252 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7843,8 +7916,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 124.46 166.37 0)
+		(property "Datasheet" "https://88ce57.p3cdn1.secureserver.net/wp-content/uploads/2023/01/chv_series-1.pdf"
+			(at 124.46 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7852,8 +7925,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 124.46 166.37 0)
+		(property "Description" "HVCAP1812 X7R 1UF 20% 250V"
+			(at 124.46 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7877,7 +7950,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
+		(lib_id "Component_Library:FSV20150V")
 		(at 137.16 157.48 0)
 		(mirror y)
 		(unit 1)
@@ -7903,6 +7976,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-277A"
+			(at 137.16 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsv20150v-d.pdf"
 			(at 137.16 157.48 0)
 			(effects
 				(font
@@ -7911,16 +7993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 137.16 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 150V 20A TO277-3"
 			(at 137.16 157.48 0)
 			(effects
 				(font
@@ -7952,6 +8025,9 @@
 		)
 		(pin "2"
 			(uuid "dac064ce-27e4-4231-98ba-8b56660be266")
+		)
+		(pin "3"
+			(uuid "4b974f80-74fd-4ae2-9148-36a9cffa548d")
 		)
 		(instances
 			(project "BEMF_Controller"
