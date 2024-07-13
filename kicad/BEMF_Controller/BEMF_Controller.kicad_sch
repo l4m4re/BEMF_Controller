@@ -730,6 +730,151 @@
 				)
 			)
 		)
+		(symbol "Jumper:Jumper_2_Small_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Small_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, small symbol, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_0_0"
+				(circle
+					(center -1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_0_1"
+				(arc
+					(start 0.762 1.0196)
+					(mid 0 1.2729)
+					(end -0.762 1.0196)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Transistor_IGBT:IRG4PF50W"
 			(pin_names
 				(offset 0) hide)
@@ -5764,6 +5909,12 @@
 		(uuid "35cf2bd9-993d-45fb-99de-66562b4fd83b")
 	)
 	(junction
+		(at 21.59 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38ed1781-225a-41a4-8a5b-18e0bfce12e3")
+	)
+	(junction
 		(at 213.36 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7887,6 +8038,16 @@
 	)
 	(wire
 		(pts
+			(xy 12.7 99.06) (xy 12.7 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dc0e64a-8a82-466f-9396-e0c827515c79")
+	)
+	(wire
+		(pts
 			(xy 342.9 50.8) (xy 325.12 50.8)
 		)
 		(stroke
@@ -8477,6 +8638,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 118.11) (xy 29.21 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab2c67f7-9168-4d1b-9637-e11c6acf978b")
+	)
+	(wire
+		(pts
 			(xy 172.72 21.59) (xy 175.26 21.59)
 		)
 		(stroke
@@ -8604,6 +8775,16 @@
 			(type default)
 		)
 		(uuid "b212a07f-0b43-4772-8f83-e36262695db8")
+	)
+	(wire
+		(pts
+			(xy 21.59 107.95) (xy 21.59 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2f5457d-c3c8-4ced-b310-e8841d871ef5")
 	)
 	(wire
 		(pts
@@ -8894,6 +9075,16 @@
 			(type solid)
 		)
 		(uuid "c31d65a5-0747-4797-95ab-eaf9de3f592a")
+	)
+	(wire
+		(pts
+			(xy 12.7 106.68) (xy 12.7 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3c3911e-7b90-4e0f-8936-e64319bacd32")
 	)
 	(wire
 		(pts
@@ -9257,16 +9448,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 107.95) (xy 11.43 107.95)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d74e4233-3a08-45a3-bb48-1eacb85367b0")
-	)
-	(wire
-		(pts
 			(xy 302.26 130.81) (xy 302.26 135.89)
 		)
 		(stroke
@@ -9584,6 +9765,16 @@
 			(type default)
 		)
 		(uuid "f2406887-cd17-4e48-b606-9c11a319b84a")
+	)
+	(wire
+		(pts
+			(xy 12.7 107.95) (xy 21.59 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d0d264-f215-4d2b-9367-b013f0c4fda8")
 	)
 	(wire
 		(pts
@@ -10572,7 +10763,7 @@
 		(uuid "f5bffd57-f502-4168-b633-9216a0cb1366")
 	)
 	(label "V_RAW"
-		(at 11.43 107.95 0)
+		(at 12.7 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11100,6 +11291,73 @@
 			(project ""
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
 					(reference "#SUPPLY06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 16.51 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1028f889-25b2-4cda-a1e7-a41da97ccbb5")
+		(property "Reference" "J7"
+			(at 13.716 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Vin"
+			(at 12.446 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 16.51 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 16.51 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a4460cb-ae09-42fc-846a-debce5c6f68e")
+		)
+		(pin "1"
+			(uuid "d36e5cb1-3474-4f5e-b870-bcf804356a1c")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -17351,6 +17609,76 @@
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 12.7 104.14 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd5346ff-aa7e-4c6e-922c-37ed9d26f5a2")
+		(property "Reference" "JP7"
+			(at 15.24 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 15.24 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 12.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 12.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 12.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4214a499-b966-4dc9-97bb-b188f8ceacb7")
+		)
+		(pin "2"
+			(uuid "dcfd9aab-86b1-40ca-969f-0367782b6cdc")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "JP7")
 					(unit 1)
 				)
 			)
