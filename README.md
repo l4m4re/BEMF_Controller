@@ -15,7 +15,7 @@ In addition to this, the capacitor that is used to store the energy from the bac
 
 ![Capacitor Bank](/docs/4CapBank.png)
 
-[Spice simulations](http://tuks.nl/wiki/index.php/Main/BEMFRecoveryCircuit) have shown that this way the time needed to collapse the magnetic field in the motor is significantly reduced, which might help to further improve the efficiency of the controller:
+[Spice simulations](http://tuks.nl/wiki/index.php/Main/BEMFRecoveryCircuit) have shown that this way the time needed to collapse the magnetic field in the motor is significantly reduced, which might help to reduce rotor drag and thus further improve the efficiency of the controller:
 
 ![Spice simulation of 4 capacitor bank](/docs/BEMF_Capture_4_Caps_Simulation.png)
 
