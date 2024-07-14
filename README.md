@@ -2,7 +2,7 @@
 
 The Back EMF Controller is an experimental evolution of the successful [EasyController3](https://github.com/pgrady3/EasyController3). 
 
-This version incorporates an asymmetric bridge topology, which allows for capturing and reusing the energy from the motor's back EMF, which is normally wasted because of the use of flywheel diodes.
+This version incorporates an asymmetric bridge topology, which allows for capturing and reusing the energy from the motor's back EMF, which is normally wasted because of the use of freewheeling diodes.
 
 This allows for a more efficient controller, and potentially a longer range for battery-powered applicayions, as explained on [Wikipedia](https://en.wikipedia.org/wiki/Switched_reluctance_motor#Power_circuitry):
 
