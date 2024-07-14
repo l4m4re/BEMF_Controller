@@ -11,10 +11,9 @@ This allows for a more efficient controller, and potentially a longer range for 
 
 > The phases in an asymmetric bridge converter correspond to the motor phases. If both of the power switches on either side of the phase are turned on, then that corresponding phase is actuated. Once the current has risen above the set value, the switch turns off. The energy now stored within the winding maintains the current in the same direction, the so-called back EMF (BEMF). This BEMF is fed back through the diodes to the capacitor for re-use, thus improving efficiency.
 
-In addition to this, the capacitor that is used to store the energy from the back EMF, is implemented in a bank of 4 capacitors, which are switched between series (BEMF capture) and parallel (coil energizing) by means of a couple of diodes:
+In addition to this, the capacitor that is used to store the energy from the back EMF is implemented in a bank of 4 capacitors, which are switched between series (BEMF capture) and parallel (coil energizing) by means of a couple of diodes:
 
 ![Capacitor Bank](/docs/4CapBank.png)
-
 
 [Spice simulations](http://tuks.nl/wiki/index.php/Main/BEMFRecoveryCircuit) have shown that this way the time needed to collapse the magnetic field in the motor is significantly reduced, which might help to further improve the efficiency of the controller:
 
