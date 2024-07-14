@@ -980,6 +980,259 @@
 				)
 			)
 		)
+		(symbol "Component_Library:OPA2376AIDR"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "OPA2376AIDR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa2376.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OPA2376AIDR_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA2376AIDR_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA2376AIDR_3_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Component_Library:ROX1SJ10R"
 			(pin_numbers hide)
 			(pin_names
@@ -6678,6 +6931,12 @@
 		(uuid "13740e73-8542-408e-9d0c-001cd76fae52")
 	)
 	(junction
+		(at 251.46 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13b2388f-7a1f-495f-bb9b-154a2535e7d7")
+	)
+	(junction
 		(at 35.56 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6688,6 +6947,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1515560e-ae2d-444d-8bfb-f1b36e6fb790")
+	)
+	(junction
+		(at 265.43 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1534cdf2-43ed-4212-8e38-3f2e9e66787f")
 	)
 	(junction
 		(at 88.9 137.16)
@@ -6820,6 +7085,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ed99b9d-f94d-4a6b-af22-7c4945aa15ae")
+	)
+	(junction
+		(at 265.43 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50e36c3b-99f7-40de-beb9-aa053a1a826b")
 	)
 	(junction
 		(at 293.37 50.8)
@@ -6960,12 +7231,6 @@
 		(uuid "a5c182db-7cd0-4490-b409-1386ea29a090")
 	)
 	(junction
-		(at 149.86 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5dfc0f5-db72-4233-8d0d-b4b4cec7801c")
-	)
-	(junction
 		(at 199.39 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7014,6 +7279,18 @@
 		(uuid "bda35e65-9450-4a63-adc1-43952607de6c")
 	)
 	(junction
+		(at 180.34 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5bb6981-1042-48cc-a61d-8eac9420fb77")
+	)
+	(junction
+		(at 223.52 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c691c001-4231-4c17-9e0a-09e3f27e2e3c")
+	)
+	(junction
 		(at 275.59 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7060,6 +7337,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e086d0bd-4045-4b9d-ae26-eda737a4d0c3")
+	)
+	(junction
+		(at 208.28 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e08f6c18-e236-472e-af39-22294a9f4b09")
 	)
 	(junction
 		(at 358.14 64.77)
@@ -7301,6 +7584,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 87.63) (xy 163.83 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "078f96ae-97e9-4d88-b38a-089e182eec60")
+	)
+	(wire
+		(pts
 			(xy 43.18 127) (xy 43.18 124.46)
 		)
 		(stroke
@@ -7308,6 +7601,16 @@
 			(type solid)
 		)
 		(uuid "079d3113-02e6-4796-afa7-fef1bf0ac41f")
+	)
+	(wire
+		(pts
+			(xy 233.68 113.03) (xy 251.46 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "085d08ae-2f85-4c8d-8c92-990c5b7ad594")
 	)
 	(wire
 		(pts
@@ -7341,6 +7644,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 105.41) (xy 256.54 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "099e23f5-a916-431f-995b-8c50173c7503")
+	)
+	(wire
+		(pts
 			(xy 261.62 49.53) (xy 261.62 50.8)
 		)
 		(stroke
@@ -7348,6 +7661,16 @@
 			(type default)
 		)
 		(uuid "0c50af4f-c16a-4ca3-ac1b-95d272864a7e")
+	)
+	(wire
+		(pts
+			(xy 146.05 124.46) (xy 142.24 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d2f7f90-6821-4b94-ab01-e3c24e2d30c6")
 	)
 	(wire
 		(pts
@@ -7601,6 +7924,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 102.87) (xy 223.52 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ec12d61-774e-49b7-a5e4-1fb92a18ae9e")
+	)
+	(wire
+		(pts
 			(xy 307.34 187.96) (xy 307.34 193.04)
 		)
 		(stroke
@@ -7608,6 +7941,16 @@
 			(type default)
 		)
 		(uuid "1ee0b34c-6ecb-4e9f-8dbc-dea0c1b36f4c")
+	)
+	(wire
+		(pts
+			(xy 255.27 86.36) (xy 265.43 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f80ff88-36b3-4147-b335-1969af6fc4d3")
 	)
 	(wire
 		(pts
@@ -7768,6 +8111,16 @@
 			(type default)
 		)
 		(uuid "278ca1a5-fb5c-4cb3-93ea-6cd5dd1d2b41")
+	)
+	(wire
+		(pts
+			(xy 208.28 105.41) (xy 208.28 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2799ce2d-af59-41e5-ab9a-84ab1cda1ae7")
 	)
 	(polyline
 		(pts
@@ -8009,6 +8362,16 @@
 		)
 		(uuid "326ea077-612d-4a4f-9762-7ed1acb58d0a")
 	)
+	(wire
+		(pts
+			(xy 193.04 107.95) (xy 191.77 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33a37cf7-12d3-4c6d-b380-0db192e152ef")
+	)
 	(polyline
 		(pts
 			(xy 92.71 148.59) (xy 92.71 207.01)
@@ -8118,6 +8481,16 @@
 			(type solid)
 		)
 		(uuid "3dac5f70-24a3-4696-bc8f-9e17c9ce748a")
+	)
+	(wire
+		(pts
+			(xy 223.52 113.03) (xy 223.52 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e3ad429-bdf6-4022-9ecc-ce65cfb41534")
 	)
 	(wire
 		(pts
@@ -8441,6 +8814,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 102.87) (xy 181.61 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54298208-8b99-47cb-ab0f-55c1b0eaf9f6")
+	)
+	(wire
+		(pts
 			(xy 40.64 127) (xy 43.18 127)
 		)
 		(stroke
@@ -8458,6 +8841,16 @@
 			(type default)
 		)
 		(uuid "54b2a702-5054-48e3-a3ec-7fbce0cffb01")
+	)
+	(wire
+		(pts
+			(xy 208.28 105.41) (xy 210.82 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f4b354-92a5-4cc0-a7e6-a80d9234d064")
 	)
 	(polyline
 		(pts
@@ -8478,6 +8871,16 @@
 			(type solid)
 		)
 		(uuid "593338d4-7c62-4ed4-b10a-f01f7c0e9de2")
+	)
+	(wire
+		(pts
+			(xy 191.77 102.87) (xy 193.04 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59506f7c-28e2-4fbc-867b-4934ead85d80")
 	)
 	(wire
 		(pts
@@ -8941,6 +9344,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 96.52) (xy 255.27 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749de106-8f43-4158-82e3-b2cd7c8df7ec")
+	)
+	(wire
+		(pts
 			(xy 63.5 63.5) (xy 63.5 66.04)
 		)
 		(stroke
@@ -9231,6 +9644,26 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 102.87) (xy 180.34 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a6feca-8652-42c0-98da-2ffd45a93308")
+	)
+	(wire
+		(pts
+			(xy 224.79 102.87) (xy 223.52 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87569520-388e-4855-bfea-fc27510447f3")
+	)
+	(wire
+		(pts
 			(xy 62.23 27.94) (xy 67.31 27.94)
 		)
 		(stroke
@@ -9288,6 +9721,16 @@
 			(type solid)
 		)
 		(uuid "8b51d248-2e66-4022-b48b-047f25ab4f45")
+	)
+	(wire
+		(pts
+			(xy 255.27 101.6) (xy 265.43 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c941077-5181-48e6-81a0-cb43a2e6f6f2")
 	)
 	(wire
 		(pts
@@ -9358,6 +9801,16 @@
 			(type solid)
 		)
 		(uuid "91961033-5034-4bb4-bdd6-5f66d8595dac")
+	)
+	(wire
+		(pts
+			(xy 163.83 102.87) (xy 180.34 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9323fe70-6f46-4f40-88c8-a3fceeb96ea9")
 	)
 	(wire
 		(pts
@@ -9649,6 +10102,16 @@
 		)
 		(uuid "a546be0c-b0e8-4485-a17b-f2a632009772")
 	)
+	(wire
+		(pts
+			(xy 191.77 111.76) (xy 208.28 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5896cac-85f5-4280-98d8-8e2112a6f5a9")
+	)
 	(polyline
 		(pts
 			(xy 160.02 144.78) (xy 160.02 109.22)
@@ -9658,16 +10121,6 @@
 			(type solid)
 		)
 		(uuid "a5b61840-7262-4fa2-bae2-9a813af6babb")
-	)
-	(wire
-		(pts
-			(xy 149.86 124.46) (xy 154.94 124.46)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a640ecaa-0a15-4499-b9ab-435f5b774c08")
 	)
 	(wire
 		(pts
@@ -10039,6 +10492,16 @@
 		)
 		(uuid "ba2fa47a-9715-4531-88ed-3c1600417c35")
 	)
+	(wire
+		(pts
+			(xy 191.77 107.95) (xy 191.77 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba476cdc-dc6d-4c7f-9fce-7ac977b68816")
+	)
 	(polyline
 		(pts
 			(xy 158.75 148.59) (xy 92.71 148.59)
@@ -10078,6 +10541,16 @@
 			(type default)
 		)
 		(uuid "bb4ec043-b57d-416e-8275-4de335522b77")
+	)
+	(wire
+		(pts
+			(xy 251.46 113.03) (xy 251.46 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb66aadf-c154-4482-87ec-12f7d5ee780b")
 	)
 	(wire
 		(pts
@@ -10198,6 +10671,16 @@
 			(type default)
 		)
 		(uuid "c1cd3eae-79d6-4c4b-bc00-99e23d462da8")
+	)
+	(wire
+		(pts
+			(xy 223.52 102.87) (xy 223.52 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1d3b5d7-b9db-4135-99de-8f5a23f4592d")
 	)
 	(wire
 		(pts
@@ -10331,6 +10814,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 85.09) (xy 265.43 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6ed320c-6e66-47f5-a849-a9415ba7f2e4")
+	)
+	(wire
+		(pts
 			(xy 82.55 35.56) (xy 85.09 35.56)
 		)
 		(stroke
@@ -10448,6 +10941,16 @@
 			(type default)
 		)
 		(uuid "ce30ea25-224a-4934-9aa4-b53b45c773fa")
+	)
+	(wire
+		(pts
+			(xy 180.34 92.71) (xy 180.34 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce48eb3a-e2b1-45a0-b710-876b4e26f1dd")
 	)
 	(wire
 		(pts
@@ -10591,6 +11094,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 85.09) (xy 218.44 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5208bf6-f714-4d91-b991-f7fed2eeb9c7")
+	)
+	(wire
+		(pts
 			(xy 85.09 17.78) (xy 85.09 35.56)
 		)
 		(stroke
@@ -10608,6 +11121,16 @@
 			(type default)
 		)
 		(uuid "d885f832-db6a-4b2d-897a-81819709dc86")
+	)
+	(wire
+		(pts
+			(xy 223.52 101.6) (xy 223.52 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d93b2413-dfda-467f-92af-9992d5fe47a5")
 	)
 	(wire
 		(pts
@@ -10648,6 +11171,16 @@
 			(type solid)
 		)
 		(uuid "dc412af2-445b-4586-89db-c308472a1f02")
+	)
+	(wire
+		(pts
+			(xy 265.43 101.6) (xy 265.43 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd34172c-325d-4145-890c-9d1112d738ad")
 	)
 	(wire
 		(pts
@@ -10708,6 +11241,26 @@
 			(type solid)
 		)
 		(uuid "e0fc47bc-fc09-437b-b47a-19e960ae2af9")
+	)
+	(wire
+		(pts
+			(xy 234.95 102.87) (xy 236.22 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e35ae67e-b05d-4332-97b6-145ce0ae146e")
+	)
+	(wire
+		(pts
+			(xy 255.27 88.9) (xy 255.27 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e46986f0-4e73-428b-94b1-d9e28a7ffacf")
 	)
 	(wire
 		(pts
@@ -10861,6 +11414,26 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 111.76) (xy 180.34 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edcfb21f-2de1-4cae-b2fe-c6f11a7d3729")
+	)
+	(wire
+		(pts
+			(xy 236.22 107.95) (xy 233.68 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee1f45f0-3aab-4c87-b115-839d7b98a319")
+	)
+	(wire
+		(pts
 			(xy 293.37 50.8) (xy 275.59 50.8)
 		)
 		(stroke
@@ -10981,6 +11554,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 93.98) (xy 223.52 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f92ae8-da1a-4553-85cc-8b6f0fefb839")
+	)
+	(wire
+		(pts
 			(xy 191.77 19.05) (xy 199.39 19.05)
 		)
 		(stroke
@@ -11051,6 +11634,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 100.33) (xy 180.34 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc0f8fb8-b940-4797-b7f6-e482b78555fb")
+	)
+	(wire
+		(pts
 			(xy 342.9 53.34) (xy 342.9 50.8)
 		)
 		(stroke
@@ -11088,6 +11681,16 @@
 			(type solid)
 		)
 		(uuid "fe4d207a-667b-4c91-90e6-c437ce0b7761")
+	)
+	(wire
+		(pts
+			(xy 233.68 107.95) (xy 233.68 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe6faea9-d479-4bdd-b070-74b12fc46b7b")
 	)
 	(wire
 		(pts
@@ -11132,7 +11735,19 @@
 		(uuid 3d35a973-a222-4c3d-8e3b-7b9ed627efc3)
 	)
 	(rectangle
-		(start 163.83 110.49)
+		(start 162.56 78.74)
+		(end 275.59 121.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 45578ffe-2853-484b-acc9-44d8890debc3)
+	)
+	(rectangle
+		(start 163.83 124.46)
 		(end 393.7 207.01)
 		(stroke
 			(width 0)
@@ -11242,6 +11857,17 @@
 		)
 		(uuid "a540f984-d3b9-4319-b31a-e4a32b0a73c9")
 	)
+	(text "Analog buffers"
+		(exclude_from_sim no)
+		(at 164.592 84.074 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9cfef14-d63b-42d2-aa76-8aaeb69726b4")
+	)
 	(text "Voltage Regulators"
 		(exclude_from_sim no)
 		(at 6.35 113.03 0)
@@ -11255,7 +11881,7 @@
 	)
 	(text "Asymmetric Bridge"
 		(exclude_from_sim no)
-		(at 165.354 115.316 0)
+		(at 167.132 129.286 0)
 		(effects
 			(font
 				(size 2.54 2.159)
@@ -11407,7 +12033,18 @@
 		)
 		(uuid "33f47e8d-0e03-42ac-99c0-7fb914be444b")
 	)
-	(label "VSENSE"
+	(label "THROTTLE_IN"
+		(at 163.83 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "35a56d80-5aed-4c36-b149-e020ad36df37")
+	)
+	(label "VSENSE_IN"
 		(at 166.37 36.83 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11726,8 +12363,8 @@
 		)
 		(uuid "8ba49446-69cd-4c54-889e-3647646203f2")
 	)
-	(label "THROTTLE"
-		(at 142.24 124.46 0)
+	(label "THROTTLE_IN"
+		(at 146.05 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11747,6 +12384,17 @@
 			(justify left bottom)
 		)
 		(uuid "8d8c2ef6-8a2c-41ba-822c-0b3705bdab7a")
+	)
+	(label "THROTTLE"
+		(at 210.82 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "9108ae3e-5f56-4fb4-9fa8-885f91ee5054")
 	)
 	(label "OVP_B"
 		(at 346.71 50.8 0)
@@ -11791,6 +12439,17 @@
 			(justify left bottom)
 		)
 		(uuid "9738e11b-17c3-4464-a646-ebe80d34a8d4")
+	)
+	(label "VSENSE"
+		(at 256.54 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "97bafc81-2e8e-4e8c-80cc-0b1f541b7057")
 	)
 	(label "CAP_BANK_A"
 		(at 269.24 12.7 0)
@@ -11967,6 +12626,17 @@
 			(justify left bottom)
 		)
 		(uuid "be7c3007-ffc7-4cb7-841a-fb6f449576c8")
+	)
+	(label "VSENSE_IN"
+		(at 218.44 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf14456f-c3aa-4564-b79d-04d0c82631c8")
 	)
 	(label "HA_I"
 		(at 13.97 45.72 0)
@@ -12242,6 +12912,93 @@
 			(justify left bottom)
 		)
 		(uuid "fef83dfa-5345-4608-8a09-62264df75988")
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 180.34 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01005518-f7a8-4b03-99ad-3de322cae7dd")
+		(property "Reference" "D60"
+			(at 182.626 108.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 168.91 111.506 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 175.895 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 180.34 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 180.34 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 180.34 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 180.34 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0fd9b14-accb-4b30-ab54-945c43aad664")
+		)
+		(pin "2"
+			(uuid "4421d3e3-9d94-4fb0-9dfe-e1669ae2b6b6")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "D60")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "main-eagle-import:5V")
@@ -13028,6 +13785,72 @@
 		)
 	)
 	(symbol
+		(lib_id "main-eagle-import:5V")
+		(at 223.52 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15aa684e-a353-46ff-a4f7-57de2fd3485e")
+		(property "Reference" "#SUPPLY015"
+			(at 223.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 223.52 88.646 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a84c3d9-68e9-4244-b0e1-e6b11f24c1f6")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "#SUPPLY015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Component_Library:CHV1812N250105MXT")
 		(at 40.64 130.81 0)
 		(unit 1)
@@ -13092,6 +13915,127 @@
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
 					(reference "C12")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Component_Library:OPA2376AIDR")
+		(at 243.84 105.41 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1abc3ba4-1daf-459d-bb1f-33ba6208f970")
+		(property "Reference" "U10"
+			(at 243.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA2376AIDR"
+			(at 248.158 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm"
+			(at 243.84 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa2376.pdf"
+			(at 243.84 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SOIC-8"
+			(at 243.84 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 243.84 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 243.84 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 243.84 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 243.84 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "8c192cd8-fe03-42ef-9512-374c49cc6683")
+		)
+		(pin "6"
+			(uuid "e54cee18-a2d9-4407-a36c-6b371a2be155")
+		)
+		(pin "7"
+			(uuid "7197735f-f35f-4bb3-a2af-90daf6325000")
+		)
+		(pin "4"
+			(uuid "5d24b5cd-a034-4111-ba93-4c2aa7b3c959")
+		)
+		(pin "2"
+			(uuid "aa183e26-f1a0-4e1b-92b1-1df52df5aaed")
+		)
+		(pin "1"
+			(uuid "0af5283a-9167-465e-af5d-e0c766db0681")
+		)
+		(pin "5"
+			(uuid "62cae2c8-ccfd-41ee-b5bc-257510958790")
+		)
+		(pin "3"
+			(uuid "40cc5330-c6db-4786-8c74-9bf72eba7600")
+		)
+		(instances
+			(project ""
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "U10")
+					(unit 2)
 				)
 			)
 		)
@@ -13456,6 +14400,75 @@
 			(project ""
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Component_Library:CHV1812N250105MXT")
+		(at 255.27 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2909ddcb-1158-484f-a4df-1bf4dad1ea99")
+		(property "Reference" "C43"
+			(at 256.794 89.789 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 257.302 96.774 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+			(at 256.2352 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://88ce57.p3cdn1.secureserver.net/wp-content/uploads/2023/01/chv_series-1.pdf"
+			(at 255.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "HVCAP1812 X7R 1UF 20% 250V"
+			(at 255.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9fca7ff-9c03-482e-a343-4815523b717d")
+		)
+		(pin "2"
+			(uuid "d994e8e5-c207-4f5c-b815-946b989f6aee")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -14254,6 +15267,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 223.52 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a58fdc8-d7ab-41de-a076-ad7a5b591b75")
+		(property "Reference" "D62"
+			(at 224.282 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 213.106 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 219.075 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 223.52 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 223.52 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 223.52 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 223.52 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00ef654e-b17d-4be5-be61-95c84de01870")
+		)
+		(pin "2"
+			(uuid "b18d6fdb-7d72-41bf-a70c-a756f3401b57")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "D62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "main-eagle-import:5V")
 		(at 325.12 39.37 0)
 		(unit 1)
@@ -14537,6 +15637,72 @@
 		)
 	)
 	(symbol
+		(lib_id "main-eagle-import:GND")
+		(at 265.43 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b3cecf0-f7be-4802-bc28-396ed29fbdf3")
+		(property "Reference" "#GND015"
+			(at 265.43 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.43 108.204 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f8425fb-2a78-4444-9dce-635317612d4f")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "#GND015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 269.24 165.1 0)
 		(unit 1)
@@ -14598,6 +15764,93 @@
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 180.34 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56ac4687-bfad-4575-838c-cd0f84b76226")
+		(property "Reference" "D59"
+			(at 182.88 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 167.132 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 175.895 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 180.34 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 180.34 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 180.34 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 180.34 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3c76d01-51e9-45c7-b540-10a98f190aea")
+		)
+		(pin "2"
+			(uuid "71ffbacb-e5c1-42f1-b0eb-8f771f2a699a")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "D59")
 					(unit 1)
 				)
 			)
@@ -15391,6 +16644,72 @@
 		)
 	)
 	(symbol
+		(lib_id "main-eagle-import:GND")
+		(at 223.52 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75208d00-e329-47ae-8954-0981df53a015")
+		(property "Reference" "#GND016"
+			(at 223.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 118.364 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24d0b515-a260-4123-ba1a-63df57cd089f")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "#GND016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148WS")
 		(at 372.11 45.72 270)
 		(unit 1)
@@ -15672,6 +16991,72 @@
 			(project ""
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:GND")
+		(at 180.34 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c353605-37b7-4429-b2b1-f582d1959d48")
+		(property "Reference" "#GND017"
+			(at 180.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 117.094 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eae103bf-b947-424f-a627-df0bc1ec7710")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "#GND017")
 					(unit 1)
 				)
 			)
@@ -16888,6 +18273,72 @@
 			(project ""
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:5V")
+		(at 180.34 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90d7c574-8247-4a94-8657-cf87ffa8da61")
+		(property "Reference" "#SUPPLY014"
+			(at 180.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 180.34 87.376 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "853c0a76-5956-4fc6-817f-218b08af109b")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "#SUPPLY014")
 					(unit 1)
 				)
 			)
@@ -18137,6 +19588,72 @@
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:3.3V")
+		(at 265.43 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a42f1f4a-3571-4a65-943c-0f809eb5566d")
+		(property "Reference" "#SUPPLY016"
+			(at 265.43 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 265.43 82.296 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "820262d6-fa11-49ff-969e-bf4affae063e")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "#SUPPLY016")
 					(unit 1)
 				)
 			)
@@ -19508,6 +21025,75 @@
 		)
 	)
 	(symbol
+		(lib_id "main-eagle-import:RESISTOR1206")
+		(at 229.87 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c94dea90-d8b1-473f-8e1f-875a6b282632")
+		(property "Reference" "R27"
+			(at 229.87 101.346 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "1k"
+			(at 229.87 104.394 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "main:1206"
+			(at 229.87 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5c1962d-daa6-43b3-9148-2cbf0b23d52f")
+		)
+		(pin "2"
+			(uuid "e45edbe3-6a77-406f-98b8-c059ca210074")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 342.9 57.15 0)
 		(unit 1)
@@ -19848,6 +21434,75 @@
 			(project ""
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:RESISTOR1206")
+		(at 186.69 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d284bb66-df6f-4052-87a5-48fe1a631c82")
+		(property "Reference" "R26"
+			(at 186.69 101.346 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "1k"
+			(at 186.69 104.394 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "main:1206"
+			(at 186.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d9baf6f-ed6d-466b-bd66-8c097d80c997")
+		)
+		(pin "2"
+			(uuid "c915aded-84b9-48b5-a6cb-179ff020fec5")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -20631,6 +22286,128 @@
 		)
 	)
 	(symbol
+		(lib_id "Component_Library:OPA2376AIDR")
+		(at 200.66 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd94dca9-ee86-49b3-8ae7-e224b573765f")
+		(property "Reference" "U10"
+			(at 200.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA2376AIDR"
+			(at 200.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm"
+			(at 200.66 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa2376.pdf"
+			(at 200.66 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SOIC-8"
+			(at 200.66 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 200.66 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 200.66 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 200.66 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 200.66 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "8c192cd8-fe03-42ef-9512-374c49cc6684")
+		)
+		(pin "6"
+			(uuid "e54cee18-a2d9-4407-a36c-6b371a2be156")
+		)
+		(pin "7"
+			(uuid "7197735f-f35f-4bb3-a2af-90daf6325001")
+		)
+		(pin "4"
+			(uuid "5d24b5cd-a034-4111-ba93-4c2aa7b3c95a")
+		)
+		(pin "2"
+			(uuid "aa183e26-f1a0-4e1b-92b1-1df52df5aaee")
+		)
+		(pin "1"
+			(uuid "0af5283a-9167-465e-af5d-e0c766db0682")
+		)
+		(pin "5"
+			(uuid "62cae2c8-ccfd-41ee-b5bc-257510958791")
+		)
+		(pin "3"
+			(uuid "40cc5330-c6db-4786-8c74-9bf72eba7601")
+		)
+		(instances
+			(project ""
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "main-eagle-import:RESISTOR1206")
 		(at 62.23 179.07 0)
 		(unit 1)
@@ -20928,6 +22705,129 @@
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
 					(reference "J3")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Component_Library:OPA2376AIDR")
+		(at 267.97 93.98 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9c7ca0d-a25a-48a6-ae10-2a108c63ead6")
+		(property "Reference" "U10"
+			(at 266.7 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA2376AIDR"
+			(at 242.824 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm"
+			(at 267.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa2376.pdf"
+			(at 267.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SOIC-8"
+			(at 267.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 267.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 267.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 267.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 267.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af77b3af-abe6-4826-a04d-a41bac656c96")
+		)
+		(pin "7"
+			(uuid "82664918-80fa-41fd-ad36-c2776271db87")
+		)
+		(pin "5"
+			(uuid "30012723-829a-46ff-b393-96938786b92e")
+		)
+		(pin "6"
+			(uuid "078ffdae-1329-4f2a-9f28-8eefbf0e925f")
+		)
+		(pin "8"
+			(uuid "ebb6bfed-87e2-4e4d-885b-9adfdcc848be")
+		)
+		(pin "2"
+			(uuid "6ee4b4d2-3263-4f17-8558-cfd26492c8c5")
+		)
+		(pin "3"
+			(uuid "a4e8492d-e965-4d51-9d8e-ef2aa8402c26")
+		)
+		(pin "4"
+			(uuid "af227cac-e47b-407e-bc8c-1d112cb23325")
+		)
+		(instances
+			(project ""
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "U10")
+					(unit 3)
 				)
 			)
 		)
@@ -21456,6 +23356,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 223.52 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f69dd6d6-cb2d-49e1-b57c-4358789bce13")
+		(property "Reference" "D61"
+			(at 226.06 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 226.06 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 219.075 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 223.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 223.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 223.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 223.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47acd439-18d3-45c3-a65b-05b41ab62d0f")
+		)
+		(pin "2"
+			(uuid "c2223bd6-1e1b-40cc-a579-0868dd679bf9")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "D61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "main-eagle-import:RESISTOR1206")
 		(at 151.13 171.45 90)
 		(unit 1)
@@ -21733,7 +23721,7 @@
 		)
 	)
 	(sheet
-		(at 160.02 64.77)
+		(at 93.98 87.63)
 		(size 31.75 19.05)
 		(fields_autoplaced yes)
 		(stroke
@@ -21745,7 +23733,7 @@
 		)
 		(uuid "6cedb8d4-aa7c-4752-8b92-b860036c6340")
 		(property "Sheetname" "Cap_banks"
-			(at 160.02 64.0584 0)
+			(at 93.98 86.9184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21754,7 +23742,7 @@
 			)
 		)
 		(property "Sheetfile" "Cap_banks.kicad_sch"
-			(at 160.02 84.4046 0)
+			(at 93.98 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
