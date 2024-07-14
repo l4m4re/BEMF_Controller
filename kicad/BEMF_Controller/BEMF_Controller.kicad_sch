@@ -5,6 +5,150 @@
 	(uuid "80a514a6-29a9-4699-8a7d-cff678a7ed07")
 	(paper "User" 406.705 210.007)
 	(lib_symbols
+		(symbol "Component_Library:BZT52-B75J"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BZT52-B75J"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123F"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZT52-B_SER.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DIODE ZENER 75V 590MW SOD123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D?SOD?123F*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BZT52-B75J_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BZT52-B75J_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Component_Library:CHV1812N250105MXT"
 			(pin_numbers hide)
 			(pin_names
@@ -697,151 +841,6 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:D_Zener"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Zener"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Zener diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Zener_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Zener_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12750,7 +12749,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
+		(lib_id "Component_Library:BZT52-B75J")
 		(at 358.14 19.05 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12777,7 +12776,16 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "main:SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 353.695 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZT52-B_SER.pdf"
 			(at 358.14 19.05 0)
 			(effects
 				(font
@@ -12786,16 +12794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 358.14 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
+		(property "Description" "DIODE ZENER 75V 590MW SOD123"
 			(at 358.14 19.05 0)
 			(effects
 				(font
@@ -14701,7 +14700,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
+		(lib_id "Component_Library:BZT52-B75J")
 		(at 311.15 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14728,7 +14727,16 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "main:SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 306.705 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZT52-B_SER.pdf"
 			(at 311.15 29.21 0)
 			(effects
 				(font
@@ -14737,16 +14745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 311.15 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
+		(property "Description" "DIODE ZENER 75V 590MW SOD123"
 			(at 311.15 29.21 0)
 			(effects
 				(font
@@ -14923,7 +14922,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
+		(lib_id "Component_Library:BZT52-B75J")
 		(at 358.14 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14949,7 +14948,16 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "main:SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 353.695 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZT52-B_SER.pdf"
 			(at 358.14 29.21 0)
 			(effects
 				(font
@@ -14958,16 +14966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 358.14 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
+		(property "Description" "DIODE ZENER 75V 590MW SOD123"
 			(at 358.14 29.21 0)
 			(effects
 				(font
@@ -15219,7 +15218,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
+		(lib_id "Component_Library:BZT52-B75J")
 		(at 261.62 19.05 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15246,7 +15245,16 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "main:SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 257.175 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZT52-B_SER.pdf"
 			(at 261.62 19.05 0)
 			(effects
 				(font
@@ -15255,16 +15263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 261.62 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
+		(property "Description" "DIODE ZENER 75V 590MW SOD123"
 			(at 261.62 19.05 0)
 			(effects
 				(font
@@ -16899,7 +16898,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
+		(lib_id "Component_Library:BZT52-B75J")
 		(at 261.62 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16926,7 +16925,16 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "main:SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 257.175 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZT52-B_SER.pdf"
 			(at 261.62 29.21 0)
 			(effects
 				(font
@@ -16935,16 +16943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 261.62 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
+		(property "Description" "DIODE ZENER 75V 590MW SOD123"
 			(at 261.62 29.21 0)
 			(effects
 				(font
@@ -19833,7 +19832,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
+		(lib_id "Component_Library:BZT52-B75J")
 		(at 311.15 19.05 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19860,7 +19859,16 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "main:SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 306.705 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZT52-B_SER.pdf"
 			(at 311.15 19.05 0)
 			(effects
 				(font
@@ -19869,16 +19877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 311.15 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
+		(property "Description" "DIODE ZENER 75V 590MW SOD123"
 			(at 311.15 19.05 0)
 			(effects
 				(font
