@@ -7333,12 +7333,6 @@
 		(uuid "d905060e-99da-417e-915b-99fdc67c1ddb")
 	)
 	(junction
-		(at 311.15 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da84c438-05f6-4224-80d7-764ea98679d8")
-	)
-	(junction
 		(at 311.15 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7369,22 +7363,10 @@
 		(uuid "e08f6c18-e236-472e-af39-22294a9f4b09")
 	)
 	(junction
-		(at 358.14 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5c80f40-0617-4685-bf17-257d5a35651a")
-	)
-	(junction
 		(at 176.53 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e67a3703-29fb-4bd4-b7c9-e67d1fa6b6e1")
-	)
-	(junction
-		(at 261.62 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e752a67d-55ad-4e90-ad0b-b39079f4c9da")
 	)
 	(junction
 		(at 191.77 19.05)
@@ -7761,16 +7743,6 @@
 			(type default)
 		)
 		(uuid "11653853-99bb-44bc-8d3f-6c01f0ae84f2")
-	)
-	(wire
-		(pts
-			(xy 311.15 64.77) (xy 311.15 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11fe2e02-d655-477f-a9be-7e0960c82050")
 	)
 	(wire
 		(pts
@@ -10524,16 +10496,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 64.77) (xy 261.62 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b39cc8e9-69b6-440e-b773-f9b258d9f1e5")
-	)
-	(wire
-		(pts
 			(xy 111.76 72.39) (xy 109.22 72.39)
 		)
 		(stroke
@@ -11131,16 +11093,6 @@
 			(type default)
 		)
 		(uuid "d0c9ad50-9b98-400b-9c54-5c9217e4b8b4")
-	)
-	(wire
-		(pts
-			(xy 358.14 64.77) (xy 358.14 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1474f61-479d-402a-b491-e52c0ed15a4f")
 	)
 	(wire
 		(pts
@@ -12568,6 +12520,17 @@
 		)
 		(uuid "93d88fa6-447f-48af-940e-2991d16472e3")
 	)
+	(label "SHUNT+"
+		(at 359.41 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95007332-dbc6-4135-a8b3-e3263a5b013c")
+	)
 	(label "OVP_A"
 		(at 297.18 50.8 0)
 		(fields_autoplaced yes)
@@ -12744,6 +12707,17 @@
 		)
 		(uuid "baf00399-8c51-4a1c-a73d-7c85e51c7a13")
 	)
+	(label "SHUNT+"
+		(at 265.43 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb191d28-4790-4d22-943e-4de7fbae4046")
+	)
 	(label "HC_I"
 		(at 13.97 50.8 0)
 		(fields_autoplaced yes)
@@ -12831,6 +12805,17 @@
 			(justify left bottom)
 		)
 		(uuid "cdbe6b6f-5f2a-4be1-b305-a9a3a71c0e37")
+	)
+	(label "SHUNT+"
+		(at 313.69 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce304002-5b76-4296-a1f0-17ba246196d6")
 	)
 	(label "CTRL_AH"
 		(at 34.29 88.9 0)
@@ -14782,72 +14767,6 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:GND")
-		(at 358.14 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d244322-9cd4-4599-9b29-08c3548c0d3e")
-		(property "Reference" "#GND012"
-			(at 358.14 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 358.14 68.834 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" ""
-			(at 358.14 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 358.14 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 358.14 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e0b50c51-799c-440f-b71e-9c320d7156d6")
-		)
-		(instances
-			(project "BEMF_Controller"
-				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
-					(reference "#GND012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 358.14 57.15 0)
 		(unit 1)
@@ -15048,72 +14967,6 @@
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "main-eagle-import:GND")
-		(at 311.15 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "358fc05e-9049-4913-8567-00c0a603ea34")
-		(property "Reference" "#GND011"
-			(at 311.15 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 311.15 68.834 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" ""
-			(at 311.15 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 311.15 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 311.15 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6988649-ab0a-410e-bf04-4abe1b2d8e7d")
-		)
-		(instances
-			(project "BEMF_Controller"
-				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
-					(reference "#GND011")
 					(unit 1)
 				)
 			)
@@ -19601,72 +19454,6 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:GND")
-		(at 261.62 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d4c275d-7876-4835-8057-39c2e7ce9908")
-		(property "Reference" "#GND010"
-			(at 261.62 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 261.62 68.834 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 261.62 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac9f4b6b-4d54-4407-98ab-583f6aac9c17")
-		)
-		(instances
-			(project "BEMF_Controller"
-				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
-					(reference "#GND010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Component_Library:CHV1812N250105MXT")
 		(at 67.31 119.38 90)
 		(unit 1)
@@ -23720,7 +23507,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f69dd6d6-cb2d-49e1-b57c-4358789bce13")
 		(property "Reference" "D61"
 			(at 226.06 96.5199 90)
@@ -23732,7 +23518,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 226.06 99.0599 90)
+			(at 226.568 93.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
