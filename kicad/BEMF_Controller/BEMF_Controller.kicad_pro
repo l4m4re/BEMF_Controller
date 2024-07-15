@@ -583,6 +583,14 @@
     [
       "6cedb8d4-aa7c-4752-8b92-b860036c6340",
       "Cap_banks"
+    ],
+    [
+      "6990bf25-70eb-45d9-b265-2461b625100e",
+      "Analog_IO"
+    ],
+    [
+      "eb2cc5c6-c90b-4b25-9fed-8c713b8a1f7b",
+      "Current_sense"
     ]
   ],
   "text_variables": {}

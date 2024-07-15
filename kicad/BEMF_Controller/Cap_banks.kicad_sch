@@ -296,6 +296,151 @@
 				)
 			)
 		)
+		(symbol "Jumper:Jumper_2_Small_Bridged"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Small_Bridged"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, small symbol, bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_0_0"
+				(circle
+					(center -1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_0_1"
+				(arc
+					(start 0.762 0.254)
+					(mid 0 0.5696)
+					(end -0.762 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Jumper:Jumper_2_Small_Open"
 			(pin_numbers hide)
 			(pin_names
@@ -1424,7 +1569,7 @@
 	)
 	(wire
 		(pts
-			(xy 12.7 175.26) (xy 21.59 175.26)
+			(xy 10.16 175.26) (xy 21.59 175.26)
 		)
 		(stroke
 			(width 0)
@@ -1844,7 +1989,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 175.26) (xy 97.79 175.26)
+			(xy 86.36 175.26) (xy 97.79 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2894,7 +3039,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 175.26) (xy 173.99 175.26)
+			(xy 163.83 175.26) (xy 173.99 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3205,8 +3350,8 @@
 		)
 		(uuid "5455b350-0b90-409b-8ffd-1dd5b00056d5")
 	)
-	(label "SHUNT+"
-		(at 88.9 175.26 0)
+	(label "SHUNT_B+"
+		(at 86.36 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3227,8 +3372,8 @@
 		)
 		(uuid "3cca55f1-e65a-4631-a4f6-5883d55ebf0b")
 	)
-	(label "SHUNT+"
-		(at 165.1 175.26 0)
+	(label "SHUNT_C+"
+		(at 163.83 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3293,8 +3438,8 @@
 		)
 		(uuid "a6efaaaa-60db-4661-b557-cf65736f5685")
 	)
-	(label "SHUNT+"
-		(at 12.7 175.26 0)
+	(label "SHUNT_A+"
+		(at 10.16 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3546,74 +3691,6 @@
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
 					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Small_Open")
-		(at 213.36 147.32 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f18a04f-d382-4571-9893-431749d5d999")
-		(property "Reference" "JP6"
-			(at 213.36 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper"
-			(at 213.36 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 213.36 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, small symbol, open"
-			(at 213.36 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ebab0b5b-e80d-4063-a9ea-a9061e1084df")
-		)
-		(pin "2"
-			(uuid "3e5340f2-2d32-4c2d-a85c-4c0b7f8c6ba4")
-		)
-		(instances
-			(project "BEMF_Controller"
-				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
-					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -4636,6 +4713,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 60.96 147.32 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "488906ae-ee84-4371-afcd-83dab22f604b")
+		(property "Reference" "JP2"
+			(at 60.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 60.96 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
+			(at 60.96 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 60.96 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85485756-9eea-44ab-80e7-dece12abb42d")
+		)
+		(pin "2"
+			(uuid "98d3ae34-82a8-4d7f-8e26-107c0e4366fa")
+		)
+		(instances
+			(project ""
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "main-eagle-import:1000UF-RADIAL-5MM-25V-20%")
 		(at 39.37 86.36 0)
 		(unit 1)
@@ -5386,6 +5531,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 213.36 147.32 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a357fb2-519f-47d4-a45a-c42cd2ded4eb")
+		(property "Reference" "JP6"
+			(at 213.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 213.36 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
+			(at 213.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 213.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c69c1082-98b2-4978-8680-d4e34dd3effe")
+		)
+		(pin "2"
+			(uuid "c6b78781-4dd3-49bc-bb3e-f531def67efd")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Component_Library:FSV20150V")
 		(at 44.45 105.41 270)
 		(mirror x)
@@ -5900,7 +6113,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Small_Open")
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
 		(at 137.16 147.32 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -5908,9 +6121,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a042c5ee-80ac-498d-88ed-2dfdd66276f8")
+		(uuid "9abdb293-8282-4e79-8581-2dce4ff6ed99")
 		(property "Reference" "JP4"
-			(at 137.16 140.97 0)
+			(at 137.16 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5918,14 +6131,14 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 137.16 143.51 0)
+			(at 137.16 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
 			(at 137.16 147.32 0)
 			(effects
 				(font
@@ -5943,7 +6156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, small symbol, open"
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
 			(at 137.16 147.32 0)
 			(effects
 				(font
@@ -5953,10 +6166,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f7e68479-f089-4093-bf94-36bc504321de")
+			(uuid "cf1b0c59-c4e9-4af5-96d5-a089a99c4344")
 		)
 		(pin "2"
-			(uuid "662d91e5-b5dc-4382-8b8b-3c9294eaf704")
+			(uuid "97d7e27c-22c9-4521-8d99-68436eb75874")
 		)
 		(instances
 			(project "BEMF_Controller"
@@ -6367,74 +6580,6 @@
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
 					(reference "C39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Small_Open")
-		(at 60.96 147.32 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd037240-8277-4064-b713-35e54917e9da")
-		(property "Reference" "JP2"
-			(at 60.96 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper"
-			(at 60.96 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 60.96 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, small symbol, open"
-			(at 60.96 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4117fd80-b169-4dec-91f8-8fdfd3a4b5ba")
-		)
-		(pin "2"
-			(uuid "e4fb1b7e-4a54-4c27-ad6b-ce805778a90a")
-		)
-		(instances
-			(project "BEMF_Controller"
-				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
-					(reference "JP2")
 					(unit 1)
 				)
 			)
