@@ -752,6 +752,211 @@
 				)
 			)
 		)
+		(symbol "main-eagle-import:RESISTOR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 1.524 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify top)
+				)
+			)
+			(property "Footprint" "main:R2512"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RESISTOR_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.159 1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 1.016) (xy -1.524 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.016) (xy -0.889 1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.016) (xy 0.381 1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.016) (xy 1.651 1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 1.016) (xy 2.286 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 21.59 137.16)
@@ -820,6 +1025,12 @@
 		(uuid "1fff6533-50ce-48e1-9066-a83db49204a1")
 	)
 	(junction
+		(at 105.41 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "244f8aed-6d5e-4a68-a88a-6aebcef00fbb")
+	)
+	(junction
 		(at 124.46 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -872,6 +1083,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "415dd275-5559-426c-8c09-8a781fe07d0c")
+	)
+	(junction
+		(at 105.41 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42060a46-28f9-41fb-8286-59f7f7c9b972")
 	)
 	(junction
 		(at 48.26 115.57)
@@ -994,6 +1211,12 @@
 		(uuid "97131730-9870-42ca-8abf-3d224b436dfa")
 	)
 	(junction
+		(at 182.88 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98d1dcec-b97c-43d6-ba46-4d005396c9df")
+	)
+	(junction
 		(at 124.46 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1060,6 +1283,12 @@
 		(uuid "b74d7102-649b-4e1f-a7a6-8fde2622d4ca")
 	)
 	(junction
+		(at 30.48 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bedb834b-0d96-4a87-bb00-316a08804543")
+	)
+	(junction
 		(at 219.71 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1082,6 +1311,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca1e32be-eac0-434e-93e2-4c1151db4b46")
+	)
+	(junction
+		(at 182.88 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf39f2e3-03ad-407e-a4ec-0bceb7303227")
+	)
+	(junction
+		(at 30.48 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2a6e45f-fbdc-4472-9e29-532b54d831ee")
 	)
 	(junction
 		(at 44.45 60.96)
@@ -1266,6 +1507,16 @@
 			(type default)
 		)
 		(uuid "0849f240-18eb-4764-aa6a-76d75cef0026")
+	)
+	(wire
+		(pts
+			(xy 182.88 175.26) (xy 191.77 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08850f7d-31c7-4399-9151-ad6e3209b0ba")
 	)
 	(wire
 		(pts
@@ -1569,7 +1820,7 @@
 	)
 	(wire
 		(pts
-			(xy 10.16 175.26) (xy 21.59 175.26)
+			(xy 11.43 175.26) (xy 21.59 175.26)
 		)
 		(stroke
 			(width 0)
@@ -1639,13 +1890,23 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 175.26) (xy 39.37 175.26)
+			(xy 21.59 175.26) (xy 30.48 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "321bcfb9-c086-471c-9aae-a28c2f10be06")
+	)
+	(wire
+		(pts
+			(xy 30.48 175.26) (xy 39.37 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d4a1bb-c509-4623-9ecf-328f9ad80e20")
 	)
 	(wire
 		(pts
@@ -1666,6 +1927,16 @@
 			(type default)
 		)
 		(uuid "386ae8e0-6564-41e7-8bbd-feea50faff06")
+	)
+	(wire
+		(pts
+			(xy 30.48 185.42) (xy 38.1 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38f1baad-343a-439b-8ff2-3a3088009348")
 	)
 	(wire
 		(pts
@@ -1806,6 +2077,16 @@
 			(type default)
 		)
 		(uuid "47b61dc3-2cb2-44bb-987e-c4f8ef213d49")
+	)
+	(wire
+		(pts
+			(xy 182.88 185.42) (xy 190.5 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "483d089e-821e-494d-a5a2-68e10e00c03a")
 	)
 	(wire
 		(pts
@@ -2009,6 +2290,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 185.42) (xy 163.83 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65ad0438-f80d-4d33-902e-6492784752c9")
+	)
+	(wire
+		(pts
 			(xy 140.97 77.47) (xy 143.51 77.47)
 		)
 		(stroke
@@ -2086,6 +2377,16 @@
 			(type default)
 		)
 		(uuid "6ef0dac6-999d-436b-b2d2-f64e6f0d2160")
+	)
+	(wire
+		(pts
+			(xy 30.48 185.42) (xy 11.43 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f7ce895-8ed1-4ae9-98d3-c620a2c83f31")
 	)
 	(wire
 		(pts
@@ -2179,7 +2480,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 175.26) (xy 191.77 175.26)
+			(xy 173.99 175.26) (xy 182.88 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2479,6 +2780,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 175.26) (xy 115.57 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f6e9510-6412-409e-99a2-7653b11b4d8f")
+	)
+	(wire
+		(pts
 			(xy 97.79 36.83) (xy 100.33 36.83)
 		)
 		(stroke
@@ -2769,7 +3080,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 175.26) (xy 115.57 175.26)
+			(xy 97.79 175.26) (xy 105.41 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3139,6 +3450,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 185.42) (xy 113.03 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d1ac61-d204-4472-af1f-47a4d2128c2c")
+	)
+	(wire
+		(pts
 			(xy 115.57 115.57) (xy 115.57 119.38)
 		)
 		(stroke
@@ -3146,6 +3467,16 @@
 			(type default)
 		)
 		(uuid "e5622f75-daa0-4095-bd12-b8706893c8f4")
+	)
+	(wire
+		(pts
+			(xy 105.41 185.42) (xy 86.36 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5d2c069-3f94-4011-ba54-39ca6865b539")
 	)
 	(wire
 		(pts
@@ -3328,8 +3659,8 @@
 		(uuid "ff0d6d57-2edf-457d-af96-868677da3715")
 	)
 	(rectangle
-		(start 8.89 5.08)
-		(end 236.22 182.88)
+		(start 10.16 20.32)
+		(end 237.49 198.12)
 		(stroke
 			(width 0)
 			(type default)
@@ -3361,6 +3692,17 @@
 		)
 		(uuid "25511cc9-882c-43fb-bdb2-a18967f013b7")
 	)
+	(label "CAP_BANK_C-"
+		(at 190.5 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3478a74a-1398-45c3-86e3-5ca843b4a26d")
+	)
 	(label "V_RAW"
 		(at 186.69 26.67 0)
 		(fields_autoplaced yes)
@@ -3371,6 +3713,28 @@
 			(justify left bottom)
 		)
 		(uuid "3cca55f1-e65a-4631-a4f6-5883d55ebf0b")
+	)
+	(label "SHUNT_C-"
+		(at 163.83 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "585c435e-1508-4562-836c-4c4b7202992d")
+	)
+	(label "CAP_BANK_B-"
+		(at 113.03 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f810dcf-5bdc-427e-88ab-4c9652036e87")
 	)
 	(label "SHUNT_C+"
 		(at 163.83 175.26 0)
@@ -3383,7 +3747,7 @@
 		)
 		(uuid "78d252f7-d756-450e-a3b2-f57fccf98b3b")
 	)
-	(label "CAP_BANK_B"
+	(label "CAP_BANK_B+"
 		(at 132.08 31.75 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3394,7 +3758,7 @@
 		)
 		(uuid "7a77da30-bf4f-4a94-8747-4ad797c180c9")
 	)
-	(label "CAP_BANK_A"
+	(label "CAP_BANK_A+"
 		(at 55.88 31.75 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3416,7 +3780,7 @@
 		)
 		(uuid "87567751-6a26-466a-95c0-adebf6418ad4")
 	)
-	(label "CAP_BANK_C"
+	(label "CAP_BANK_C+"
 		(at 208.28 31.75 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3438,8 +3802,30 @@
 		)
 		(uuid "a6efaaaa-60db-4661-b557-cf65736f5685")
 	)
+	(label "SHUNT_A-"
+		(at 11.43 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b26855c2-b972-410a-bf39-622df855a8d3")
+	)
+	(label "CAP_BANK_A-"
+		(at 38.1 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b675cd06-a523-403a-b7ca-17f4c8f54298")
+	)
 	(label "SHUNT_A+"
-		(at 10.16 175.26 0)
+		(at 11.43 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3448,6 +3834,17 @@
 			(justify left bottom)
 		)
 		(uuid "e27304d9-b387-40f6-88c4-c39d8e899237")
+	)
+	(label "SHUNT_B-"
+		(at 86.36 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eea1043a-2e34-4cba-97dd-f72cba4169cf")
 	)
 	(symbol
 		(lib_id "Component_Library:CHV1812N250105MXT")
@@ -3602,6 +3999,75 @@
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
 					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:RESISTOR")
+		(at 182.88 180.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a65bcf6-4a0b-42a8-b27f-ccec37392b51")
+		(property "Reference" "R32"
+			(at 184.404 180.34 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "0.0005"
+			(at 181.356 180.34 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "main:R2512"
+			(at 182.88 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38aac3de-ce53-4def-aa6f-223b30dbb31f")
+		)
+		(pin "2"
+			(uuid "aa3222c8-b070-4ac3-a720-1fe25fcbda18")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -4781,6 +5247,75 @@
 		)
 	)
 	(symbol
+		(lib_id "main-eagle-import:RESISTOR")
+		(at 105.41 180.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49d50cea-7359-42db-985a-d9f0208a97cb")
+		(property "Reference" "R31"
+			(at 106.934 180.34 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "0.0005"
+			(at 103.886 180.34 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "main:R2512"
+			(at 105.41 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6942c3a-e9da-4dac-baf5-c5733b1a7513")
+		)
+		(pin "2"
+			(uuid "3e82d449-4f25-462e-a6ea-3bf8f3c27955")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "main-eagle-import:1000UF-RADIAL-5MM-25V-20%")
 		(at 39.37 86.36 0)
 		(unit 1)
@@ -5140,6 +5675,75 @@
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:RESISTOR")
+		(at 30.48 180.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59d50eee-6cd9-45ea-9e24-d1ab231f1b22")
+		(property "Reference" "R30"
+			(at 32.004 180.34 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "0.0005"
+			(at 28.956 180.34 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "main:R2512"
+			(at 30.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4c3bad9-a87f-4485-9f77-d5dc4a88be50")
+		)
+		(pin "2"
+			(uuid "47e40309-ead6-4b1f-be88-bf6ecb51eb19")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6cedb8d4-aa7c-4752-8b92-b860036c6340"
+					(reference "R30")
 					(unit 1)
 				)
 			)

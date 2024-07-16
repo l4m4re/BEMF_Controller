@@ -1130,12 +1130,6 @@
 		(color 0 0 0 0)
 		(uuid "f3bc972e-1445-4aff-b563-5941a0b30437")
 	)
-	(junction
-		(at 53.34 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb862c59-8f45-45db-bdc7-f15b8e5b60ce")
-	)
 	(wire
 		(pts
 			(xy 157.48 34.29) (xy 157.48 54.61)
@@ -1268,16 +1262,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 87.63) (xy 69.85 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fa3ed7b-2059-4cc4-b2d9-7c3459ec06ef")
-	)
-	(wire
-		(pts
 			(xy 29.21 35.56) (xy 59.69 35.56)
 		)
 		(stroke
@@ -1295,16 +1279,6 @@
 			(type solid)
 		)
 		(uuid "10c55af3-5b50-4578-a305-0d8eb2d7d4aa")
-	)
-	(wire
-		(pts
-			(xy 66.04 97.79) (xy 69.85 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d8a1a82-d521-4b6b-a524-7f92cca8ad64")
 	)
 	(wire
 		(pts
@@ -1335,16 +1309,6 @@
 			(type solid)
 		)
 		(uuid "27b76ab5-5492-421b-9722-a4b98afbaab5")
-	)
-	(wire
-		(pts
-			(xy 53.34 87.63) (xy 55.88 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2840398b-3f62-45ed-a63b-4770ae198d09")
 	)
 	(wire
 		(pts
@@ -1698,16 +1662,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 97.79) (xy 53.34 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7255fc6b-680e-4bf3-a7b8-d273df3fd206")
-	)
-	(wire
-		(pts
 			(xy 74.93 35.56) (xy 59.69 35.56)
 		)
 		(stroke
@@ -1848,16 +1802,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 77.47) (xy 69.85 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ea6c541-bae8-44e3-8676-279c3b6c5dd6")
-	)
-	(wire
-		(pts
 			(xy 31.75 60.96) (xy 19.05 60.96)
 		)
 		(stroke
@@ -1935,16 +1879,6 @@
 			(type default)
 		)
 		(uuid "a53549e6-f1c9-4471-b787-0ebe626c6857")
-	)
-	(wire
-		(pts
-			(xy 53.34 77.47) (xy 55.88 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a541ea94-458c-4234-9fdf-6e2305d2e73e")
 	)
 	(wire
 		(pts
@@ -2218,16 +2152,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 97.79) (xy 53.34 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb6b9f43-8a51-45b6-a7bd-0e2f697e353c")
-	)
-	(wire
-		(pts
 			(xy 129.54 59.69) (xy 116.84 59.69)
 		)
 		(stroke
@@ -2235,16 +2159,6 @@
 			(type solid)
 		)
 		(uuid "eb767f47-6994-4c87-8053-31d0d436c08a")
-	)
-	(wire
-		(pts
-			(xy 53.34 87.63) (xy 53.34 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef68264d-5250-4ea6-8db2-2b951fc41660")
 	)
 	(wire
 		(pts
@@ -2385,17 +2299,6 @@
 		)
 		(uuid "5e9c9389-bb63-4b59-bde0-ce079efa1664")
 	)
-	(label "SHUNT_A+"
-		(at 69.85 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "77480e6f-84bc-4b47-9b26-01565485b3d6")
-	)
 	(label "ISENSE"
 		(at 19.05 55.88 0)
 		(fields_autoplaced yes)
@@ -2406,28 +2309,6 @@
 			(justify left bottom)
 		)
 		(uuid "7b997421-d21e-4b43-8919-cb5c1d1f8527")
-	)
-	(label "SHUNT_B+"
-		(at 69.85 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "87e38b33-0019-49cc-8836-a2c1be45dd81")
-	)
-	(label "SHUNT_C+"
-		(at 69.85 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d9c2622c-e1e1-4b45-8aba-e4453cb20e03")
 	)
 	(symbol
 		(lib_id "main-eagle-import:RESISTOR1206")
@@ -2628,75 +2509,6 @@
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/eb2cc5c6-c90b-4b25-9fed-8c713b8a1f7b"
 					(reference "C48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "main-eagle-import:RESISTOR")
-		(at 60.96 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1746d496-d578-4e9c-9309-ca6da67b358b")
-		(property "Reference" "R30"
-			(at 60.96 75.946 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "0.0005"
-			(at 60.96 78.994 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" "main:R2512"
-			(at 60.96 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ed70117-3e81-47c2-9366-df50450c3dde")
-		)
-		(pin "2"
-			(uuid "146ae13b-a801-456b-beb3-42e5ebeadc31")
-		)
-		(instances
-			(project "BEMF_Controller"
-				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/eb2cc5c6-c90b-4b25-9fed-8c713b8a1f7b"
-					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -2967,75 +2779,6 @@
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/eb2cc5c6-c90b-4b25-9fed-8c713b8a1f7b"
 					(reference "#GND019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "main-eagle-import:RESISTOR")
-		(at 60.96 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ad05b81-5565-45a2-8e8c-4a6539a05ae5")
-		(property "Reference" "R32"
-			(at 60.96 86.106 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "0.0005"
-			(at 60.96 89.154 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" "main:R2512"
-			(at 60.96 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "256e547a-daff-4743-b5f8-103724dd17da")
-		)
-		(pin "2"
-			(uuid "9666999d-03ff-4119-8d51-5db3af167257")
-		)
-		(instances
-			(project "BEMF_Controller"
-				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/eb2cc5c6-c90b-4b25-9fed-8c713b8a1f7b"
-					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -3542,75 +3285,6 @@
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/eb2cc5c6-c90b-4b25-9fed-8c713b8a1f7b"
 					(reference "#GND021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "main-eagle-import:RESISTOR")
-		(at 60.96 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "689d3744-bbfb-483e-8bb9-93838b7cd3cd")
-		(property "Reference" "R31"
-			(at 60.96 96.266 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "0.0005"
-			(at 60.96 99.314 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" "main:R2512"
-			(at 60.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5a77a69-537f-4ae0-a196-742b84ee8a3f")
-		)
-		(pin "2"
-			(uuid "d5d21a8b-bf0d-4c64-9ad2-478d7dfcacf1")
-		)
-		(instances
-			(project "BEMF_Controller"
-				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/eb2cc5c6-c90b-4b25-9fed-8c713b8a1f7b"
-					(reference "R31")
 					(unit 1)
 				)
 			)
