@@ -5,6 +5,321 @@
 	(uuid "80a514a6-29a9-4699-8a7d-cff678a7ed07")
 	(paper "User" 406.705 210.007)
 	(lib_symbols
+		(symbol "Component_Library:C3M0280090D_TO247"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C3M0280090D_TO247"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "main:TO-247-3_Horizontal_TabDown-with-pad"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.wolfspeed.com/uploads/2024/01/Wolfspeed_C3M0280090D_data_sheet.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "11.5A Id, 900V Vds, 280mOhm, N-Channel SiC MOSFET, TO-247"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel SiC MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?247*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C3M0280090D_TO247_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C3M0280090D_TO247_1_0"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54) hide
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "C3M0280090D_TO247_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Component_Library:CHV1812N250105MXT"
 			(pin_numbers hide)
 			(pin_names
@@ -2100,301 +2415,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Transistor_FET:C3M0280090D"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C3M0280090D"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.wolfspeed.com/media/downloads/825/C3M0280090D.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "11.5A Id, 900V Vds, 280mOhm, N-Channel SiC MOSFET, TO-247"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel SiC MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?247*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C3M0280090D_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C3M0280090D_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10324,7 +10344,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:C3M0280090D")
+		(lib_id "Component_Library:C3M0280090D_TO247")
 		(at 195.58 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10351,7 +10371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Horizontal_TabDown"
+		(property "Footprint" "main:TO-247-3_Horizontal_TabDown-with-pad"
 			(at 200.66 182.245 0)
 			(effects
 				(font
@@ -10389,6 +10409,9 @@
 		)
 		(pin "2"
 			(uuid "07940771-f575-4951-b67d-fbb085f9196b")
+		)
+		(pin "4"
+			(uuid "6c257733-cd04-41a2-ad4a-498ff10f76f5")
 		)
 		(instances
 			(project ""
@@ -12781,7 +12804,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:C3M0280090D")
+		(lib_id "Component_Library:C3M0280090D_TO247")
 		(at 347.98 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12808,7 +12831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Horizontal_TabDown"
+		(property "Footprint" "main:TO-247-3_Horizontal_TabDown-with-pad"
 			(at 353.06 182.245 0)
 			(effects
 				(font
@@ -12847,6 +12870,9 @@
 		(pin "2"
 			(uuid "91969ece-e041-4fe8-8e29-db7fc2a18ee4")
 		)
+		(pin "4"
+			(uuid "37283cf8-0a74-4595-afbe-931e716061f8")
+		)
 		(instances
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
@@ -12857,7 +12883,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:C3M0280090D")
+		(lib_id "Component_Library:C3M0280090D_TO247")
 		(at 271.78 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12884,7 +12910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Horizontal_TabDown"
+		(property "Footprint" "main:TO-247-3_Horizontal_TabDown-with-pad"
 			(at 276.86 146.685 0)
 			(effects
 				(font
@@ -12922,6 +12948,9 @@
 		)
 		(pin "2"
 			(uuid "d668cc2a-9f00-4a1e-984b-4c4472f09f87")
+		)
+		(pin "4"
+			(uuid "0db0b693-9a15-4daa-bb8a-98e50dcb5816")
 		)
 		(instances
 			(project "BEMF_Controller"
@@ -13609,7 +13638,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:C3M0280090D")
+		(lib_id "Component_Library:C3M0280090D_TO247")
 		(at 195.58 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13636,7 +13665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Horizontal_TabDown"
+		(property "Footprint" "main:TO-247-3_Horizontal_TabDown-with-pad"
 			(at 200.66 146.685 0)
 			(effects
 				(font
@@ -13674,6 +13703,9 @@
 		)
 		(pin "2"
 			(uuid "857f15a1-5907-4bc7-b09c-c85a4b369598")
+		)
+		(pin "4"
+			(uuid "55931ace-ddce-4db9-aa89-631024a07d2c")
 		)
 		(instances
 			(project "BEMF_Controller"
@@ -13823,7 +13855,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:C3M0280090D")
+		(lib_id "Component_Library:C3M0280090D_TO247")
 		(at 271.78 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13850,7 +13882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Horizontal_TabDown"
+		(property "Footprint" "main:TO-247-3_Horizontal_TabDown-with-pad"
 			(at 276.86 182.245 0)
 			(effects
 				(font
@@ -13888,6 +13920,9 @@
 		)
 		(pin "2"
 			(uuid "9c84ca85-4d01-441a-9ae6-e74cdb85fc0d")
+		)
+		(pin "4"
+			(uuid "22ebbc90-af2d-496f-87a8-9e104b3dab0f")
 		)
 		(instances
 			(project "BEMF_Controller"
@@ -16358,7 +16393,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:C3M0280090D")
+		(lib_id "Component_Library:C3M0280090D_TO247")
 		(at 347.98 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16385,7 +16420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Horizontal_TabDown"
+		(property "Footprint" "main:TO-247-3_Horizontal_TabDown-with-pad"
 			(at 353.06 146.685 0)
 			(effects
 				(font
@@ -16423,6 +16458,9 @@
 		)
 		(pin "2"
 			(uuid "797bb8a5-6ed8-4775-bedc-b8e6b35e8453")
+		)
+		(pin "4"
+			(uuid "08f1af2a-0a39-4979-a998-591841f40bd4")
 		)
 		(instances
 			(project "BEMF_Controller"
