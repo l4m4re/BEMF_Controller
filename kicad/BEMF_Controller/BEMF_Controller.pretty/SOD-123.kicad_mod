@@ -19,6 +19,7 @@
 	(property "Value" "SOD-123"
 		(at -1.905 2.032 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "ea9f6f77-8e3c-4a1b-b1fe-4ac018f94fbf")
 		(effects
 			(font

@@ -1307,6 +1307,97 @@
 				)
 			)
 		)
+		(symbol "main-eagle-import:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 -0.254 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "main-eagle-import:RESISTOR1206"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1607,113 +1698,6 @@
 				)
 			)
 		)
-		(symbol "power:GNDD"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDD"
-				(at 0 -3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDD_0_1"
-				(rectangle
-					(start -1.27 -1.524)
-					(end 1.27 -2.032)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDD_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 22.86 73.66)
@@ -1877,12 +1861,6 @@
 		(color 0 0 0 0)
 		(uuid "fc179113-dc9c-4c72-893f-99dcab6656da")
 	)
-	(junction
-		(at 34.29 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe05eeaf-1123-4f9c-91c5-5fda3f046307")
-	)
 	(wire
 		(pts
 			(xy 223.52 78.74) (xy 223.52 82.55)
@@ -1895,7 +1873,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 143.51) (xy 52.07 143.51)
+			(xy 50.8 143.51) (xy 52.07 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2535,7 +2513,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 130.81) (xy 52.07 130.81)
+			(xy 50.8 130.81) (xy 52.07 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2625,7 +2603,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 140.97) (xy 52.07 140.97)
+			(xy 50.8 140.97) (xy 52.07 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2795,7 +2773,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 138.43) (xy 127 138.43)
+			(xy 113.03 138.43) (xy 128.27 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2815,7 +2793,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 138.43) (xy 52.07 138.43)
+			(xy 50.8 138.43) (xy 52.07 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2825,7 +2803,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 135.89) (xy 21.59 135.89)
+			(xy 21.59 135.89) (xy 52.07 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2902,16 +2880,6 @@
 			(type default)
 		)
 		(uuid "df83353c-31c0-4d88-b5c2-b7fd68945a94")
-	)
-	(wire
-		(pts
-			(xy 34.29 135.89) (xy 52.07 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfa8cdc1-d0ea-468b-8259-3717b968b870")
 	)
 	(wire
 		(pts
@@ -3025,7 +2993,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 138.43) (xy 127 133.35)
+			(xy 128.27 138.43) (xy 128.27 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3075,7 +3043,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 133.35) (xy 132.08 133.35)
+			(xy 128.27 133.35) (xy 132.08 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3084,8 +3052,8 @@
 		(uuid "fab6191d-d399-441b-a550-dea1a6413d21")
 	)
 	(rectangle
-		(start 6.35 3.81)
-		(end 236.22 107.95)
+		(start 6.35 1.27)
+		(end 236.22 170.18)
 		(stroke
 			(width 0)
 			(type default)
@@ -3106,8 +3074,8 @@
 		)
 		(uuid "e7e97b7a-ae4a-4ab3-9150-3cda4268c196")
 	)
-	(label "SPI0_RX"
-		(at 116.84 133.35 0)
+	(label "VSENSE_A_IN"
+		(at 22.86 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3115,10 +3083,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "17d3a652-6fea-4c14-ac04-bbdfc3221499")
+		(uuid "2d143689-aa3d-4f76-bb39-1b58e387cd36")
 	)
-	(label "VSENSE_C"
-		(at 40.64 143.51 0)
+	(label "VSENSE_B_IN"
+		(at 114.3 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3126,10 +3094,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1abd601c-b757-4c64-b304-9161237f0884")
+		(uuid "37619e85-34d6-4593-834f-0a0254519084")
 	)
-	(label "VSENSE_B"
-		(at 40.64 140.97 0)
+	(label "VSENSE_C_IN"
+		(at 115.57 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3137,172 +3105,469 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "336a191b-8f9d-4fde-b59a-1cac2c39ebdb")
+		(uuid "e89d4ce5-bba5-4cbd-9862-58f5da0f7b51")
 	)
-	(label "ISENSE_B"
+	(global_label "ISENSE_B"
+		(shape input)
 		(at 116.84 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "3dde49f8-18a0-4d2e-b57f-f1b8fd3785b3")
-	)
-	(label "VSENSE_A"
-		(at 80.01 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "145b240a-5f13-4e9e-af5e-d9c1006d3a6b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.7151 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
 			)
-			(justify left bottom)
 		)
-		(uuid "44ece999-685c-418a-8ba0-9a36a5a3eed5")
 	)
-	(label "VSENSE_IN"
-		(at 7.62 12.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "59b5b7f4-6191-47e5-b37e-cfe33e5c2f64")
-	)
-	(label "SPI0_SCK"
+	(global_label "SPI0_SCK"
+		(shape input)
 		(at 116.84 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "64e9aefa-aa1a-47a3-a767-dec358a69ed3")
+		(uuid "1d0098f8-bcc9-4603-9fb5-792b6446aae7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.8361 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "VSENSE_C"
-		(at 172.72 76.2 0)
+	(global_label "SPI0_CSn"
+		(shape input)
+		(at 50.8 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "78dd102f-17a1-4cf7-85f2-7397879d005f")
+		(uuid "316a2a91-6424-4c78-b8ca-79d21fb23a4b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.9249 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "VSENSE_A"
-		(at 40.64 138.43 0)
+	(global_label "VSENSE_C"
+		(shape input)
+		(at 50.8 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "7c5e9f1f-21b5-49c7-8729-566beff13ff6")
+		(uuid "3dc582e9-2e7e-4522-bd49-0df3148b6af1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.4411 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "SPI0_TX"
+	(global_label "CAP_BANK_GND"
+		(shape input)
+		(at 135.89 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5bf72b72-5d77-4885-811d-557ef7f69458")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.2686 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VSENSE_B"
+		(shape input)
+		(at 50.8 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5da5c201-ecc2-4a2b-abe1-6352a289dcb8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.4411 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI0_TX"
+		(shape input)
 		(at 116.84 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "8575155d-0502-49e4-9f74-a8d265f2c99e")
+		(uuid "60d9f343-57b0-442a-b543-0c95a8cedaf4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.2637 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "CAP_BANK_C+"
-		(at 116.84 50.8 0)
+	(global_label "SPI0_RX"
+		(shape input)
+		(at 116.84 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "8774ae98-2685-4e9c-a5c5-1ebd836e027e")
+		(uuid "75aa26de-db47-4457-adef-d5c35ceaa490")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.5661 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "CAP_BANK_B+"
-		(at 115.57 6.35 0)
+	(global_label "VSENSE_A"
+		(shape input)
+		(at 80.01 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "8feb596c-7d5c-41a7-8027-3b652ea4d528")
-	)
-	(label "CAP_BANK_A+"
-		(at 24.13 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "89636ae9-7b83-4f52-94e2-453057df449b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.1875 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
 			)
-			(justify left bottom)
 		)
-		(uuid "9cf15141-a4ae-4307-b4a9-c8d243026f00")
 	)
-	(label "VSENSE_B"
-		(at 167.64 30.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "9d220563-c8c3-49eb-8937-a670a157098a")
-	)
-	(label "VSENSE"
-		(at 54.61 30.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "c5e93624-a406-4e0f-8794-6210bdcecf29")
-	)
-	(label "ISENSE_C"
-		(at 116.84 148.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c7d343dc-0d39-4635-85b9-1b4297736bf5")
-	)
-	(label "SPI0_CSn"
-		(at 40.64 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "df18428e-1c92-4083-a3a7-02534c484801")
-	)
-	(label "ISENSE_A"
+	(global_label "ISENSE_A"
+		(shape input)
 		(at 116.84 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "f6f1cec9-af3a-48f5-bd3b-16303f8dc2a2")
+		(uuid "ac59e7d0-de05-4551-be20-71ff1c53e211")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.5337 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VSENSE"
+		(shape input)
+		(at 54.61 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "acd723d7-8ef8-4794-b4b9-99aa3963a72b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.5287 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAP_BANK_C+"
+		(shape input)
+		(at 116.84 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b429ac2d-0b99-48e3-987d-36ed8692d9c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.1905 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAP_BANK_GND"
+		(shape input)
+		(at 44.45 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b83b03b7-8fe5-4875-b368-18fbba1135c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.8286 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAP_BANK_B+"
+		(shape input)
+		(at 115.57 6.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c250b17d-2426-4ede-bef8-0552d01b57bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.9205 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAP_BANK_A+"
+		(shape input)
+		(at 24.13 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca0ade01-fce8-4942-a11b-d44cb7378d52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.2991 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ISENSE_C"
+		(shape input)
+		(at 116.84 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb1dc14c-4d4b-429a-8c2c-788a823e6e5f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.7151 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VSENSE_B"
+		(shape input)
+		(at 167.64 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "d4977499-bb12-4d74-9b69-43f0afadffcf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.7516 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VSENSE_IN"
+		(shape input)
+		(at 7.62 12.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "d9e08155-b752-472f-b2e4-58c3cce7ba17")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.3836 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAP_BANK_GND"
+		(shape input)
+		(at 137.16 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db89d120-0e9d-4ae1-818f-2e7af60539a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.5386 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VSENSE_C"
+		(shape input)
+		(at 172.72 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e56a064a-0fbf-498a-8644-12e85ec85ad7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.0789 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VSENSE_A"
+		(shape input)
+		(at 50.8 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f123f1d9-f1c4-4c5e-ae07-16c3b375dde5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.6225 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Component_Library:OPA2376AIDR")
@@ -3421,72 +3686,6 @@
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6990bf25-70eb-45d9-b265-2461b625100e"
 					(reference "U12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 34.29 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02f8a4b1-799f-49f8-be02-c8c1bb8d3af6")
-		(property "Reference" "#PWR02"
-			(at 34.29 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 34.29 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 34.29 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7bed09e7-690f-453e-8fad-c2f472c2334d")
-		)
-		(instances
-			(project ""
-				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6990bf25-70eb-45d9-b265-2461b625100e"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3718,72 +3917,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 132.08 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05d02f68-fdd5-4452-8c52-b4de0bb18002")
-		(property "Reference" "#PWR01"
-			(at 132.08 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 132.08 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 132.08 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f70a59a6-e431-4cc3-90dd-2f7efbf69cd8")
-		)
-		(instances
-			(project ""
-				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6990bf25-70eb-45d9-b265-2461b625100e"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148WS")
 		(at 114.3 21.59 90)
 		(unit 1)
@@ -3958,72 +4091,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 24.13 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1cbbfa59-8a39-4a89-95f4-0101a2087dc0")
-		(property "Reference" "#PWR08"
-			(at 24.13 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 24.13 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 24.13 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f459841-c1a5-4c2c-a447-34fcae8d7c0b")
-		)
-		(instances
-			(project "BEMF_Controller"
-				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6990bf25-70eb-45d9-b265-2461b625100e"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "main-eagle-import:5V")
 		(at 24.13 15.24 0)
 		(unit 1)
@@ -4084,72 +4151,6 @@
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6990bf25-70eb-45d9-b265-2461b625100e"
 					(reference "#SUPPLY014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 137.16 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22e39941-2fec-4c8d-8cb1-eb2d1d87b297")
-		(property "Reference" "#PWR04"
-			(at 137.16 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 137.16 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 137.16 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18b90d0e-6885-4ef5-af6d-17199262b428")
-		)
-		(instances
-			(project "BEMF_Controller"
-				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6990bf25-70eb-45d9-b265-2461b625100e"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5831,6 +5832,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 21.59 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87736f2f-3b94-4784-9970-b604f160aa2f")
+		(property "Reference" "#PWR01"
+			(at 21.59 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 21.59 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 21.59 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13723089-5e00-4ba2-87e8-607c4af91542")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6990bf25-70eb-45d9-b265-2461b625100e"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Component_Library:OPA2376AIDR")
 		(at 226.06 22.86 0)
 		(unit 3)
@@ -5949,72 +6016,6 @@
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6990bf25-70eb-45d9-b265-2461b625100e"
 					(reference "U10")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 44.45 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88f7a3c8-4edd-4e15-9940-c5088f5174f8")
-		(property "Reference" "#PWR03"
-			(at 44.45 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 44.45 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 44.45 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "368302fa-bd26-48c4-a242-ad74ed2fd6fe")
-		)
-		(instances
-			(project "BEMF_Controller"
-				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6990bf25-70eb-45d9-b265-2461b625100e"
-					(reference "#PWR03")
-					(unit 1)
 				)
 			)
 		)
@@ -6245,72 +6246,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 135.89 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "915cf0bf-175a-4340-8515-e884969c1d7f")
-		(property "Reference" "#PWR07"
-			(at 135.89 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 135.89 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 135.89 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5619d66-44f1-4595-a40a-57c611fa621d")
-		)
-		(instances
-			(project "BEMF_Controller"
-				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6990bf25-70eb-45d9-b265-2461b625100e"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 8.89 130.81 0)
 		(unit 1)
@@ -6512,6 +6447,138 @@
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6990bf25-70eb-45d9-b265-2461b625100e"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:GND")
+		(at 24.13 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b334757-d168-4808-a189-8188506719af")
+		(property "Reference" "#GND010"
+			(at 24.13 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 42.164 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12196307-2441-4ccd-b670-d20061dcea08")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6990bf25-70eb-45d9-b265-2461b625100e"
+					(reference "#GND010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:GND")
+		(at 132.08 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d9bb306-8887-49c4-9fec-0aeef5bef8ea")
+		(property "Reference" "#GND07"
+			(at 132.08 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 146.304 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57b8b6b4-ffdf-47ad-a67f-47fd84b47bc6")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6990bf25-70eb-45d9-b265-2461b625100e"
+					(reference "#GND07")
 					(unit 1)
 				)
 			)
