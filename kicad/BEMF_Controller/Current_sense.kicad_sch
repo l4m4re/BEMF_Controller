@@ -1334,7 +1334,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 55.88) (xy 19.05 55.88)
+			(xy 31.75 55.88) (xy 27.94 55.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -2319,7 +2319,7 @@
 	)
 	(global_label "ISENSE"
 		(shape input)
-		(at 19.05 55.88 180)
+		(at 27.94 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2329,7 +2329,7 @@
 		)
 		(uuid "7388487d-d777-4467-870d-7a544bf7ad7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 9.6054 55.88 0)
+			(at 18.4954 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)

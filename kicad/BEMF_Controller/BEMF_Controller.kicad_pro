@@ -617,6 +617,10 @@
     [
       "eb2cc5c6-c90b-4b25-9fed-8c713b8a1f7b",
       "Current_sense"
+    ],
+    [
+      "b37540a7-0baa-4f7e-b2a8-261bd61eb3c8",
+      "Hall Inputs"
     ]
   ],
   "text_variables": {}

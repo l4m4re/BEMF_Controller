@@ -832,7 +832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "main:TO-247-3_Horizontal_TabDown-with-pad"
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Horizontal_TabDown"
 			(at 5.08 -1.905 0)
 			(effects
 				(font
@@ -1044,26 +1044,6 @@
 				)
 				(fill
 					(type outline)
-				)
-			)
-		)
-		(symbol "C3M0280090D_TO247_1_0"
-			(pin passive line
-				(at 2.54 5.08 270)
-				(length 2.54) hide
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
 				)
 			)
 		)
