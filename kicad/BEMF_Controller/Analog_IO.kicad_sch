@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Footprint" "MTC16"
+			(property "Footprint" "footprints:MTC16"
 				(at 0 0 0)
 				(effects
 					(font
@@ -38,7 +38,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/adc108s022.pdf"
+			(property "Datasheet" "ADC108S022CIMTX/NOPB"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6684,7 +6684,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MTC16"
+		(property "Footprint" "footprints:MTC16"
 			(at 50.8 184.15 0)
 			(effects
 				(font
@@ -6694,7 +6694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/adc108s022.pdf"
+		(property "Datasheet" "ADC108S022CIMTX/NOPB"
 			(at 50.8 184.15 0)
 			(effects
 				(font

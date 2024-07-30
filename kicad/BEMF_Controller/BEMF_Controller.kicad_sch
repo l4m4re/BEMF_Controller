@@ -436,6 +436,251 @@
 				)
 			)
 		)
+		(symbol "Component_Library:DGD2304"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.366 8.128 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -7.62 -7.62 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DGD2304_1_0"
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 7.62) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 7.62) (xy -7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "LIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "HIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "HO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "VB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Component_Library:FSV20150V"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -2099,6 +2344,168 @@
 				)
 			)
 		)
+		(symbol "Component_Library:SMD110PL-TP"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMD110PL-TP"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD-DIODE-100V-200MA SOD-123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?323*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMD110PL-TP_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMD110PL-TP_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -2770,259 +3177,6 @@
 						(effects
 							(font
 								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "main-eagle-import:DGD2304"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at -7.366 8.128 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at -7.62 -7.62 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "main:SOIC8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "DGD2304_1_0"
-				(polyline
-					(pts
-						(xy -7.62 -5.08) (xy 7.62 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 7.62) (xy -7.62 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 7.62 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 7.62) (xy -7.62 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 5.08 0)
-					(length 5.08)
-					(name "LIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 2.54 0)
-					(length 5.08)
-					(name "HIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -2.54 180)
-					(length 5.08)
-					(name "LO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "VS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 2.54 180)
-					(length 5.08)
-					(name "HO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 5.08 180)
-					(length 5.08)
-					(name "VB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -3921,150 +4075,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "main-eagle-import:SMD-DIODE-100V-200MA(SOD-123)"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -3.81 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -3.81 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "main:SOD-123"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "304010007"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SMD-DIODE-100V-200MA(SOD-123)_1_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "-"
 						(effects
 							(font
 								(size 0 0)
@@ -6783,6 +6793,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 100.33) (xy 196.85 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6393f1c9-7a63-4086-ae27-76af0c5d5cfe")
+	)
+	(wire
+		(pts
 			(xy 198.12 167.64) (xy 198.12 170.18)
 		)
 		(stroke
@@ -7663,6 +7683,26 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 88.9) (xy 349.25 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c2defe-3e9f-4c28-9b3e-ac8808bfa44c")
+	)
+	(wire
+		(pts
+			(xy 196.85 88.9) (xy 196.85 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9abc9089-9a8b-4d0f-a0c4-702ade89dd5d")
+	)
+	(wire
+		(pts
 			(xy 116.84 130.81) (xy 116.84 118.11)
 		)
 		(stroke
@@ -7770,6 +7810,16 @@
 			(type solid)
 		)
 		(uuid "a1d5d459-f4d7-4f11-a29d-4ab8a97c0fae")
+	)
+	(wire
+		(pts
+			(xy 273.05 100.33) (xy 273.05 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2011fbf-831c-4dab-a31a-8ed14da02552")
 	)
 	(wire
 		(pts
@@ -8643,6 +8693,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 88.9) (xy 273.05 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3404a2-7d03-486a-b8d7-6a29173a6c6c")
+	)
+	(wire
+		(pts
 			(xy 72.39 41.91) (xy 59.69 41.91)
 		)
 		(stroke
@@ -9300,6 +9360,16 @@
 			(type solid)
 		)
 		(uuid "f4864a5e-cb98-4380-bda5-c1046156d452")
+	)
+	(wire
+		(pts
+			(xy 349.25 100.33) (xy 349.25 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4cd61c0-0f36-42ad-a8e1-b7fd7023f4aa")
 	)
 	(wire
 		(pts
@@ -11878,6 +11948,72 @@
 		)
 	)
 	(symbol
+		(lib_id "main-eagle-import:PAD")
+		(at 341.63 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f41e56f-b9d1-4f24-8c95-489d82965ca7")
+		(property "Reference" "U$8"
+			(at 341.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PAD"
+			(at 341.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "main:PAD"
+			(at 341.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 341.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 341.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "PAD"
+			(uuid "260d7c9b-3bf4-4060-9844-7f28e678e494")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "U$8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Component_Library:C3M0280090D_TO247")
 		(at 194.31 114.3 0)
 		(unit 1)
@@ -12227,8 +12363,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:SMD-DIODE-100V-200MA(SOD-123)")
-		(at 130.81 62.23 0)
+		(lib_id "Component_Library:SMD110PL-TP")
+		(at 130.81 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12236,7 +12372,7 @@
 		(dnp no)
 		(uuid "1cd0b025-5265-443c-b4d0-6bdcbefeb77b")
 		(property "Reference" "D2"
-			(at 127 59.69 0)
+			(at 134.62 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -12245,7 +12381,7 @@
 			)
 		)
 		(property "Value" "SMD-DIODE-100V-200MA(SOD-123)"
-			(at 127 66.04 0)
+			(at 134.62 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -12254,8 +12390,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "main:SOD-123"
-			(at 130.81 62.23 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 130.81 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12272,7 +12408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD-DIODE-100V-200MA SOD-123"
 			(at 130.81 62.23 0)
 			(effects
 				(font
@@ -12281,10 +12417,28 @@
 				(hide yes)
 			)
 		)
-		(pin "+"
+		(property "Sim.Device" "D"
+			(at 130.81 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 130.81 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
 			(uuid "f3ff6ddd-f275-4dc1-8b6f-aaeedaae329e")
 		)
-		(pin "-"
+		(pin "1"
 			(uuid "f768f14b-fc83-43d1-b451-2a106116bb95")
 		)
 		(instances
@@ -12297,8 +12451,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:SMD-DIODE-100V-200MA(SOD-123)")
-		(at 132.08 143.51 0)
+		(lib_id "Component_Library:SMD110PL-TP")
+		(at 132.08 143.51 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12306,7 +12460,7 @@
 		(dnp no)
 		(uuid "1d1b23ff-3dda-42ec-9e64-93cb4c75dcbe")
 		(property "Reference" "D63"
-			(at 128.27 140.97 0)
+			(at 135.89 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -12315,7 +12469,7 @@
 			)
 		)
 		(property "Value" "SMD-DIODE-100V-200MA(SOD-123)"
-			(at 128.27 147.32 0)
+			(at 135.89 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -12324,8 +12478,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "main:SOD-123"
-			(at 132.08 143.51 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 132.08 139.065 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12342,7 +12496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD-DIODE-100V-200MA SOD-123"
 			(at 132.08 143.51 0)
 			(effects
 				(font
@@ -12351,16 +12505,100 @@
 				(hide yes)
 			)
 		)
-		(pin "+"
+		(property "Sim.Device" "D"
+			(at 132.08 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
 			(uuid "cf970bd9-d922-4196-bf8d-2e47431428f3")
 		)
-		(pin "-"
+		(pin "1"
 			(uuid "bc70288a-caf8-42d9-a8bb-5c2a65628b4b")
 		)
 		(instances
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
 					(reference "D63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:PAD")
+		(at 189.23 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1daed6eb-9c24-4ff2-abc0-bce7ea7bdd25")
+		(property "Reference" "U$2"
+			(at 189.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PAD"
+			(at 189.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "main:PAD"
+			(at 189.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "PAD"
+			(uuid "7750c655-1982-49fd-9117-260fc083d50e")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "U$2")
 					(unit 1)
 				)
 			)
@@ -12449,6 +12687,72 @@
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
 					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:PAD")
+		(at 341.63 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "273954ea-678e-4b63-893d-0b57dc294421")
+		(property "Reference" "U$7"
+			(at 341.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PAD"
+			(at 341.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "main:PAD"
+			(at 341.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 341.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 341.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "PAD"
+			(uuid "37185e58-dfc5-4544-b36a-c55d771fe886")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "U$7")
 					(unit 1)
 				)
 			)
@@ -12590,7 +12894,7 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:DGD2304")
+		(lib_id "Component_Library:DGD2304")
 		(at 132.08 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12617,7 +12921,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:SOIC8"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 132.08 156.21 0)
 			(effects
 				(font
@@ -13273,8 +13577,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:SMD-DIODE-100V-200MA(SOD-123)")
-		(at 132.08 92.71 0)
+		(lib_id "Component_Library:SMD110PL-TP")
+		(at 132.08 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13282,7 +13586,7 @@
 		(dnp no)
 		(uuid "4190d645-1620-4ff0-a1fc-a721bc4044f4")
 		(property "Reference" "D57"
-			(at 128.27 90.17 0)
+			(at 135.89 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -13291,7 +13595,7 @@
 			)
 		)
 		(property "Value" "SMD-DIODE-100V-200MA(SOD-123)"
-			(at 128.27 96.52 0)
+			(at 135.89 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -13300,8 +13604,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "main:SOD-123"
-			(at 132.08 92.71 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 132.08 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13318,7 +13622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD-DIODE-100V-200MA SOD-123"
 			(at 132.08 92.71 0)
 			(effects
 				(font
@@ -13327,10 +13631,28 @@
 				(hide yes)
 			)
 		)
-		(pin "+"
+		(property "Sim.Device" "D"
+			(at 132.08 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
 			(uuid "0a26aca7-900a-433e-8e55-00b21489a927")
 		)
-		(pin "-"
+		(pin "1"
 			(uuid "6cb59755-d268-4183-bf92-c1d8308b32d5")
 		)
 		(instances
@@ -13478,7 +13800,7 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:DGD2304")
+		(lib_id "Component_Library:DGD2304")
 		(at 132.08 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13505,7 +13827,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:SOIC8"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 132.08 130.81 0)
 			(effects
 				(font
@@ -14473,6 +14795,72 @@
 		)
 	)
 	(symbol
+		(lib_id "main-eagle-import:PAD")
+		(at 189.23 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "760396db-fb22-4de8-aef3-d5b6504a3fb2")
+		(property "Reference" "U$1"
+			(at 189.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PAD"
+			(at 189.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "main:PAD"
+			(at 189.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "PAD"
+			(uuid "208c621b-1b91-4f51-a224-b2326a109e26")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "U$1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "main-eagle-import:3.3V")
 		(at 336.55 13.97 0)
 		(unit 1)
@@ -14941,7 +15329,7 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:DGD2304")
+		(lib_id "Component_Library:DGD2304")
 		(at 130.81 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14968,7 +15356,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:SOIC8"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 130.81 74.93 0)
 			(effects
 				(font
@@ -15714,7 +16102,7 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:DGD2304")
+		(lib_id "Component_Library:DGD2304")
 		(at 130.81 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15741,7 +16129,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:SOIC8"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 130.81 49.53 0)
 			(effects
 				(font
@@ -17405,8 +17793,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:SMD-DIODE-100V-200MA(SOD-123)")
-		(at 132.08 118.11 0)
+		(lib_id "Component_Library:SMD110PL-TP")
+		(at 132.08 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17414,7 +17802,7 @@
 		(dnp no)
 		(uuid "b30a7481-82f3-4ad9-bac2-bba3f1102857")
 		(property "Reference" "D58"
-			(at 128.27 115.57 0)
+			(at 135.89 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -17423,7 +17811,7 @@
 			)
 		)
 		(property "Value" "SMD-DIODE-100V-200MA(SOD-123)"
-			(at 128.27 121.92 0)
+			(at 135.89 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -17432,8 +17820,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "main:SOD-123"
-			(at 132.08 118.11 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 132.08 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17450,7 +17838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD-DIODE-100V-200MA SOD-123"
 			(at 132.08 118.11 0)
 			(effects
 				(font
@@ -17459,10 +17847,28 @@
 				(hide yes)
 			)
 		)
-		(pin "+"
+		(property "Sim.Device" "D"
+			(at 132.08 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "f6e86d2e-418f-4a31-bb39-40e3d0715a2a")
 		)
-		(pin "-"
+		(pin "2"
 			(uuid "75e894d4-537b-4b1d-910b-248527d8116f")
 		)
 		(instances
@@ -17613,8 +18019,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:SMD-DIODE-100V-200MA(SOD-123)")
-		(at 130.81 11.43 0)
+		(lib_id "Component_Library:SMD110PL-TP")
+		(at 130.81 11.43 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17622,7 +18028,7 @@
 		(dnp no)
 		(uuid "b4b6dde0-91c5-4e50-9752-71dfc30c76a3")
 		(property "Reference" "D4"
-			(at 127 8.89 0)
+			(at 134.62 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -17631,7 +18037,7 @@
 			)
 		)
 		(property "Value" "SMD-DIODE-100V-200MA(SOD-123)"
-			(at 127 15.24 0)
+			(at 134.62 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -17640,8 +18046,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "main:SOD-123"
-			(at 130.81 11.43 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 130.81 6.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17658,7 +18064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD-DIODE-100V-200MA SOD-123"
 			(at 130.81 11.43 0)
 			(effects
 				(font
@@ -17667,10 +18073,28 @@
 				(hide yes)
 			)
 		)
-		(pin "+"
+		(property "Sim.Device" "D"
+			(at 130.81 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 130.81 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
 			(uuid "77362e8c-68bb-4e9b-998d-31fd6b4e90fa")
 		)
-		(pin "-"
+		(pin "1"
 			(uuid "e5e44a92-3c38-4d0d-bcae-0f3f0428436b")
 		)
 		(instances
@@ -17749,8 +18173,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:SMD-DIODE-100V-200MA(SOD-123)")
-		(at 130.81 36.83 0)
+		(lib_id "Component_Library:SMD110PL-TP")
+		(at 130.81 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17758,7 +18182,7 @@
 		(dnp no)
 		(uuid "b6fb0102-8784-4d33-aba3-4e0ca076bf57")
 		(property "Reference" "D3"
-			(at 127 34.29 0)
+			(at 134.62 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -17767,7 +18191,7 @@
 			)
 		)
 		(property "Value" "SMD-DIODE-100V-200MA(SOD-123)"
-			(at 127 40.64 0)
+			(at 134.62 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -17776,8 +18200,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "main:SOD-123"
-			(at 130.81 36.83 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 130.81 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17794,7 +18218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD-DIODE-100V-200MA SOD-123"
 			(at 130.81 36.83 0)
 			(effects
 				(font
@@ -17803,10 +18227,28 @@
 				(hide yes)
 			)
 		)
-		(pin "+"
+		(property "Sim.Device" "D"
+			(at 130.81 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 130.81 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "3ae05a60-5d5f-461f-9105-a0aa3c6fa912")
 		)
-		(pin "-"
+		(pin "2"
 			(uuid "3a8e721c-313a-4df1-ba7c-4b895cb6eb52")
 		)
 		(instances
@@ -18738,7 +19180,73 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:DGD2304")
+		(lib_id "main-eagle-import:PAD")
+		(at 265.43 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dba0d6d1-cd9f-4b73-8590-f9fdf2a1f5a9")
+		(property "Reference" "U$3"
+			(at 265.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PAD"
+			(at 265.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "main:PAD"
+			(at 265.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "PAD"
+			(uuid "532429c5-174e-48bd-886e-84dde2a3f702")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "U$3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Component_Library:DGD2304")
 		(at 130.81 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18765,7 +19273,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:SOIC8"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 130.81 24.13 0)
 			(effects
 				(font
@@ -18961,7 +19469,7 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:DGD2304")
+		(lib_id "Component_Library:DGD2304")
 		(at 132.08 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18988,7 +19496,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:SOIC8"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 132.08 105.41 0)
 			(effects
 				(font
@@ -19708,6 +20216,72 @@
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "main-eagle-import:PAD")
+		(at 265.43 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5b9647b-5b9a-42d5-b3b6-279ad1436943")
+		(property "Reference" "U$6"
+			(at 265.43 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PAD"
+			(at 265.43 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "main:PAD"
+			(at 265.43 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "PAD"
+			(uuid "345292bd-17bf-4971-8c11-32e8c8d6411e")
+		)
+		(instances
+			(project "BEMF_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07"
+					(reference "U$6")
 					(unit 1)
 				)
 			)
