@@ -141,6 +141,164 @@
 				)
 			)
 		)
+		(symbol "Component_Library:C_Pol_470uF"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Pol_470uF"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Pol_470uF_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Pol_470uF_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Component_Library:FSV20150V"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -580,172 +738,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "main-eagle-import:1000UF-RADIAL-5MM-25V-20%"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 1.016 0.635 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 1.016 -4.191 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "main:CPOL-RADIAL-5MM-10MM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1,000µF/1mF ceramic capacitors\n\nA capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.\n\nCAP-08070"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "1000UF-RADIAL-5MM-25V-20%_1_0"
-				(rectangle
-					(start -2.253 0.668)
-					(end -1.364 0.795)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.872 0.287)
-					(end -1.745 1.176)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0 -1.0161)
-					(mid -1.3021 -1.2303)
-					(end -2.4669 -1.8504)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.016) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.4892 -1.8541)
-					(mid 1.3158 -1.2194)
-					(end 0 -1)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "-"
-						(effects
-							(font
-								(size 0 0)
 							)
 						)
 					)
@@ -1560,6 +1552,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 157.48) (xy 191.77 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f4806ef-8a32-4370-92a0-645efaf3f90f")
+	)
+	(wire
+		(pts
 			(xy 21.59 36.83) (xy 24.13 36.83)
 		)
 		(stroke
@@ -2340,6 +2342,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 41.91) (xy 193.04 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b804a51-9db4-49aa-a58a-c3cb995abc48")
+	)
+	(wire
+		(pts
 			(xy 44.45 127) (xy 48.26 127)
 		)
 		(stroke
@@ -2740,16 +2752,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 157.48) (xy 191.77 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b95a6a1-232b-449e-b82a-3ed8f5fcf815")
-	)
-	(wire
-		(pts
 			(xy 210.82 147.32) (xy 207.01 147.32)
 		)
 		(stroke
@@ -2857,16 +2859,6 @@
 			(type default)
 		)
 		(uuid "a3d5bfb5-b133-48fc-9de3-47c28b67c690")
-	)
-	(wire
-		(pts
-			(xy 193.04 41.91) (xy 193.04 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7b5faf8-ad18-478c-9982-712f479e5872")
 	)
 	(wire
 		(pts
@@ -4417,8 +4409,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:1000UF-RADIAL-5MM-25V-20%")
-		(at 39.37 163.83 0)
+		(lib_id "Component_Library:C_Pol_470uF")
+		(at 39.37 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4426,7 +4418,7 @@
 		(dnp no)
 		(uuid "1df448bf-cc4e-474f-a181-7be99bb950e9")
 		(property "Reference" "C8"
-			(at 40.386 163.195 0)
+			(at 40.386 164.465 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -4435,7 +4427,7 @@
 			)
 		)
 		(property "Value" "470uF"
-			(at 40.386 168.021 0)
+			(at 40.386 169.291 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -4443,8 +4435,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:CPOL-RADIAL-5MM-10MM"
-			(at 39.37 163.83 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 40.3352 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4452,8 +4444,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 39.37 163.83 0)
+		(property "Datasheet" "~"
+			(at 39.37 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4461,8 +4453,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 39.37 163.83 0)
+		(property "Description" "Polarized capacitor"
+			(at 39.37 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4470,10 +4462,10 @@
 				(hide yes)
 			)
 		)
-		(pin "+"
+		(pin "2"
 			(uuid "07d0fc2d-8ed9-41fa-8c6f-df07b4b1f548")
 		)
-		(pin "-"
+		(pin "1"
 			(uuid "88cd4672-9514-423a-9f05-c70c36deec7b")
 		)
 		(instances
@@ -4644,8 +4636,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:1000UF-RADIAL-5MM-25V-20%")
-		(at 116.84 50.8 0)
+		(lib_id "Component_Library:C_Pol_470uF")
+		(at 116.84 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4653,7 +4645,7 @@
 		(dnp no)
 		(uuid "2c099f2c-262f-40a6-890b-267d4d03af09")
 		(property "Reference" "C27"
-			(at 117.856 50.165 0)
+			(at 117.856 51.435 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -4662,7 +4654,7 @@
 			)
 		)
 		(property "Value" "470uF"
-			(at 117.856 54.991 0)
+			(at 117.856 56.261 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -4670,8 +4662,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:CPOL-RADIAL-5MM-10MM"
-			(at 116.84 50.8 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 117.8052 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4679,8 +4671,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 116.84 50.8 0)
+		(property "Datasheet" "~"
+			(at 116.84 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4688,8 +4680,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 116.84 50.8 0)
+		(property "Description" "Polarized capacitor"
+			(at 116.84 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4697,10 +4689,10 @@
 				(hide yes)
 			)
 		)
-		(pin "+"
+		(pin "1"
 			(uuid "1443b4ef-44aa-4bc6-8dc1-cc72c0afbceb")
 		)
-		(pin "-"
+		(pin "2"
 			(uuid "8e1cb493-65aa-4989-b6ad-ffe60c8d986b")
 		)
 		(instances
@@ -4713,8 +4705,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:1000UF-RADIAL-5MM-25V-20%")
-		(at 191.77 163.83 0)
+		(lib_id "Component_Library:C_Pol_470uF")
+		(at 191.77 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4722,7 +4714,7 @@
 		(dnp no)
 		(uuid "2d9b25d1-2f3e-45cf-b94e-b7780cb98078")
 		(property "Reference" "C34"
-			(at 192.786 163.195 0)
+			(at 192.786 164.465 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -4731,7 +4723,7 @@
 			)
 		)
 		(property "Value" "470uF"
-			(at 192.786 168.021 0)
+			(at 192.786 169.291 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -4739,8 +4731,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:CPOL-RADIAL-5MM-10MM"
-			(at 191.77 163.83 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 192.7352 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4748,8 +4740,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 191.77 163.83 0)
+		(property "Datasheet" "~"
+			(at 191.77 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4757,8 +4749,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 191.77 163.83 0)
+		(property "Description" "Polarized capacitor"
+			(at 191.77 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4766,10 +4758,10 @@
 				(hide yes)
 			)
 		)
-		(pin "+"
+		(pin "1"
 			(uuid "7420f7e0-2738-4032-9ecd-56ce6646732c")
 		)
-		(pin "-"
+		(pin "2"
 			(uuid "6e3b84cb-65c8-4631-8485-834cdacb885d")
 		)
 		(instances
@@ -4871,8 +4863,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:1000UF-RADIAL-5MM-25V-20%")
-		(at 191.77 121.92 0)
+		(lib_id "Component_Library:C_Pol_470uF")
+		(at 191.77 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4880,7 +4872,7 @@
 		(dnp no)
 		(uuid "368af51d-d8c7-42e8-a9b4-137980e0e9fe")
 		(property "Reference" "C33"
-			(at 192.786 121.285 0)
+			(at 192.786 122.555 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -4889,7 +4881,7 @@
 			)
 		)
 		(property "Value" "470uF"
-			(at 192.786 126.111 0)
+			(at 192.786 127.381 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -4897,8 +4889,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:CPOL-RADIAL-5MM-10MM"
-			(at 191.77 121.92 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 192.7352 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4906,8 +4898,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 191.77 121.92 0)
+		(property "Datasheet" "~"
+			(at 191.77 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4915,8 +4907,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 191.77 121.92 0)
+		(property "Description" "Polarized capacitor"
+			(at 191.77 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4924,10 +4916,10 @@
 				(hide yes)
 			)
 		)
-		(pin "+"
+		(pin "2"
 			(uuid "f3e15fbc-94e5-477a-9a6a-2bd638047067")
 		)
-		(pin "-"
+		(pin "1"
 			(uuid "b761fb9c-9bbf-483e-b0f4-c257f59ec0a2")
 		)
 		(instances
@@ -5481,8 +5473,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:1000UF-RADIAL-5MM-25V-20%")
-		(at 39.37 86.36 0)
+		(lib_id "Component_Library:C_Pol_470uF")
+		(at 39.37 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5490,7 +5482,7 @@
 		(dnp no)
 		(uuid "4ad92d23-e3fd-40d4-be4d-5bc8288a9225")
 		(property "Reference" "C6"
-			(at 40.386 85.725 0)
+			(at 40.386 86.995 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -5499,7 +5491,7 @@
 			)
 		)
 		(property "Value" "470uF"
-			(at 40.386 90.551 0)
+			(at 40.386 91.821 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -5507,8 +5499,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:CPOL-RADIAL-5MM-10MM"
-			(at 39.37 86.36 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 40.3352 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5516,8 +5508,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 39.37 86.36 0)
+		(property "Datasheet" "~"
+			(at 39.37 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5525,8 +5517,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 39.37 86.36 0)
+		(property "Description" "Polarized capacitor"
+			(at 39.37 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5534,10 +5526,10 @@
 				(hide yes)
 			)
 		)
-		(pin "+"
+		(pin "1"
 			(uuid "71e93cba-3e69-4db7-be7a-5107708ddf8f")
 		)
-		(pin "-"
+		(pin "2"
 			(uuid "1f83986c-bd32-4222-8161-0d2451f1e7b6")
 		)
 		(instances
@@ -5550,8 +5542,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:1000UF-RADIAL-5MM-25V-20%")
-		(at 115.57 86.36 0)
+		(lib_id "Component_Library:C_Pol_470uF")
+		(at 115.57 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5559,7 +5551,7 @@
 		(dnp no)
 		(uuid "4fc3d51c-4f37-4c82-9372-19f9e2daeb5a")
 		(property "Reference" "C24"
-			(at 116.586 85.725 0)
+			(at 116.586 86.995 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -5568,7 +5560,7 @@
 			)
 		)
 		(property "Value" "470uF"
-			(at 116.586 90.551 0)
+			(at 116.586 91.821 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -5576,8 +5568,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:CPOL-RADIAL-5MM-10MM"
-			(at 115.57 86.36 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 116.5352 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5585,8 +5577,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 115.57 86.36 0)
+		(property "Datasheet" "~"
+			(at 115.57 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,8 +5586,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 115.57 86.36 0)
+		(property "Description" "Polarized capacitor"
+			(at 115.57 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5603,10 +5595,10 @@
 				(hide yes)
 			)
 		)
-		(pin "+"
+		(pin "1"
 			(uuid "80b20bb9-295b-49b2-8cd2-54029bc02a38")
 		)
-		(pin "-"
+		(pin "2"
 			(uuid "61968798-ad2f-44d5-bbac-39b37a3506c7")
 		)
 		(instances
@@ -5619,8 +5611,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:1000UF-RADIAL-5MM-25V-20%")
-		(at 115.57 163.83 0)
+		(lib_id "Component_Library:C_Pol_470uF")
+		(at 115.57 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5628,7 +5620,7 @@
 		(dnp no)
 		(uuid "50cff11f-a396-421c-84d1-bc7224ec57f9")
 		(property "Reference" "C26"
-			(at 116.586 163.195 0)
+			(at 116.586 164.465 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -5637,7 +5629,7 @@
 			)
 		)
 		(property "Value" "470uF"
-			(at 116.586 168.021 0)
+			(at 116.586 169.291 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -5645,8 +5637,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:CPOL-RADIAL-5MM-10MM"
-			(at 115.57 163.83 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 116.5352 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5654,8 +5646,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 115.57 163.83 0)
+		(property "Datasheet" "~"
+			(at 115.57 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5663,8 +5655,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 115.57 163.83 0)
+		(property "Description" "Polarized capacitor"
+			(at 115.57 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5672,10 +5664,10 @@
 				(hide yes)
 			)
 		)
-		(pin "+"
+		(pin "2"
 			(uuid "f89d9e96-0adc-4707-8282-1f2532903f97")
 		)
-		(pin "-"
+		(pin "1"
 			(uuid "5e295df9-2b40-4276-8889-c693d69527ce")
 		)
 		(instances
@@ -6162,8 +6154,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:1000UF-RADIAL-5MM-25V-20%")
-		(at 193.04 50.8 0)
+		(lib_id "Component_Library:C_Pol_470uF")
+		(at 193.04 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6171,7 +6163,7 @@
 		(dnp no)
 		(uuid "69f9609d-539f-4963-9144-856be8feb7ad")
 		(property "Reference" "C35"
-			(at 194.056 50.165 0)
+			(at 194.056 51.435 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6180,7 +6172,7 @@
 			)
 		)
 		(property "Value" "470uF"
-			(at 194.056 53.721 0)
+			(at 194.056 54.991 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6188,8 +6180,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:CPOL-RADIAL-5MM-10MM"
-			(at 193.04 50.8 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 194.0052 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6197,8 +6189,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 193.04 50.8 0)
+		(property "Datasheet" "~"
+			(at 193.04 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6206,8 +6198,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 193.04 50.8 0)
+		(property "Description" "Polarized capacitor"
+			(at 193.04 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6215,10 +6207,10 @@
 				(hide yes)
 			)
 		)
-		(pin "+"
+		(pin "2"
 			(uuid "fb2e5204-9199-4cbf-ae35-b5272a684072")
 		)
-		(pin "-"
+		(pin "1"
 			(uuid "587058c5-34fc-4482-8b7a-9618c8b0c98d")
 		)
 		(instances
@@ -6231,8 +6223,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:1000UF-RADIAL-5MM-25V-20%")
-		(at 115.57 121.92 0)
+		(lib_id "Component_Library:C_Pol_470uF")
+		(at 115.57 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6240,7 +6232,7 @@
 		(dnp no)
 		(uuid "6ebfa4f8-995a-4d9b-b239-9164f175b755")
 		(property "Reference" "C25"
-			(at 116.586 121.285 0)
+			(at 116.586 122.555 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6249,7 +6241,7 @@
 			)
 		)
 		(property "Value" "470uF"
-			(at 116.586 126.111 0)
+			(at 116.586 127.381 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6257,8 +6249,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:CPOL-RADIAL-5MM-10MM"
-			(at 115.57 121.92 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 116.5352 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6266,8 +6258,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 115.57 121.92 0)
+		(property "Datasheet" "~"
+			(at 115.57 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6275,8 +6267,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 115.57 121.92 0)
+		(property "Description" "Polarized capacitor"
+			(at 115.57 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6284,10 +6276,10 @@
 				(hide yes)
 			)
 		)
-		(pin "+"
+		(pin "2"
 			(uuid "43d0c9a9-5c7e-4d06-ba05-b5f5891cac66")
 		)
-		(pin "-"
+		(pin "1"
 			(uuid "28b28223-b24f-44d7-a6ee-5bd153fa55ee")
 		)
 		(instances
@@ -7355,8 +7347,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:1000UF-RADIAL-5MM-25V-20%")
-		(at 40.64 50.8 0)
+		(lib_id "Component_Library:C_Pol_470uF")
+		(at 40.64 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7364,7 +7356,7 @@
 		(dnp no)
 		(uuid "bdb2d142-d684-4ae5-bf32-0c0a1f94251c")
 		(property "Reference" "C10"
-			(at 41.656 50.165 0)
+			(at 41.656 51.435 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7373,7 +7365,7 @@
 			)
 		)
 		(property "Value" "470uF"
-			(at 41.656 54.991 0)
+			(at 41.656 56.261 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7381,8 +7373,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:CPOL-RADIAL-5MM-10MM"
-			(at 40.64 50.8 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 41.6052 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7390,8 +7382,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 40.64 50.8 0)
+		(property "Datasheet" "~"
+			(at 40.64 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7399,8 +7391,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 40.64 50.8 0)
+		(property "Description" "Polarized capacitor"
+			(at 40.64 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7408,10 +7400,10 @@
 				(hide yes)
 			)
 		)
-		(pin "+"
+		(pin "1"
 			(uuid "5201ca91-4f3f-46cf-95c9-5f9374da865a")
 		)
-		(pin "-"
+		(pin "2"
 			(uuid "e9fa6930-7f4a-454b-8d7d-0ae30e6fbd62")
 		)
 		(instances
@@ -8006,8 +7998,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:1000UF-RADIAL-5MM-25V-20%")
-		(at 191.77 86.36 0)
+		(lib_id "Component_Library:C_Pol_470uF")
+		(at 191.77 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8015,7 +8007,7 @@
 		(dnp no)
 		(uuid "d8cb4bfd-645f-4640-86bf-806934352fab")
 		(property "Reference" "C32"
-			(at 192.786 85.725 0)
+			(at 192.786 86.995 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -8024,7 +8016,7 @@
 			)
 		)
 		(property "Value" "470uF"
-			(at 192.786 90.551 0)
+			(at 192.786 91.821 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -8032,8 +8024,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:CPOL-RADIAL-5MM-10MM"
-			(at 191.77 86.36 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 192.7352 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8041,8 +8033,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 191.77 86.36 0)
+		(property "Datasheet" "~"
+			(at 191.77 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8050,8 +8042,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 191.77 86.36 0)
+		(property "Description" "Polarized capacitor"
+			(at 191.77 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8059,10 +8051,10 @@
 				(hide yes)
 			)
 		)
-		(pin "+"
+		(pin "2"
 			(uuid "e8aa9b19-9e1a-4096-8311-44b2f503d6aa")
 		)
-		(pin "-"
+		(pin "1"
 			(uuid "971890d0-bd08-4970-ad06-72603e7313c5")
 		)
 		(instances
@@ -8568,8 +8560,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:1000UF-RADIAL-5MM-25V-20%")
-		(at 39.37 121.92 0)
+		(lib_id "Component_Library:C_Pol_470uF")
+		(at 39.37 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8577,7 +8569,7 @@
 		(dnp no)
 		(uuid "ede6baca-d65e-436d-8eaa-ab1774f10317")
 		(property "Reference" "C7"
-			(at 40.386 121.285 0)
+			(at 40.386 122.555 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -8586,7 +8578,7 @@
 			)
 		)
 		(property "Value" "470uF"
-			(at 40.386 126.111 0)
+			(at 40.386 127.381 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -8594,8 +8586,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "main:CPOL-RADIAL-5MM-10MM"
-			(at 39.37 121.92 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 40.3352 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8603,8 +8595,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 39.37 121.92 0)
+		(property "Datasheet" "~"
+			(at 39.37 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8612,8 +8604,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 39.37 121.92 0)
+		(property "Description" "Polarized capacitor"
+			(at 39.37 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8621,10 +8613,10 @@
 				(hide yes)
 			)
 		)
-		(pin "+"
+		(pin "2"
 			(uuid "a5f72e99-87a2-4692-bbac-4470a3e679c9")
 		)
-		(pin "-"
+		(pin "1"
 			(uuid "42b5286e-ca37-42b1-916d-5b65eb97c310")
 		)
 		(instances
