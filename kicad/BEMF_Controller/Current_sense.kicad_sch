@@ -141,6 +141,248 @@
 				)
 			)
 		)
+		(symbol "Component_Library:R0005"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "e0005"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R0005_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R0005_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Component_Library:R47k"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R47k"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R47k_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R47k_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "main-eagle-import:3.3V"
 			(power)
 			(exclude_from_sim no)
@@ -552,415 +794,6 @@
 				)
 			)
 		)
-		(symbol "main-eagle-import:RESISTOR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 1.524 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify top)
-				)
-			)
-			(property "Footprint" "main:R2512"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RESISTOR_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.159 1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.159 1.016) (xy -1.524 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -1.016) (xy -0.889 1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -1.016) (xy 0.381 1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.016) (xy 1.651 1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 1.016) (xy 2.286 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.016) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "main-eagle-import:RESISTOR1206"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 1.524 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Value" ""
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify top)
-				)
-			)
-			(property "Footprint" "main:1206"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic Resistor Package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RESISTOR1206_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.159 1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.159 1.016) (xy -1.524 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -1.016) (xy -0.889 1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -1.016) (xy 0.381 1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.016) (xy 1.651 1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 1.016) (xy 2.286 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.016) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 127 57.15)
@@ -1164,6 +997,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 52.07) (xy 185.42 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07ba4dda-ae42-4378-9d5d-824e9d9581a7")
+	)
+	(wire
+		(pts
 			(xy 67.31 66.04) (xy 74.93 66.04)
 		)
 		(stroke
@@ -1204,6 +1047,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 53.34) (xy 74.93 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "176bcad6-cfe0-47ed-a7db-716ecbe14785")
+	)
+	(wire
+		(pts
 			(xy 127 113.03) (xy 127 115.57)
 		)
 		(stroke
@@ -1234,23 +1087,23 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 87.63) (xy 31.75 87.63)
+			(xy 40.64 87.63) (xy 41.91 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2935eac7-d224-4977-a63e-0c9193844a26")
+	)
+	(wire
+		(pts
+			(xy 27.94 87.63) (xy 33.02 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2decd60b-cca5-458a-97c0-bcac6fa9d1f0")
-	)
-	(wire
-		(pts
-			(xy 185.42 62.23) (xy 185.42 64.77)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2f5f7dc5-c5de-413e-bcc3-abbd3f2f59f5")
 	)
 	(wire
 		(pts
@@ -1291,6 +1144,16 @@
 			(type solid)
 		)
 		(uuid "337fe2fe-cda5-40d8-a5cb-0fbbfcc69808")
+	)
+	(wire
+		(pts
+			(xy 185.42 36.83) (xy 185.42 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "352da657-6159-4054-b95a-409e624fc45c")
 	)
 	(wire
 		(pts
@@ -1361,16 +1224,6 @@
 			(type solid)
 		)
 		(uuid "4bcc7f45-81a2-4805-9750-851e6e127463")
-	)
-	(wire
-		(pts
-			(xy 74.93 50.8) (xy 74.93 48.26)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4c225c9f-8bfc-4d35-ace8-6bd7ae42d2f2")
 	)
 	(wire
 		(pts
@@ -1574,6 +1427,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 46.99) (xy 74.93 50.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6a75c25f-c448-44d6-a03d-da58b9b8c8dc")
+	)
+	(wire
+		(pts
 			(xy 166.37 97.79) (xy 166.37 105.41)
 		)
 		(stroke
@@ -1584,7 +1447,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 97.79) (xy 185.42 95.25)
+			(xy 185.42 93.98) (xy 185.42 97.79)
 		)
 		(stroke
 			(width 0.1524)
@@ -1664,6 +1527,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 109.22) (xy 185.42 113.03)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7d70611e-59ae-427f-be91-a05d3b35c882")
+	)
+	(wire
+		(pts
 			(xy 157.48 29.21) (xy 157.48 34.29)
 		)
 		(stroke
@@ -1724,6 +1597,26 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 148.59) (xy 185.42 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "875557a4-d59a-43ce-adcd-73394b8e4a86")
+	)
+	(wire
+		(pts
+			(xy 74.93 38.1) (xy 74.93 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bdb6fb8-7296-4cc8-bbeb-f253c65a2768")
+	)
+	(wire
+		(pts
 			(xy 128.27 161.29) (xy 128.27 163.83)
 		)
 		(stroke
@@ -1744,6 +1637,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 100.33) (xy 185.42 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92ebbfb2-6c99-4079-8e9f-b24555ebb3c7")
+	)
+	(wire
+		(pts
 			(xy 185.42 100.33) (xy 185.42 97.79)
 		)
 		(stroke
@@ -1754,7 +1657,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 63.5) (xy 74.93 66.04)
+			(xy 74.93 62.23) (xy 74.93 66.04)
 		)
 		(stroke
 			(width 0.1524)
@@ -1854,7 +1757,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 158.75) (xy 185.42 161.29)
+			(xy 185.42 157.48) (xy 185.42 161.29)
 		)
 		(stroke
 			(width 0.1524)
@@ -1874,7 +1777,17 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 146.05) (xy 185.42 143.51)
+			(xy 185.42 60.96) (xy 185.42 64.77)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b9dd50c5-fad7-49ac-b6d9-973d54039797")
+	)
+	(wire
+		(pts
+			(xy 185.42 142.24) (xy 185.42 146.05)
 		)
 		(stroke
 			(width 0.1524)
@@ -1964,6 +1877,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 133.35) (xy 185.42 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e97dbb-01ad-40af-86c3-3517bb0e8c05")
+	)
+	(wire
+		(pts
 			(xy 172.72 153.67) (xy 156.21 153.67)
 		)
 		(stroke
@@ -1984,7 +1907,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 49.53) (xy 185.42 46.99)
+			(xy 185.42 45.72) (xy 185.42 49.53)
 		)
 		(stroke
 			(width 0.1524)
@@ -2001,16 +1924,6 @@
 			(type solid)
 		)
 		(uuid "e1ff83c5-e901-476f-858a-effb22272443")
-	)
-	(wire
-		(pts
-			(xy 185.42 110.49) (xy 185.42 113.03)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e2416640-2edf-4b04-a48f-9a884cc273e0")
 	)
 	(wire
 		(pts
@@ -2061,6 +1974,16 @@
 			(type solid)
 		)
 		(uuid "e4ee3088-2f79-482c-990d-b2d3d3452f6d")
+	)
+	(wire
+		(pts
+			(xy 185.42 85.09) (xy 185.42 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5f5fde7-eec0-481e-be7c-81e263cf0176")
 	)
 	(wire
 		(pts
@@ -2629,8 +2552,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:RESISTOR1206")
-		(at 74.93 43.18 90)
+		(lib_id "Component_Library:R47k")
+		(at 74.93 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2638,7 +2561,7 @@
 		(dnp no)
 		(uuid "186cd947-1ad7-488a-99fd-0835aa0e27a8")
 		(property "Reference" "R10"
-			(at 73.406 43.18 0)
+			(at 79.248 40.132 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -2647,7 +2570,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 76.454 43.18 0)
+			(at 78.994 45.212 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -2655,7 +2578,16 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "main:1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 76.708 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 74.93 43.18 0)
 			(effects
 				(font
@@ -2664,16 +2596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 74.93 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 74.93 43.18 0)
 			(effects
 				(font
@@ -2833,8 +2756,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:RESISTOR1206")
-		(at 185.42 105.41 90)
+		(lib_id "Component_Library:R47k")
+		(at 185.42 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2842,7 +2765,7 @@
 		(dnp no)
 		(uuid "2d534648-7d61-4fb8-a878-0ca35d452b89")
 		(property "Reference" "R36"
-			(at 183.896 105.41 0)
+			(at 189.484 102.362 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -2851,7 +2774,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 186.944 105.41 0)
+			(at 189.484 107.188 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -2859,7 +2782,16 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "main:1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 187.198 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 185.42 105.41 0)
 			(effects
 				(font
@@ -2868,16 +2800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 185.42 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 185.42 105.41 0)
 			(effects
 				(font
@@ -2902,8 +2825,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:RESISTOR1206")
-		(at 185.42 90.17 90)
+		(lib_id "Component_Library:R47k")
+		(at 185.42 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2911,7 +2834,7 @@
 		(dnp no)
 		(uuid "3623d8b9-3bbc-4b59-b2bc-c9bb523420f9")
 		(property "Reference" "R35"
-			(at 183.896 90.17 0)
+			(at 189.738 87.376 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -2920,7 +2843,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 186.944 90.17 0)
+			(at 189.992 93.472 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -2928,7 +2851,16 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "main:1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 187.198 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 185.42 90.17 0)
 			(effects
 				(font
@@ -2937,16 +2869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 185.42 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 185.42 90.17 0)
 			(effects
 				(font
@@ -3037,8 +2960,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:RESISTOR")
-		(at 36.83 87.63 0)
+		(lib_id "Component_Library:R0005")
+		(at 36.83 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3046,7 +2969,7 @@
 		(dnp no)
 		(uuid "3ee56a85-9b8d-4089-9625-6c21012661b2")
 		(property "Reference" "R9"
-			(at 36.83 86.106 0)
+			(at 36.83 84.074 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -3055,7 +2978,7 @@
 			)
 		)
 		(property "Value" "0.0005"
-			(at 36.83 89.154 0)
+			(at 37.846 91.948 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -3063,7 +2986,16 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "main:R2512"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 36.83 89.408 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 36.83 87.63 0)
 			(effects
 				(font
@@ -3072,16 +3004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 36.83 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 36.83 87.63 0)
 			(effects
 				(font
@@ -3106,8 +3029,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:RESISTOR1206")
-		(at 74.93 58.42 90)
+		(lib_id "Component_Library:R47k")
+		(at 74.93 58.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3115,7 +3038,7 @@
 		(dnp no)
 		(uuid "4b08ce4d-ca11-4664-9060-bd4af5d11c98")
 		(property "Reference" "R11"
-			(at 73.406 58.42 0)
+			(at 78.74 53.34 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -3124,7 +3047,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 76.454 58.42 0)
+			(at 78.994 59.436 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -3132,7 +3055,16 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "main:1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 76.708 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 74.93 58.42 0)
 			(effects
 				(font
@@ -3141,16 +3073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 74.93 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 74.93 58.42 0)
 			(effects
 				(font
@@ -3337,8 +3260,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:RESISTOR1206")
-		(at 185.42 153.67 90)
+		(lib_id "Component_Library:R47k")
+		(at 185.42 153.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3346,7 +3269,7 @@
 		(dnp no)
 		(uuid "6175829e-d914-483a-b5f1-4d6e7e755981")
 		(property "Reference" "R38"
-			(at 183.896 153.67 0)
+			(at 189.738 150.114 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -3355,7 +3278,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 186.944 153.67 0)
+			(at 189.738 155.448 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -3363,7 +3286,16 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "main:1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 187.198 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 185.42 153.67 0)
 			(effects
 				(font
@@ -3372,16 +3304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 185.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 185.42 153.67 0)
 			(effects
 				(font
@@ -3622,8 +3545,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:RESISTOR1206")
-		(at 185.42 41.91 90)
+		(lib_id "Component_Library:R47k")
+		(at 185.42 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3631,7 +3554,7 @@
 		(dnp no)
 		(uuid "7cfcc1d2-dc8a-47e0-bc14-93517cecb5eb")
 		(property "Reference" "R33"
-			(at 183.896 41.91 0)
+			(at 189.484 38.608 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -3640,7 +3563,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 186.944 41.91 0)
+			(at 189.23 44.45 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -3648,7 +3571,16 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "main:1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 187.198 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 185.42 41.91 0)
 			(effects
 				(font
@@ -3657,16 +3589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 185.42 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 185.42 41.91 0)
 			(effects
 				(font
@@ -3904,8 +3827,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:RESISTOR1206")
-		(at 185.42 138.43 90)
+		(lib_id "Component_Library:R47k")
+		(at 185.42 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3913,7 +3836,7 @@
 		(dnp no)
 		(uuid "9af69107-11b3-4442-b63f-59c6b7ce1c3c")
 		(property "Reference" "R37"
-			(at 183.896 138.43 0)
+			(at 189.992 135.89 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -3922,7 +3845,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 186.944 138.43 0)
+			(at 190.5 142.24 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -3930,7 +3853,16 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "main:1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 187.198 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 185.42 138.43 0)
 			(effects
 				(font
@@ -3939,16 +3871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 185.42 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 185.42 138.43 0)
 			(effects
 				(font
@@ -4249,8 +4172,8 @@
 		)
 	)
 	(symbol
-		(lib_id "main-eagle-import:RESISTOR1206")
-		(at 185.42 57.15 90)
+		(lib_id "Component_Library:R47k")
+		(at 185.42 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4258,7 +4181,7 @@
 		(dnp no)
 		(uuid "de8edaac-5f53-4028-b6c7-64e5ff63fe83")
 		(property "Reference" "R34"
-			(at 183.896 57.15 0)
+			(at 189.992 53.594 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -4267,7 +4190,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 186.944 57.15 0)
+			(at 189.738 59.436 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -4275,7 +4198,16 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "main:1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 187.198 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 185.42 57.15 0)
 			(effects
 				(font
@@ -4284,16 +4216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 185.42 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 185.42 57.15 0)
 			(effects
 				(font
