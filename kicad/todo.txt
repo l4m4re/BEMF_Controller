@@ -1,0 +1,6 @@
+* Opamp buffers for Hall inputs
+* Finish buck converter
+* Change gate drivers to LF2190NTR
+* Change trough hole resistors to smd
+* Change 10V charge pump to regulator
+* Voltage sense now lower voltage and diodes no longer necessary since no cap switching
