@@ -1566,22 +1566,22 @@
 		(uuid "2eee38dd-0b80-4826-a674-e845266a21a5")
 	)
 	(junction
-		(at 110.49 43.18)
+		(at 105.41 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "346dfc1d-91f8-460c-8539-9c3ca0af6672")
+		(uuid "2f685648-5514-4af5-9959-758fb7fa3821")
+	)
+	(junction
+		(at 105.41 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30693631-a26b-423d-b705-3bae9a70a3a4")
 	)
 	(junction
 		(at 99.06 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d26dba2-a714-4152-ac51-ffd10bc634c4")
-	)
-	(junction
-		(at 110.49 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f9d27c9-a478-440c-97a0-91c7e2f4e49a")
 	)
 	(junction
 		(at 63.5 90.17)
@@ -1644,6 +1644,12 @@
 		(uuid "cbd361e5-ae6b-4374-a49b-de16f1189c50")
 	)
 	(junction
+		(at 113.03 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc1b1761-f9ca-4593-b614-757fe68e7eb3")
+	)
+	(junction
 		(at 151.13 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1660,6 +1666,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df02b6e1-6e69-4592-9bc0-a29b8ad9e292")
+	)
+	(junction
+		(at 113.03 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f048aa1b-f79d-4430-8af8-0553d3b1fc63")
 	)
 	(junction
 		(at 120.65 129.54)
@@ -1749,7 +1761,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 29.21) (xy 110.49 29.21)
+			(xy 99.06 29.21) (xy 105.41 29.21)
 		)
 		(stroke
 			(width 0.1524)
@@ -1819,7 +1831,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 31.75) (xy 110.49 29.21)
+			(xy 105.41 31.75) (xy 105.41 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1849,7 +1861,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 43.18) (xy 99.06 43.18)
+			(xy 105.41 43.18) (xy 113.03 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1876,6 +1888,16 @@
 			(type default)
 		)
 		(uuid "2c1ad345-d7d9-488f-906c-c5290f36d7c9")
+	)
+	(wire
+		(pts
+			(xy 105.41 43.18) (xy 99.06 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e3299e7-2c9a-4d65-8df0-4b65f6251dc6")
 	)
 	(wire
 		(pts
@@ -1909,7 +1931,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 6.35) (xy 99.06 7.62)
+			(xy 99.06 13.97) (xy 99.06 15.24)
 		)
 		(stroke
 			(width 0)
@@ -2119,16 +2141,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 43.18) (xy 120.65 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68e67228-3998-4c48-a8e4-0ba3067476b0")
-	)
-	(wire
-		(pts
 			(xy 110.49 88.9) (xy 120.65 88.9)
 		)
 		(stroke
@@ -2169,16 +2181,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 29.21) (xy 120.65 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "744e4668-154e-4781-9508-5234a8d07b74")
-	)
-	(wire
-		(pts
 			(xy 182.88 125.73) (xy 182.88 123.19)
 		)
 		(stroke
@@ -2196,6 +2198,16 @@
 			(type default)
 		)
 		(uuid "770322e7-a56e-4fc4-8763-e723ca27bffe")
+	)
+	(wire
+		(pts
+			(xy 113.03 29.21) (xy 120.65 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a7968fe-9c90-4e7f-bc47-857ab4d9e18c")
 	)
 	(wire
 		(pts
@@ -2226,6 +2238,16 @@
 			(type default)
 		)
 		(uuid "83a877db-9e11-44da-8026-59590b08356f")
+	)
+	(wire
+		(pts
+			(xy 113.03 43.18) (xy 120.65 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e763a0-d2d4-4c59-aa2d-52d04559eb88")
 	)
 	(wire
 		(pts
@@ -2369,13 +2391,23 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 6.35) (xy 100.33 6.35)
+			(xy 99.06 13.97) (xy 100.33 13.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a0aaffe2-632a-4dac-a7bd-207a5730a5ee")
+	)
+	(wire
+		(pts
+			(xy 113.03 29.21) (xy 113.03 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0c90945-42b0-4758-9269-b1305959b22f")
 	)
 	(wire
 		(pts
@@ -2509,7 +2541,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 15.24) (xy 99.06 19.05)
+			(xy 99.06 22.86) (xy 99.06 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2596,6 +2628,16 @@
 			(type default)
 		)
 		(uuid "d1caa92b-aca5-4bb7-8021-d64bc70250d6")
+	)
+	(wire
+		(pts
+			(xy 113.03 39.37) (xy 113.03 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a6e0ae-dd9d-4e77-ad88-ff2d2a4a748b")
 	)
 	(wire
 		(pts
@@ -2809,13 +2851,23 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 39.37) (xy 110.49 43.18)
+			(xy 105.41 39.37) (xy 105.41 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f99a6f88-2a91-4717-968c-6330daf60c9f")
+	)
+	(wire
+		(pts
+			(xy 105.41 29.21) (xy 113.03 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd3dfbb1-14b8-4470-8693-bfdd45ae4630")
 	)
 	(wire
 		(pts
@@ -2907,7 +2959,7 @@
 	)
 	(global_label "LOAD+"
 		(shape input)
-		(at 100.33 6.35 0)
+		(at 100.33 13.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2917,7 +2969,7 @@
 		)
 		(uuid "47c851aa-cd2d-4981-b882-a807b74bf1c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.6048 6.35 0)
+			(at 109.6048 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3458,7 +3510,7 @@
 	)
 	(symbol
 		(lib_id "Component_Library:R192k")
-		(at 99.06 11.43 180)
+		(at 99.06 19.05 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3466,7 +3518,7 @@
 		(dnp no)
 		(uuid "08569473-8be6-41dd-b90b-b630cd29b4bf")
 		(property "Reference" "R41"
-			(at 95.25 9.906 0)
+			(at 95.25 17.526 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -3475,7 +3527,7 @@
 			)
 		)
 		(property "Value" "192k"
-			(at 103.632 12.954 0)
+			(at 103.632 20.574 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -3484,7 +3536,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 100.838 11.43 90)
+			(at 100.838 19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3493,7 +3545,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 11.43 0)
+			(at 99.06 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3502,7 +3554,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 99.06 11.43 0)
+			(at 99.06 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3527,7 +3579,7 @@
 	)
 	(symbol
 		(lib_id "Component_Library:CHV1812N250105MXT")
-		(at 110.49 35.56 0)
+		(at 105.41 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3535,7 +3587,7 @@
 		(dnp no)
 		(uuid "0b408d55-3be5-4372-85ad-c83f97e4994c")
 		(property "Reference" "C61"
-			(at 112.014 32.639 0)
+			(at 106.934 32.639 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -3544,7 +3596,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 112.014 37.719 0)
+			(at 107.442 39.624 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -3553,7 +3605,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
-			(at 111.4552 39.37 0)
+			(at 106.3752 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3562,7 +3614,7 @@
 			)
 		)
 		(property "Datasheet" "https://88ce57.p3cdn1.secureserver.net/wp-content/uploads/2023/01/chv_series-1.pdf"
-			(at 110.49 35.56 0)
+			(at 105.41 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3571,7 +3623,7 @@
 			)
 		)
 		(property "Description" "HVCAP1812 X7R 1UF 20% 250V"
-			(at 110.49 35.56 0)
+			(at 105.41 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3655,93 +3707,6 @@
 			(project "MEG_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6990bf25-70eb-45d9-b265-2461b625100e"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 99.06 22.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "11420803-b744-43a8-8c76-4857ec580f89")
-		(property "Reference" "D54"
-			(at 96.52 24.1301 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 96.012 27.178 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 103.505 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 99.06 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 99.06 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 99.06 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 99.06 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "723a2612-75d8-4b53-84d4-a2a784f8100a")
-		)
-		(pin "2"
-			(uuid "5f01ee56-5d63-4bf2-9c92-40dd163c1bae")
-		)
-		(instances
-			(project "BEMF_Controller"
-				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6990bf25-70eb-45d9-b265-2461b625100e"
-					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -6462,7 +6427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "main:6PINVALULOK"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-6_1x06_P5.00mm_Horizontal"
 			(at 19.05 165.1 0)
 			(effects
 				(font
@@ -7492,6 +7457,75 @@
 			(project "BEMF_Controller"
 				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6990bf25-70eb-45d9-b265-2461b625100e"
 					(reference "D55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Component_Library:CHV1812N250105MXT")
+		(at 113.03 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f37d2bb9-874f-426a-b4a1-cc7204168bc2")
+		(property "Reference" "C29"
+			(at 114.554 32.639 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 115.316 39.624 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+			(at 113.9952 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://88ce57.p3cdn1.secureserver.net/wp-content/uploads/2023/01/chv_series-1.pdf"
+			(at 113.03 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "HVCAP1812 X7R 1UF 20% 250V"
+			(at 113.03 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45e520a1-d2c1-485d-803d-054982e55d84")
+		)
+		(pin "2"
+			(uuid "aab58d26-3aa0-492a-b233-d137a4afef28")
+		)
+		(instances
+			(project "MEG_Controller"
+				(path "/80a514a6-29a9-4699-8a7d-cff678a7ed07/6990bf25-70eb-45d9-b265-2461b625100e"
+					(reference "C29")
 					(unit 1)
 				)
 			)

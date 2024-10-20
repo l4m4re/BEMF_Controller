@@ -1,7 +1,12 @@
-* Opamp buffers for Hall inputs
+* Opamp buffers for Hall inputs -> check
 * Finish buck converter -> check 
 * Change gate drivers to LF2190NTR -> check
-* Change trough hole resistors to smd
+* Change trough hole resistors to smd -> check
 * Change 10V charge pump to regulator
 * Voltage sense now lower voltage and diodes no longer necessary since no cap switching
 * Hall sensors could be DRV5055A3ELPGMQ1 https://www.digikey.nl/short/mpwrm95b 
+* Connectors rather than pads -> ceck
+* mounting holes
+* check if inputs pen 1-4 can be used as digital inputs
+
+
